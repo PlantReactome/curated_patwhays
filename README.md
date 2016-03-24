@@ -1,1 +1,1 @@
-# curated_patwhays
+# pathways
