@@ -55,6 +55,7 @@
       <instance DB_ID="5608168" displayName="Amarasinghe, Vindhya, 2014-07-15" isShell="true" />
       <instance DB_ID="186845" displayName="D'Eustachio, P, 2006-08-28 17:20:12" isShell="true" />
       <instance DB_ID="6791824" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="352581" displayName="Caudy, M, 2008-06-04 08:46:28" isShell="true" />
     </InstanceEdit>
     <Taxon>
       <instance DB_ID="186856" displayName="Oryza" isShell="true" />
@@ -280,6 +281,8 @@
       <instance DB_ID="9472" displayName="endomembrane system" isShell="true" />
       <instance DB_ID="171328" displayName="organelle envelope" isShell="true" />
       <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
+      <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
+      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
     </GO_CellularComponent>
     <Species>
       <instance DB_ID="-5" displayName="Oryza sativa subsp. japonica" isShell="false" isDirty="true">
@@ -907,11 +910,6 @@
     <ReferenceMolecule>
       <instance DB_ID="31003" displayName="indole-3-acetic acid [ChEBI:16411]" isShell="true" />
     </ReferenceMolecule>
-    <Compartment>
-      <instance DB_ID="-114" displayName="" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-114" />
-      </instance>
-    </Compartment>
     <DefinedSet>
       <instance DB_ID="-95" displayName="PIN5 homolog auxin transporter [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
@@ -1156,8 +1154,94 @@
         <attribute name="definition" value="The volume enclosed by the membranes of the endoplasmic reticulum." />
         <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
       </instance>
-      <instance DB_ID="70101" displayName="cytosol" isShell="true" />
-      <instance DB_ID="7660" displayName="nucleoplasm" isShell="true" />
+      <instance DB_ID="70101" displayName="cytosol" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="70101" />
+        <attribute name="accession" value="0005829" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="_displayName" value="cytosol" />
+        <attribute name="name" value="cytosol" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="definition" value="The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+      </instance>
+      <instance DB_ID="7660" displayName="nucleoplasm" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="7660" />
+        <attribute name="accession" value="0005654" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="171405" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258151" />
+        <attribute name="_displayName" value="nucleoplasm" />
+        <attribute name="name" value="nucleoplasm" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="352581" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="definition" value="That part of the nuclear content other than the chromosomes or the nucleolus." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+      </instance>
       <instance DB_ID="13231" displayName="nuclear envelope" isShell="false" isDirty="false">
         <attribute name="DB_ID" value="13231" />
         <attribute name="accession" value="0005635" />
@@ -1208,7 +1292,7 @@
       <defaultPerson dbId="8858034" />
     </meta>
   </reactome>
-  <Process nextId="20" reactomeDiagramId="-113" hideCompartmentInName="false">
+  <Process nextId="21" reactomeDiagramId="-113" hideCompartmentInName="false">
     <Nodes>
       <org.gk.render.RenderableChemical id="4" reactomeId="-21" position="453 362" bounds="393 340 121 44" textPosition="397 344" />
       <org.gk.render.RenderableEntitySet id="5" reactomeId="-98" position="274 247" bounds="210 208 128 78" textPosition="210 208" />
