@@ -1,212 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rtpj>
   <reactome>
-    <URL>
-      <instance DB_ID="-35" displayName="http://www.wikipathways.org/index.php/Pathway:WP3628" isShell="false" isDirty="true">
-        <attribute name="uniformResourceLocator" value="http://www.wikipathways.org/index.php/Pathway:WP3628" />
-        <attribute name="DB_ID" value="-35" />
-        <attribute name="author" class="Person" referTo="8858034" />
-        <attribute name="_displayName" value="http://www.wikipathways.org/index.php/Pathway:WP3628" />
+    <GO_MolecularFunction>
+      <instance DB_ID="262134" displayName="auxin efflux transmembrane transporter activity" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="262134" />
+        <attribute name="created" class="InstanceEdit" referTo="258122" />
+        <attribute name="accession" value="0010329" />
+        <attribute name="instanceOf" class="GO_MolecularFunction" referTo="22936" />
+        <attribute name="instanceOf" class="GO_MolecularFunction" referTo="1042946" />
+        <attribute name="componentOf" class="GO_BiologicalProcess" referTo="263311" />
+        <attribute name="_displayName" value="auxin efflux transmembrane transporter activity" />
+        <attribute name="name" value="auxin efflux transmembrane transporter activity" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="definition" value="Catalysis of the transfer of auxin, from one side of a membrane to the other, out of a cell." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
       </instance>
-    </URL>
-    <InstanceEdit>
-      <instance DB_ID="160533" displayName="Schmidt, EE, 2005-03-23 05:24:35" isShell="true" />
-      <instance DB_ID="162607" displayName="Schmidt, EE, 2005-04-01 11:06:09" isShell="true" />
-      <instance DB_ID="171322" displayName="Schmidt, EE, 2006-02-06 10:50:16" isShell="true" />
-      <instance DB_ID="258122" displayName="Kanapin, EE, 2008-03-27 12:15:20" isShell="true" />
-      <instance DB_ID="357819" displayName="Kanapin, EE, 2008-06-18 10:45:39" isShell="true" />
-      <instance DB_ID="376438" displayName="Kanapin, EE, 2008-09-08 10:23:04" isShell="true" />
-      <instance DB_ID="383393" displayName="Kanapin, AA, 2008-11-26 13:49:44" isShell="true" />
-      <instance DB_ID="396309" displayName="Kanapin, EE, 2009-03-09 13:26:57" isShell="true" />
-      <instance DB_ID="422569" displayName="Kanapin, EE" isShell="true" />
-      <instance DB_ID="436347" displayName="Kanapin, EE" isShell="true" />
-      <instance DB_ID="447572" displayName="Kanapin, EE" isShell="true" />
-      <instance DB_ID="526073" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="528085" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="615500" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="797782" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="937668" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1042299" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1220942" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1301009" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1301023" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1552540" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1996004" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="2132408" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2133145" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2266118" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2266147" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2454362" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2455542" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2587907" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="3132285" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="3445953" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="4341211" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="5083267" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="5263134" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="5608084" displayName="Amarasinghe, Vindhya, 2014-07-15" isShell="true" />
-      <instance DB_ID="1164949" displayName="Wu, G, 2010-12-10" isShell="true" />
-      <instance DB_ID="8864116" displayName="Jaiswal, Pankaj, 2016-03-11" isShell="false" isDirty="false">
-        <attribute name="dateTime" value="2016-03-11 20:12:02.0" />
-        <attribute name="DB_ID" value="8864116" />
-        <attribute name="author" class="Person" referTo="8858034" />
-        <attribute name="_displayName" value="Jaiswal, Pankaj, 2016-03-11" />
+      <instance DB_ID="22936" displayName="efflux transmembrane transporter activity" isShell="true" />
+      <instance DB_ID="1042946" displayName="auxin transmembrane transporter activity" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="1042946" />
+        <attribute name="created" class="InstanceEdit" referTo="1042299" />
+        <attribute name="accession" value="0080161" />
+        <attribute name="instanceOf" class="GO_MolecularFunction" referTo="258160" />
+        <attribute name="_displayName" value="auxin transmembrane transporter activity" />
+        <attribute name="name" value="auxin transmembrane transporter activity" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="modified" class="InstanceEdit" referTo="6791824" />
+        <attribute name="definition" value="Enables the transfer of auxins from one side of the membrane to the other. Auxins are plant hormones that regulate aspects of plant growth." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
       </instance>
-      <instance DB_ID="5608168" displayName="Amarasinghe, Vindhya, 2014-07-15" isShell="true" />
-      <instance DB_ID="186845" displayName="D'Eustachio, P, 2006-08-28 17:20:12" isShell="true" />
-      <instance DB_ID="6791824" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="352581" displayName="Caudy, M, 2008-06-04 08:46:28" isShell="true" />
-    </InstanceEdit>
-    <Taxon>
-      <instance DB_ID="186856" displayName="Oryza" isShell="true" />
-    </Taxon>
-    <ReferenceDatabase>
-      <instance DB_ID="2" displayName="UniProt" isShell="true" />
-      <instance DB_ID="1" displayName="GO" isShell="true" />
-    </ReferenceDatabase>
-    <ReferenceGeneProduct>
-      <instance DB_ID="-4" displayName="UniProt:Q5JLM1 PIN6" isShell="false" isDirty="true">
-        <attribute name="geneName" value="PIN6" />
-        <attribute name="geneName" value="Os01g0919800" />
-        <attribute name="geneName" value="LOC_Os01g69070" />
-        <attribute name="geneName" value="P0678F11.27" />
-        <attribute name="geneName" value="Homolog of Arabidopsis thaliana PIN5" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="secondaryIdentifier" value="PIN6_ORYSJ" />
-        <attribute name="keyword" value="Auxin signaling pathway" />
-        <attribute name="keyword" value="Complete proteome" />
-        <attribute name="keyword" value="Membrane" />
-        <attribute name="keyword" value="Reference proteome" />
-        <attribute name="keyword" value="Transmembrane" />
-        <attribute name="keyword" value="Transmembrane helix" />
-        <attribute name="keyword" value="Transport" />
-        <attribute name="DB_ID" value="-4" />
-        <attribute name="identifier" value="Q5JLM1" />
-        <attribute name="species" class="Species" referTo="-5" />
-        <attribute name="_displayName" value="UniProt:Q5JLM1 PIN6" />
-        <attribute name="comment" value="FUNCTION: May act as a component of the auxin efflux carrier. {ECO:0000250}." />
-        <attribute name="comment" value="SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane protein {ECO:0000305}." />
+      <instance DB_ID="258160" displayName="substrate-specific transmembrane transporter activity" isShell="true" />
+      <instance DB_ID="-32" displayName="down regulation of intracellular auxin transport" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-32" />
+        <attribute name="_displayName" value="down regulation of intracellular auxin transport" />
+        <attribute name="name" value="down regulation of intracellular auxin transport" />
       </instance>
-      <instance DB_ID="-6" displayName="UniProt:B9G942 OsJ_32760" isShell="false" isDirty="true">
-        <attribute name="geneName" value="OsJ_32760" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="secondaryIdentifier" value="B9G942_ORYSJ" />
-        <attribute name="keyword" value="Membrane" />
-        <attribute name="keyword" value="Transmembrane" />
-        <attribute name="keyword" value="Transmembrane helix" />
-        <attribute name="DB_ID" value="-6" />
-        <attribute name="identifier" value="B9G942" />
-        <attribute name="species" class="Species" referTo="-5" />
-        <attribute name="_displayName" value="UniProt:B9G942 OsJ_32760" />
-        <attribute name="name" value="OS11G0122800" />
-        <attribute name="name" value="Putative homolog of Arabidopsis thaliana PIN5" />
-      </instance>
-      <instance DB_ID="-8" displayName="UniProt:Q0JJV0 OsPIN8" isShell="false" isDirty="true">
-        <attribute name="geneName" value="OsPIN8" />
-        <attribute name="geneName" value="Os01g0715600" />
-        <attribute name="geneName" value="OsJ_03248" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="secondaryIdentifier" value="Q0JJV0_ORYSJ" />
-        <attribute name="secondaryIdentifier" value="A2ZX80" />
-        <attribute name="keyword" value="Complete proteome" />
-        <attribute name="keyword" value="Membrane" />
-        <attribute name="keyword" value="Reference proteome" />
-        <attribute name="keyword" value="Transmembrane" />
-        <attribute name="keyword" value="Transmembrane helix" />
-        <attribute name="DB_ID" value="-8" />
-        <attribute name="identifier" value="Q0JJV0" />
-        <attribute name="species" class="Species" referTo="-5" />
-        <attribute name="_displayName" value="UniProt:Q0JJV0 OsPIN8" />
-      </instance>
-      <instance DB_ID="-118" displayName="UniProt:Q0JI87 Unknown" isShell="false" isDirty="true">
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="DB_ID" value="-118" />
-        <attribute name="identifier" value="Q0JI87" />
-        <attribute name="_displayName" value="UniProt:Q0JI87 Unknown" />
-      </instance>
-      <instance DB_ID="-119" displayName="UniProt:Q5KQI0 Unknown" isShell="false" isDirty="true">
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="DB_ID" value="-119" />
-        <attribute name="identifier" value="Q5KQI0" />
-        <attribute name="_displayName" value="UniProt:Q5KQI0 Unknown" />
-      </instance>
-      <instance DB_ID="-120" displayName="UniProt:Q6YS36 Unknown" isShell="false" isDirty="true">
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="DB_ID" value="-120" />
-        <attribute name="identifier" value="Q6YS36" />
-        <attribute name="_displayName" value="UniProt:Q6YS36 Unknown" />
-      </instance>
-      <instance DB_ID="-121" displayName="UniProt:Q6YZX7 Unknown" isShell="false" isDirty="true">
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="DB_ID" value="-121" />
-        <attribute name="identifier" value="Q6YZX7" />
-        <attribute name="_displayName" value="UniProt:Q6YZX7 Unknown" />
-      </instance>
-      <instance DB_ID="-122" displayName="UniProt:B7EM10 Unknown" isShell="false" isDirty="true">
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="DB_ID" value="-122" />
-        <attribute name="identifier" value="B7EM10" />
-        <attribute name="_displayName" value="UniProt:B7EM10 Unknown" />
-      </instance>
-      <instance DB_ID="-123" displayName="UniProt:Q0IZR4 Unknown" isShell="false" isDirty="true">
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="DB_ID" value="-123" />
-        <attribute name="identifier" value="Q0IZR4" />
-        <attribute name="_displayName" value="UniProt:Q0IZR4 Unknown" />
-      </instance>
-      <instance DB_ID="-124" displayName="UniProt:B9G4Z8 Unknown" isShell="false" isDirty="true">
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="DB_ID" value="-124" />
-        <attribute name="identifier" value="B9G4Z8" />
-        <attribute name="_displayName" value="UniProt:B9G4Z8 Unknown" />
-      </instance>
-    </ReferenceGeneProduct>
-    <SimpleEntity>
-      <instance DB_ID="1131161" displayName="IAA [cytosol]" isShell="false" isDirty="false">
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
-        <attribute name="modified" class="InstanceEdit" referTo="5608084" />
-        <attribute name="DB_ID" value="1131161" />
-        <attribute name="created" class="InstanceEdit" referTo="1164949" />
-        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="31003" />
-        <attribute name="_displayName" value="IAA [cytosol]" />
-        <attribute name="name" value="IAA" />
-        <attribute name="name" value="indole-3-acetate" />
-        <attribute name="name" value="indole-3-acetic acid" />
-        <attribute name="name" value="phys-ent-participant2956" />
-      </instance>
-      <instance DB_ID="-21" displayName="IAA [endoplasmic reticulum lumen]" isShell="false" isDirty="true">
+    </GO_MolecularFunction>
+    <Reaction>
+      <instance DB_ID="-19" displayName="IAA transport from cytosol to endoplasmic reticulum lumen: PIN5 mediated" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="goCellularComponent" class="EntityCompartment" referTo="17957" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-168" />
+        <attribute name="output" class="SimpleEntity" referTo="-21" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
         <attribute name="compartment" class="EntityCompartment" referTo="17957" />
-        <attribute name="DB_ID" value="-21" />
-        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="31003" />
-        <attribute name="_displayName" value="IAA [endoplasmic reticulum lumen]" />
-        <attribute name="name" value="IAA" />
-        <attribute name="name" value="indole-3-acetate" />
-        <attribute name="name" value="indole-3-acetic acid" />
-        <attribute name="name" value="phys-ent-participant2956" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="DB_ID" value="-19" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="SimpleEntity" referTo="1131161" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA transport from cytosol to endoplasmic reticulum lumen: PIN5 mediated" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="258250" />
+        <attribute name="name" value="IAA transport from cytosol to endoplasmic reticulum lumen: PIN5 mediated" />
       </instance>
-      <instance DB_ID="5608128" displayName="IAA [nucleoplasm]" isShell="false" isDirty="false">
+      <instance DB_ID="-24" displayName="IAA transport from endoplasmic reticulum lumen to nucleoplasm: PIN6 mediated" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-166" />
+        <attribute name="output" class="SimpleEntity" referTo="5608128" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17957" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
         <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="5608128" />
-        <attribute name="created" class="InstanceEdit" referTo="5608168" />
-        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="31003" />
-        <attribute name="_displayName" value="IAA [nucleoplasm]" />
-        <attribute name="name" value="IAA" />
-        <attribute name="name" value="indole-3-acetate" />
-        <attribute name="name" value="indole-3-acetic acid" />
+        <attribute name="DB_ID" value="-24" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="SimpleEntity" referTo="-21" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA transport from endoplasmic reticulum lumen to nucleoplasm: PIN6 mediated" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="171503" />
+        <attribute name="name" value="IAA transport from endoplasmic reticulum lumen to nucleoplasm: PIN6 mediated" />
       </instance>
-    </SimpleEntity>
-    <NegativeRegulation>
-      <instance DB_ID="-34" displayName="'PIN5 homolog [endoplasmic reticulum membrane]' negatively regulates 'auxin efflux transmembrane transporter activity of unknown [endoplasmic reticulum membrane]'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-34" />
+      <instance DB_ID="-133" displayName="PIN LIKES mediated auxin transport from endoplasmic reticulum to cytosol" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-99" />
+        <attribute name="summation" class="Summation" referTo="-147" />
+        <attribute name="summation" class="Summation" referTo="-148" />
+        <attribute name="summation" class="Summation" referTo="-27" />
+        <attribute name="output" class="SimpleEntity" referTo="1131161" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-138" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-134" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-73" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-39" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-61" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-41" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-92" />
-        <attribute name="_displayName" value="'PIN5 homolog [endoplasmic reticulum membrane]' negatively regulates 'auxin efflux transmembrane transporter activity of unknown [endoplasmic reticulum membrane]'" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-11" />
+        <attribute name="literatureReference" class="URL" referTo="-35" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="DB_ID" value="-133" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="SimpleEntity" referTo="-21" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN LIKES mediated auxin transport from endoplasmic reticulum to cytosol" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="171503" />
+        <attribute name="name" value="PIN LIKES mediated auxin transport from endoplasmic reticulum to cytosol" />
+        <attribute name="name" value="PIN LIKES mediated auxin efflux from endoplasmic reticulum to cytosol" />
       </instance>
-    </NegativeRegulation>
+      <instance DB_ID="-157" displayName="IAA transport from endoplasmic reticulum lumen to cytosol: PIN8 mediated" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-167" />
+        <attribute name="output" class="SimpleEntity" referTo="1131161" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17957" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="DB_ID" value="-157" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="SimpleEntity" referTo="-21" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA transport from endoplasmic reticulum lumen to cytosol: PIN8 mediated" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="258250" />
+        <attribute name="name" value="IAA transport from endoplasmic reticulum lumen to cytosol: PIN8 mediated" />
+      </instance>
+      <instance DB_ID="-161" displayName="IAA transport from endoplasmic reticulum lumen to cytosol: PIN6 mediated" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-165" />
+        <attribute name="output" class="SimpleEntity" referTo="1131161" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17957" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="DB_ID" value="-161" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="SimpleEntity" referTo="-21" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA transport from endoplasmic reticulum lumen to cytosol: PIN6 mediated" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="258250" />
+        <attribute name="name" value="IAA transport from endoplasmic reticulum lumen to cytosol: PIN6 mediated" />
+      </instance>
+    </Reaction>
     <LiteratureReference>
       <instance DB_ID="-39" displayName="PIN proteins and the evolution of plant development" isShell="false" isDirty="true">
         <attribute name="DB_ID" value="-39" />
@@ -352,34 +317,6 @@
         <attribute name="pubMedIdentifier" value="22504182" />
       </instance>
     </LiteratureReference>
-    <GO_CellularComponent>
-      <instance DB_ID="9470" displayName="nuclear outer membrane-endoplasmic reticulum membrane network" isShell="true" />
-      <instance DB_ID="258154" displayName="membrane part" isShell="true" />
-      <instance DB_ID="258434" displayName="endoplasmic reticulum part" isShell="true" />
-      <instance DB_ID="5433258" displayName="bounding membrane of organelle" isShell="true" />
-      <instance DB_ID="383433" displayName="intracellular organelle lumen" isShell="true" />
-      <instance DB_ID="9472" displayName="endomembrane system" isShell="true" />
-      <instance DB_ID="171328" displayName="organelle envelope" isShell="true" />
-      <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
-      <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
-      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
-    </GO_CellularComponent>
-    <Species>
-      <instance DB_ID="-5" displayName="Oryza sativa subsp. japonica" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-5" />
-        <attribute name="_displayName" value="Oryza sativa subsp. japonica" />
-        <attribute name="name" value="Oryza sativa subsp. japonica" />
-      </instance>
-      <instance DB_ID="186860" displayName="Oryza sativa" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="186860" />
-        <attribute name="created" class="InstanceEdit" referTo="186845" />
-        <attribute name="_displayName" value="Oryza sativa" />
-        <attribute name="crossReference" class="DatabaseIdentifier" referTo="186858" />
-        <attribute name="name" value="Oryza sativa" />
-        <attribute name="name" value="rice" />
-        <attribute name="superTaxon" class="Taxon" referTo="186856" />
-      </instance>
-    </Species>
     <GO_BiologicalProcess>
       <instance DB_ID="171503" displayName="auxin homeostasis" isShell="false" isDirty="false">
         <attribute name="DB_ID" value="171503" />
@@ -487,91 +424,220 @@
       <instance DB_ID="6035" displayName="hormone transport" isShell="true" />
       <instance DB_ID="263311" displayName="auxin efflux" isShell="true" />
     </GO_BiologicalProcess>
-    <Reaction>
-      <instance DB_ID="-19" displayName="IAA [cytosol]-&gt;IAA [endoplasmic reticulum lumen]" isShell="false" isDirty="true">
+    <NegativeRegulation>
+      <instance DB_ID="-34" displayName="'PIN5 homolog auxin transporter [endoplasmic reticulum membrane]' negatively regulates 'IAA transport from endoplasmic reticulum lumen to cytosol: PIN8 mediated'" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="catalystActivity" class="CatalystActivity" referTo="-99" />
-        <attribute name="output" class="SimpleEntity" referTo="-21" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
-        <attribute name="compartment" class="EntityCompartment" referTo="17957" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="DB_ID" value="-19" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="input" class="SimpleEntity" referTo="1131161" />
-        <attribute name="input" class="DefinedSet" referTo="-95" />
-        <attribute name="species" class="Species" referTo="186860" />
-        <attribute name="_displayName" value="IAA [cytosol]-&gt;IAA [endoplasmic reticulum lumen]" />
-        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="258250" />
-      </instance>
-      <instance DB_ID="-24" displayName="IAA [endoplasmic reticulum lumen]-&gt;IAA [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="catalystActivity" class="CatalystActivity" referTo="-99" />
-        <attribute name="output" class="SimpleEntity" referTo="5608128" />
-        <attribute name="compartment" class="EntityCompartment" referTo="17957" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-24" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="input" class="SimpleEntity" referTo="-21" />
-        <attribute name="input" class="DefinedSet" referTo="-111" />
-        <attribute name="species" class="Species" referTo="186860" />
-        <attribute name="_displayName" value="IAA [endoplasmic reticulum lumen]-&gt;IAA [nucleoplasm]" />
-        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="171503" />
-      </instance>
-      <instance DB_ID="-105" displayName="IAA [endoplasmic reticulum lumen]-&gt;IAA [cytosol]" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="catalystActivity" class="CatalystActivity" referTo="-99" />
-        <attribute name="output" class="SimpleEntity" referTo="1131161" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
-        <attribute name="compartment" class="EntityCompartment" referTo="17957" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="DB_ID" value="-105" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="input" class="SimpleEntity" referTo="-21" />
-        <attribute name="input" class="DefinedSet" referTo="-96" />
-        <attribute name="input" class="DefinedSet" referTo="-98" />
-        <attribute name="species" class="Species" referTo="186860" />
-        <attribute name="_displayName" value="IAA [endoplasmic reticulum lumen]-&gt;IAA [cytosol]" />
-        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="258250" />
-      </instance>
-      <instance DB_ID="-133" displayName="PIN LIKES mediated auxin transport" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="catalystActivity" class="CatalystActivity" referTo="-99" />
-        <attribute name="summation" class="Summation" referTo="-147" />
-        <attribute name="summation" class="Summation" referTo="-148" />
-        <attribute name="summation" class="Summation" referTo="-27" />
-        <attribute name="output" class="SimpleEntity" referTo="1131161" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-138" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-134" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-73" />
+        <attribute name="DB_ID" value="-34" />
+        <attribute name="containedInPathway" class="Pathway" referTo="-106" />
+        <attribute name="regulationType" class="RegulationType" referTo="-156" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-39" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-61" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-41" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-92" />
-        <attribute name="literatureReference" class="URL" referTo="-35" />
+        <attribute name="_displayName" value="'PIN5 homolog auxin transporter [endoplasmic reticulum membrane]' negatively regulates 'IAA transport from endoplasmic reticulum lumen to cytosol: PIN8 mediated'" />
+        <attribute name="name" value="Negative regulation of PIN8 medated auxin transport by PIN5" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-157" />
+        <attribute name="regulator" class="DefinedSet" referTo="-95" />
+      </instance>
+    </NegativeRegulation>
+    <DefinedSet>
+      <instance DB_ID="-95" displayName="PIN5 homolog auxin transporter [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
         <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="DB_ID" value="-133" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="input" class="DefinedSet" referTo="-132" />
-        <attribute name="input" class="SimpleEntity" referTo="-21" />
-        <attribute name="species" class="Species" referTo="186860" />
-        <attribute name="_displayName" value="PIN LIKES mediated auxin transport" />
-        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="171503" />
-        <attribute name="name" value="PIN LIKES mediated auxin transport" />
+        <attribute name="DB_ID" value="-95" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-13" />
+        <attribute name="_displayName" value="PIN5 homolog auxin transporter [endoplasmic reticulum membrane]" />
+        <attribute name="name" value="PIN5 homolog auxin transporter" />
       </instance>
-    </Reaction>
-    <PathwayDiagram>
-      <instance DB_ID="-113" displayName="Diagram of Intercellular auxin transport" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-113" />
-        <attribute name="representedPathway" class="Pathway" referTo="-106" />
-        <attribute name="_displayName" value="Diagram of Intercellular auxin transport" />
+      <instance DB_ID="-111" displayName="PIN6 homolog auxin transport [nuclear envelope]" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="DB_ID" value="-111" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-110" />
+        <attribute name="_displayName" value="PIN6 homolog auxin transport [nuclear envelope]" />
+        <attribute name="name" value="PIN6 homolog auxin transport" />
       </instance>
-    </PathwayDiagram>
+      <instance DB_ID="-132" displayName="PILS homologs [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="DB_ID" value="-132" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-126" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-127" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-125" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-128" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-129" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-130" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-131" />
+        <attribute name="_displayName" value="PILS homologs [endoplasmic reticulum membrane]" />
+        <attribute name="name" value="PILS homologs" />
+      </instance>
+      <instance DB_ID="-163" displayName="PIN6 homolog auxin transport [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="DB_ID" value="-163" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-110" />
+        <attribute name="_displayName" value="PIN6 homolog auxin transport [endoplasmic reticulum membrane]" />
+        <attribute name="name" value="PIN6 homolog auxin transport" />
+      </instance>
+      <instance DB_ID="-164" displayName="PIN8 homolog auxin transport [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
+        <attribute name="DB_ID" value="-164" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-9" />
+        <attribute name="_displayName" value="PIN8 homolog auxin transport [endoplasmic reticulum membrane]" />
+        <attribute name="name" value="PIN8 homolog auxin transport" />
+      </instance>
+    </DefinedSet>
+    <ReferenceGeneProduct>
+      <instance DB_ID="-4" displayName="UniProt:Q5JLM1 PIN6" isShell="false" isDirty="true">
+        <attribute name="geneName" value="PIN6" />
+        <attribute name="geneName" value="Os01g0919800" />
+        <attribute name="geneName" value="LOC_Os01g69070" />
+        <attribute name="geneName" value="P0678F11.27" />
+        <attribute name="geneName" value="Homolog of Arabidopsis thaliana PIN5" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="PIN6_ORYSJ" />
+        <attribute name="keyword" value="Auxin signaling pathway" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="keyword" value="Transport" />
+        <attribute name="DB_ID" value="-4" />
+        <attribute name="identifier" value="Q5JLM1" />
+        <attribute name="species" class="Species" referTo="-5" />
+        <attribute name="_displayName" value="UniProt:Q5JLM1 PIN6" />
+        <attribute name="comment" value="FUNCTION: May act as a component of the auxin efflux carrier. {ECO:0000250}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane protein {ECO:0000305}." />
+      </instance>
+      <instance DB_ID="-6" displayName="UniProt:B9G942 OsJ_32760" isShell="false" isDirty="true">
+        <attribute name="geneName" value="OsJ_32760" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="B9G942_ORYSJ" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="DB_ID" value="-6" />
+        <attribute name="identifier" value="B9G942" />
+        <attribute name="species" class="Species" referTo="-5" />
+        <attribute name="_displayName" value="UniProt:B9G942 OsJ_32760" />
+        <attribute name="name" value="OS11G0122800" />
+        <attribute name="name" value="Putative homolog of Arabidopsis thaliana PIN5" />
+      </instance>
+      <instance DB_ID="-8" displayName="UniProt:Q0JJV0 OsPIN8" isShell="false" isDirty="true">
+        <attribute name="geneName" value="OsPIN8" />
+        <attribute name="geneName" value="Os01g0715600" />
+        <attribute name="geneName" value="OsJ_03248" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="Q0JJV0_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="A2ZX80" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="DB_ID" value="-8" />
+        <attribute name="identifier" value="Q0JJV0" />
+        <attribute name="species" class="Species" referTo="-5" />
+        <attribute name="_displayName" value="UniProt:Q0JJV0 OsPIN8" />
+      </instance>
+      <instance DB_ID="-118" displayName="UniProt:Q0JI87 Unknown" isShell="false" isDirty="true">
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="DB_ID" value="-118" />
+        <attribute name="identifier" value="Q0JI87" />
+        <attribute name="_displayName" value="UniProt:Q0JI87 Unknown" />
+      </instance>
+      <instance DB_ID="-119" displayName="UniProt:Q5KQI0 Unknown" isShell="false" isDirty="true">
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="DB_ID" value="-119" />
+        <attribute name="identifier" value="Q5KQI0" />
+        <attribute name="_displayName" value="UniProt:Q5KQI0 Unknown" />
+      </instance>
+      <instance DB_ID="-120" displayName="UniProt:Q6YS36 Unknown" isShell="false" isDirty="true">
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="DB_ID" value="-120" />
+        <attribute name="identifier" value="Q6YS36" />
+        <attribute name="_displayName" value="UniProt:Q6YS36 Unknown" />
+      </instance>
+      <instance DB_ID="-121" displayName="UniProt:Q6YZX7 Unknown" isShell="false" isDirty="true">
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="DB_ID" value="-121" />
+        <attribute name="identifier" value="Q6YZX7" />
+        <attribute name="_displayName" value="UniProt:Q6YZX7 Unknown" />
+      </instance>
+      <instance DB_ID="-122" displayName="UniProt:B7EM10 Unknown" isShell="false" isDirty="true">
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="DB_ID" value="-122" />
+        <attribute name="identifier" value="B7EM10" />
+        <attribute name="_displayName" value="UniProt:B7EM10 Unknown" />
+      </instance>
+      <instance DB_ID="-123" displayName="UniProt:Q0IZR4 Unknown" isShell="false" isDirty="true">
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="DB_ID" value="-123" />
+        <attribute name="identifier" value="Q0IZR4" />
+        <attribute name="_displayName" value="UniProt:Q0IZR4 Unknown" />
+      </instance>
+      <instance DB_ID="-124" displayName="UniProt:B9G4Z8 Unknown" isShell="false" isDirty="true">
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="DB_ID" value="-124" />
+        <attribute name="identifier" value="B9G4Z8" />
+        <attribute name="_displayName" value="UniProt:B9G4Z8 Unknown" />
+      </instance>
+    </ReferenceGeneProduct>
+    <ReferenceMolecule>
+      <instance DB_ID="31003" displayName="indole-3-acetic acid [ChEBI:16411]" isShell="true" />
+    </ReferenceMolecule>
+    <CatalystActivity>
+      <instance DB_ID="-99" displayName="auxin transmembrane transporter activity of PILS homologs [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-99" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="1042946" />
+        <attribute name="_displayName" value="auxin transmembrane transporter activity of PILS homologs [endoplasmic reticulum membrane]" />
+        <attribute name="physicalEntity" class="DefinedSet" referTo="-132" />
+      </instance>
+      <instance DB_ID="-165" displayName="auxin transmembrane transporter activity of PIN6 homolog auxin transport [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-165" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="1042946" />
+        <attribute name="_displayName" value="auxin transmembrane transporter activity of PIN6 homolog auxin transport [endoplasmic reticulum membrane]" />
+        <attribute name="physicalEntity" class="DefinedSet" referTo="-163" />
+      </instance>
+      <instance DB_ID="-166" displayName="auxin transmembrane transporter activity of PIN6 homolog auxin transport [nuclear envelope]" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-166" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="1042946" />
+        <attribute name="_displayName" value="auxin transmembrane transporter activity of PIN6 homolog auxin transport [nuclear envelope]" />
+        <attribute name="physicalEntity" class="DefinedSet" referTo="-111" />
+      </instance>
+      <instance DB_ID="-167" displayName="auxin transmembrane transporter activity of PIN8 homolog auxin transport [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-167" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="1042946" />
+        <attribute name="_displayName" value="auxin transmembrane transporter activity of PIN8 homolog auxin transport [endoplasmic reticulum membrane]" />
+        <attribute name="physicalEntity" class="DefinedSet" referTo="-164" />
+      </instance>
+      <instance DB_ID="-168" displayName="auxin transmembrane transporter activity of PIN5 homolog auxin transporter [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-168" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="1042946" />
+        <attribute name="_displayName" value="auxin transmembrane transporter activity of PIN5 homolog auxin transporter [endoplasmic reticulum membrane]" />
+        <attribute name="physicalEntity" class="DefinedSet" referTo="-95" />
+      </instance>
+    </CatalystActivity>
+    <DatabaseIdentifier>
+      <instance DB_ID="186858" displayName="NCBI_taxonomy:4530" isShell="true" />
+    </DatabaseIdentifier>
+    <Species>
+      <instance DB_ID="-5" displayName="Oryza sativa subsp. japonica" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-5" />
+        <attribute name="_displayName" value="Oryza sativa subsp. japonica" />
+        <attribute name="name" value="Oryza sativa subsp. japonica" />
+      </instance>
+      <instance DB_ID="186860" displayName="Oryza sativa" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="186860" />
+        <attribute name="created" class="InstanceEdit" referTo="186845" />
+        <attribute name="_displayName" value="Oryza sativa" />
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="186858" />
+        <attribute name="name" value="Oryza sativa" />
+        <attribute name="name" value="rice" />
+        <attribute name="superTaxon" class="Taxon" referTo="186856" />
+      </instance>
+    </Species>
     <EntityWithAccessionedSequence>
       <instance DB_ID="-9" displayName="PIN8 homolog [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
         <attribute name="goCellularComponent" class="EntityCompartment" referTo="12045" />
@@ -582,16 +648,6 @@
         <attribute name="species" class="Species" referTo="-5" />
         <attribute name="_displayName" value="PIN8 homolog [endoplasmic reticulum membrane]" />
         <attribute name="name" value="PIN8 homolog" />
-        <attribute name="endCoordinate" value="-1" />
-      </instance>
-      <instance DB_ID="-11" displayName="PIN5 homolog [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
-        <attribute name="goCellularComponent" class="EntityCompartment" referTo="12045" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="DB_ID" value="-11" />
-        <attribute name="startCoordinate" value="1" />
-        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-4" />
-        <attribute name="_displayName" value="PIN5 homolog [endoplasmic reticulum membrane]" />
-        <attribute name="name" value="PIN5 homolog" />
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-13" displayName="PIN5 homolog [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
@@ -690,6 +746,18 @@
         <attribute name="name" value="PILS7b" />
       </instance>
     </EntityWithAccessionedSequence>
+    <GO_CellularComponent>
+      <instance DB_ID="9470" displayName="nuclear outer membrane-endoplasmic reticulum membrane network" isShell="true" />
+      <instance DB_ID="258154" displayName="membrane part" isShell="true" />
+      <instance DB_ID="258434" displayName="endoplasmic reticulum part" isShell="true" />
+      <instance DB_ID="5433258" displayName="bounding membrane of organelle" isShell="true" />
+      <instance DB_ID="383433" displayName="intracellular organelle lumen" isShell="true" />
+      <instance DB_ID="9472" displayName="endomembrane system" isShell="true" />
+      <instance DB_ID="171328" displayName="organelle envelope" isShell="true" />
+      <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
+      <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
+      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
+    </GO_CellularComponent>
     <Person>
       <instance DB_ID="8858034" displayName="Jaiswal, Pankaj" isShell="true" />
       <instance DB_ID="-40" displayName="Bennett, Tom" isShell="false" isDirty="true">
@@ -1127,6 +1195,60 @@
         <attribute name="_displayName" value="Kleine-Vehn, Jürgen" />
       </instance>
     </Person>
+    <Taxon>
+      <instance DB_ID="186856" displayName="Oryza" isShell="true" />
+    </Taxon>
+    <URL>
+      <instance DB_ID="-35" displayName="http://www.wikipathways.org/index.php/Pathway:WP3628" isShell="false" isDirty="true">
+        <attribute name="uniformResourceLocator" value="http://www.wikipathways.org/index.php/Pathway:WP3628" />
+        <attribute name="DB_ID" value="-35" />
+        <attribute name="author" class="Person" referTo="8858034" />
+        <attribute name="_displayName" value="http://www.wikipathways.org/index.php/Pathway:WP3628" />
+      </instance>
+    </URL>
+    <PathwayDiagram>
+      <instance DB_ID="-169" displayName="Diagram of Intercellular auxin transport" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-169" />
+        <attribute name="representedPathway" class="Pathway" referTo="-106" />
+        <attribute name="_displayName" value="Diagram of Intercellular auxin transport" />
+      </instance>
+    </PathwayDiagram>
+    <SimpleEntity>
+      <instance DB_ID="1131161" displayName="IAA [cytosol]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="modified" class="InstanceEdit" referTo="5608084" />
+        <attribute name="DB_ID" value="1131161" />
+        <attribute name="created" class="InstanceEdit" referTo="1164949" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="31003" />
+        <attribute name="_displayName" value="IAA [cytosol]" />
+        <attribute name="name" value="IAA" />
+        <attribute name="name" value="indole-3-acetate" />
+        <attribute name="name" value="indole-3-acetic acid" />
+        <attribute name="name" value="phys-ent-participant2956" />
+      </instance>
+      <instance DB_ID="-21" displayName="IAA [endoplasmic reticulum lumen]" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
+        <attribute name="goCellularComponent" class="EntityCompartment" referTo="17957" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17957" />
+        <attribute name="DB_ID" value="-21" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="31003" />
+        <attribute name="_displayName" value="IAA [endoplasmic reticulum lumen]" />
+        <attribute name="name" value="IAA" />
+        <attribute name="name" value="indole-3-acetate" />
+        <attribute name="name" value="indole-3-acetic acid" />
+        <attribute name="name" value="phys-ent-participant2956" />
+      </instance>
+      <instance DB_ID="5608128" displayName="IAA [nucleoplasm]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="5608128" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="31003" />
+        <attribute name="_displayName" value="IAA [nucleoplasm]" />
+        <attribute name="name" value="IAA" />
+        <attribute name="name" value="indole-3-acetate" />
+        <attribute name="name" value="indole-3-acetic acid" />
+      </instance>
+    </SimpleEntity>
     <Pathway>
       <instance DB_ID="-106" displayName="Intercellular auxin transport" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
@@ -1137,7 +1259,8 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="-41" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-92" />
         <attribute name="hasEvent" class="Reaction" referTo="-19" />
-        <attribute name="hasEvent" class="Reaction" referTo="-105" />
+        <attribute name="hasEvent" class="Reaction" referTo="-161" />
+        <attribute name="hasEvent" class="Reaction" referTo="-157" />
         <attribute name="hasEvent" class="Reaction" referTo="-24" />
         <attribute name="hasEvent" class="Reaction" referTo="-133" />
         <attribute name="compartment" class="EntityCompartment" referTo="70101" />
@@ -1154,73 +1277,61 @@
         <attribute name="name" value="Auxin homeostasis" />
       </instance>
     </Pathway>
-    <ReferenceMolecule>
-      <instance DB_ID="31003" displayName="indole-3-acetic acid [ChEBI:16411]" isShell="true" />
-    </ReferenceMolecule>
-    <DefinedSet>
-      <instance DB_ID="-95" displayName="PIN5 homolog auxin transporter [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="DB_ID" value="-95" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-13" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-11" />
-        <attribute name="_displayName" value="PIN5 homolog auxin transporter [endoplasmic reticulum membrane]" />
-        <attribute name="name" value="PIN5 homolog auxin transporter" />
+    <InstanceEdit>
+      <instance DB_ID="160533" displayName="Schmidt, EE, 2005-03-23 05:24:35" isShell="true" />
+      <instance DB_ID="162607" displayName="Schmidt, EE, 2005-04-01 11:06:09" isShell="true" />
+      <instance DB_ID="171322" displayName="Schmidt, EE, 2006-02-06 10:50:16" isShell="true" />
+      <instance DB_ID="258122" displayName="Kanapin, EE, 2008-03-27 12:15:20" isShell="true" />
+      <instance DB_ID="357819" displayName="Kanapin, EE, 2008-06-18 10:45:39" isShell="true" />
+      <instance DB_ID="376438" displayName="Kanapin, EE, 2008-09-08 10:23:04" isShell="true" />
+      <instance DB_ID="383393" displayName="Kanapin, AA, 2008-11-26 13:49:44" isShell="true" />
+      <instance DB_ID="396309" displayName="Kanapin, EE, 2009-03-09 13:26:57" isShell="true" />
+      <instance DB_ID="422569" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="436347" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="447572" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="526073" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="528085" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="615500" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="797782" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="937668" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1042299" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1220942" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301009" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301023" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1552540" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1996004" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2132408" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2133145" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266118" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266147" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2454362" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2455542" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2587907" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3132285" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3445953" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="4341211" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5083267" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5263134" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5608084" displayName="Amarasinghe, Vindhya, 2014-07-15" isShell="true" />
+      <instance DB_ID="1164949" displayName="Wu, G, 2010-12-10" isShell="true" />
+      <instance DB_ID="8864116" displayName="Jaiswal, Pankaj, 2016-03-11" isShell="false" isDirty="false">
+        <attribute name="dateTime" value="2016-03-11 20:12:02.0" />
+        <attribute name="DB_ID" value="8864116" />
+        <attribute name="author" class="Person" referTo="8858034" />
+        <attribute name="_displayName" value="Jaiswal, Pankaj, 2016-03-11" />
       </instance>
-      <instance DB_ID="-96" displayName="PIN6 homolog auxin transporter [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="summation" class="Summation" referTo="-102" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
-        <attribute name="DB_ID" value="-96" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-29" />
-        <attribute name="species" class="Species" referTo="186860" />
-        <attribute name="_displayName" value="PIN6 homolog auxin transporter [endoplasmic reticulum membrane]" />
-        <attribute name="name" value="PIN6 homolog auxin transporter" />
+      <instance DB_ID="5608168" displayName="Amarasinghe, Vindhya, 2014-07-15" isShell="true" />
+      <instance DB_ID="186845" displayName="D'Eustachio, P, 2006-08-28 17:20:12" isShell="true" />
+      <instance DB_ID="6791824" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="352581" displayName="Caudy, M, 2008-06-04 08:46:28" isShell="true" />
+    </InstanceEdit>
+    <RegulationType>
+      <instance DB_ID="-156" displayName="down regulation of intracellular auxin transport" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-156" />
+        <attribute name="_displayName" value="down regulation of intracellular auxin transport" />
+        <attribute name="name" value="down regulation of intracellular auxin transport" />
       </instance>
-      <instance DB_ID="-98" displayName="PIN8 homolog auxin transporter [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="DB_ID" value="-98" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-9" />
-        <attribute name="_displayName" value="PIN8 homolog auxin transporter [endoplasmic reticulum membrane]" />
-        <attribute name="name" value="PIN8 homolog auxin transporter" />
-      </instance>
-      <instance DB_ID="-111" displayName="PIN6 homolog auxin transport [nuclear envelope]" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
-        <attribute name="DB_ID" value="-111" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-110" />
-        <attribute name="_displayName" value="PIN6 homolog auxin transport [nuclear envelope]" />
-        <attribute name="name" value="PIN6 homolog auxin transport" />
-      </instance>
-      <instance DB_ID="-132" displayName="PILS homologs [endoplasmic reticulum membrane]" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8864116" />
-        <attribute name="compartment" class="EntityCompartment" referTo="12045" />
-        <attribute name="DB_ID" value="-132" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-126" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-127" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-125" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-128" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-129" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-130" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-131" />
-        <attribute name="_displayName" value="PILS homologs [endoplasmic reticulum membrane]" />
-        <attribute name="name" value="PILS homologs" />
-      </instance>
-    </DefinedSet>
-    <CatalystActivity>
-      <instance DB_ID="-31" displayName="down regulation of intracellular auxin transport activity of unknown entity" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-31" />
-        <attribute name="activity" class="GO_MolecularFunction" referTo="-32" />
-        <attribute name="_displayName" value="down regulation of intracellular auxin transport activity of unknown entity" />
-      </instance>
-      <instance DB_ID="-99" displayName="auxin transmembrane transporter activity of unknown entity" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-99" />
-        <attribute name="activity" class="GO_MolecularFunction" referTo="1042946" />
-        <attribute name="_displayName" value="auxin transmembrane transporter activity of unknown entity" />
-      </instance>
-    </CatalystActivity>
+    </RegulationType>
     <Summation>
       <instance DB_ID="-27" displayName="PIN family proteins that are mainly involved in the intercel..." isShell="false" isDirty="true">
         <attribute name="DB_ID" value="-27" />
@@ -1250,90 +1361,20 @@
       <instance DB_ID="-148" displayName="Not much is known about the direction of auxin flow mediated..." isShell="false" isDirty="true">
         <attribute name="DB_ID" value="-148" />
         <attribute name="_displayName" value="Not much is known about the direction of auxin flow mediated..." />
-        <attribute name="text" value="Not much is known about the direction of auxin flow mediated by the PILS. Howexer to aid display of gene products on the ER membrane, we added the direction of flow of auxin transport, based on the observation that they help in increasing the free auxin amount in the cytoplasm." />
+        <attribute name="text" value="Not much is known about the direction of auxin flow mediated by the PILS. However to aid display of gene products on the ER membrane, we added the direction of flow of auxin transport, based on the observation that they help in increasing the free auxin amount in the cytoplasm." />
+      </instance>
+      <instance DB_ID="-154" displayName="This event was created based on the known homologous event i..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-154" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-39" />
+        <attribute name="_displayName" value="This event was created based on the known homologous event i..." />
+        <attribute name="text" value="This event was created based on the known homologous event in Arabidopsis" />
+      </instance>
+      <instance DB_ID="-158" displayName="PIN6 mediated auxin export from endoplasmic reticulum" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-158" />
+        <attribute name="_displayName" value="PIN6 mediated auxin export from endoplasmic reticulum" />
+        <attribute name="text" value="PIN6 mediated auxin export from endoplasmic reticulum" />
       </instance>
     </Summation>
-    <DatabaseIdentifier>
-      <instance DB_ID="186858" displayName="NCBI_taxonomy:4530" isShell="true" />
-    </DatabaseIdentifier>
-    <GO_MolecularFunction>
-      <instance DB_ID="262134" displayName="auxin efflux transmembrane transporter activity" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="262134" />
-        <attribute name="created" class="InstanceEdit" referTo="258122" />
-        <attribute name="accession" value="0010329" />
-        <attribute name="instanceOf" class="GO_MolecularFunction" referTo="22936" />
-        <attribute name="instanceOf" class="GO_MolecularFunction" referTo="1042946" />
-        <attribute name="componentOf" class="GO_BiologicalProcess" referTo="263311" />
-        <attribute name="_displayName" value="auxin efflux transmembrane transporter activity" />
-        <attribute name="name" value="auxin efflux transmembrane transporter activity" />
-        <attribute name="modified" class="InstanceEdit" referTo="357819" />
-        <attribute name="modified" class="InstanceEdit" referTo="376438" />
-        <attribute name="modified" class="InstanceEdit" referTo="383393" />
-        <attribute name="modified" class="InstanceEdit" referTo="396309" />
-        <attribute name="modified" class="InstanceEdit" referTo="422569" />
-        <attribute name="modified" class="InstanceEdit" referTo="436347" />
-        <attribute name="modified" class="InstanceEdit" referTo="447572" />
-        <attribute name="modified" class="InstanceEdit" referTo="526073" />
-        <attribute name="modified" class="InstanceEdit" referTo="528085" />
-        <attribute name="modified" class="InstanceEdit" referTo="615500" />
-        <attribute name="modified" class="InstanceEdit" referTo="797782" />
-        <attribute name="modified" class="InstanceEdit" referTo="937668" />
-        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
-        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
-        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
-        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
-        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
-        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
-        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
-        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
-        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
-        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
-        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
-        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
-        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
-        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
-        <attribute name="definition" value="Catalysis of the transfer of auxin, from one side of a membrane to the other, out of a cell." />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
-      </instance>
-      <instance DB_ID="22936" displayName="efflux transmembrane transporter activity" isShell="true" />
-      <instance DB_ID="1042946" displayName="auxin transmembrane transporter activity" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="1042946" />
-        <attribute name="created" class="InstanceEdit" referTo="1042299" />
-        <attribute name="accession" value="0080161" />
-        <attribute name="instanceOf" class="GO_MolecularFunction" referTo="258160" />
-        <attribute name="_displayName" value="auxin transmembrane transporter activity" />
-        <attribute name="name" value="auxin transmembrane transporter activity" />
-        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
-        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
-        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
-        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
-        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
-        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
-        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
-        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
-        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
-        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
-        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
-        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
-        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
-        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
-        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
-        <attribute name="modified" class="InstanceEdit" referTo="6791824" />
-        <attribute name="definition" value="Enables the transfer of auxins from one side of the membrane to the other. Auxins are plant hormones that regulate aspects of plant growth." />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
-      </instance>
-      <instance DB_ID="258160" displayName="substrate-specific transmembrane transporter activity" isShell="true" />
-      <instance DB_ID="-32" displayName="down regulation of intracellular auxin transport" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-32" />
-        <attribute name="_displayName" value="down regulation of intracellular auxin transport" />
-        <attribute name="name" value="down regulation of intracellular auxin transport" />
-      </instance>
-    </GO_MolecularFunction>
     <EntityCompartment>
       <instance DB_ID="12045" displayName="endoplasmic reticulum membrane" isShell="false" isDirty="false">
         <attribute name="DB_ID" value="12045" />
@@ -1559,101 +1600,124 @@
         <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
       </instance>
     </EntityCompartment>
+    <ReferenceDatabase>
+      <instance DB_ID="2" displayName="UniProt" isShell="true" />
+      <instance DB_ID="1" displayName="GO" isShell="true" />
+    </ReferenceDatabase>
     <meta>
       <defaultPerson dbId="8858034" />
     </meta>
   </reactome>
-  <Process nextId="32" reactomeDiagramId="-113" hideCompartmentInName="false">
+  <Process nextId="30" reactomeDiagramId="-169" hideCompartmentInName="true">
     <Nodes>
-      <org.gk.render.RenderableChemical id="4" reactomeId="-21" position="451 364" bounds="391 342 121 44" textPosition="395 346" />
-      <org.gk.render.RenderableEntitySet id="5" reactomeId="-98" position="274 247" bounds="210 208 128 78" textPosition="210 208" />
-      <org.gk.render.RenderableEntitySet id="6" reactomeId="-111" position="689 420" bounds="614 393 150 55" textPosition="625 396" />
-      <org.gk.render.RenderableEntitySet id="7" reactomeId="-96" position="273 374" bounds="209 335 128 78" textPosition="209 335" />
-      <org.gk.render.RenderableEntitySet id="9" reactomeId="-95" position="600 211" bounds="528 149 145 124" textPosition="528 179" />
-      <org.gk.render.RenderableChemical id="11" reactomeId="5608128" position="896 363" bounds="836 348 120 30" textPosition="840 352" />
-      <org.gk.render.RenderableChemical id="13" reactomeId="1131161" position="440 95" bounds="397 80 87 30" textPosition="401 84">
-        <Shortcuts>
-          <Shortcut id="13" />
-          <Shortcut id="29" />
-        </Shortcuts>
-      </org.gk.render.RenderableChemical>
-      <org.gk.render.RenderableCompartment id="14" reactomeId="12045" position="469 380" bounds="256 169 427 422" textPosition="450 555" bgColor="250 240 240" lineColor="255 153 102" lineWidth="1.0">
+      <org.gk.render.RenderableChemical id="3" reactomeId="5608128" position="969 503" bounds="909 488 120 30" textPosition="955 492" />
+      <org.gk.render.RenderableEntitySet id="4" reactomeId="-111" position="793 583" bounds="729 558 128 50" textPosition="729 565" />
+      <org.gk.render.RenderableChemical id="5" reactomeId="1131161" position="516 95" bounds="473 80 87 30" textPosition="503 84" />
+      <org.gk.render.RenderableEntitySet id="7" reactomeId="-132" position="397 591" bounds="328 560 138 63" textPosition="352 581" />
+      <org.gk.render.RenderableEntitySet id="8" reactomeId="-164" position="403 274" bounds="333 238 140 73" textPosition="339 257" />
+      <org.gk.render.RenderableEntitySet id="10" reactomeId="-163" position="404 387" bounds="340 348 128 78" textPosition="340 369" />
+      <org.gk.render.RenderableEntitySet id="14" reactomeId="-95" position="767 274" bounds="683 235 169 78" textPosition="704 256" />
+      <org.gk.render.RenderableChemical id="15" reactomeId="-21" position="584 503" bounds="494 478 181 51" textPosition="571 493" />
+      <org.gk.render.RenderableChemical id="17" reactomeId="1131161" position="233 502" bounds="190 487 87 30" textPosition="220 491" />
+      <org.gk.render.RenderableChemical id="21" reactomeId="1131161" position="659 100" bounds="616 85 87 30" textPosition="646 89" />
+      <org.gk.render.RenderableCompartment id="24" reactomeId="7660" position="965 537" bounds="862 419 207 237" textPosition="950 434" bgColor="250 240 240" lineColor="255 153 102" insets="870 429 188 219">
         <Components>
-          <Component id="2" />
           <Component id="3" />
-          <Component id="15" />
-          <Component id="9" />
-          <Component id="26" />
         </Components>
       </org.gk.render.RenderableCompartment>
-      <org.gk.render.RenderableCompartment id="15" reactomeId="17957" position="470 393" bounds="332 282 276 223" textPosition="406 463" bgColor="250 240 240" lineColor="255 153 102" insets="342 292 257 210">
+      <org.gk.render.RenderableCompartment id="25" reactomeId="13231" position="951 522" bounds="790 364 323 316" textPosition="954 388" bgColor="250 240 240" lineColor="255 153 102" insets="848 385 228 278">
         <Components>
+          <Component id="24" />
+          <Component id="11" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.RenderableCompartment id="26" reactomeId="17957" position="601 451" bounds="470 316 263 271" textPosition="507 530" bgColor="250 240 240" lineColor="255 153 102" insets="480 323 243 249">
+        <Components>
+          <Component id="15" />
           <Component id="4" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.RenderableCompartment id="27" reactomeId="12045" position="585 445" bounds="383 216 405 459" textPosition="487 634" bgColor="250 240 240" lineColor="255 153 102">
+        <Components>
+          <Component id="26" />
+          <Component id="6" />
+          <Component id="13" />
+          <Component id="14" />
+          <Component id="10" />
+          <Component id="9" />
+          <Component id="12" />
           <Component id="7" />
+          <Component id="8" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.RenderableCompartment id="29" reactomeId="70101" position="653 378" bounds="146 39 1015 678" textPosition="1083 68" bgColor="250 240 240" lineColor="255 153 102" insets="163 55 982 654">
+        <Components>
+          <Component id="17" />
           <Component id="5" />
+          <Component id="21" />
+          <Component id="25" />
           <Component id="27" />
         </Components>
       </org.gk.render.RenderableCompartment>
-      <org.gk.render.RenderableCompartment id="17" reactomeId="7660" position="902 360" bounds="752 266 300 189" textPosition="946 282" bgColor="250 240 240" lineColor="255 153 102" insets="763 279 278 168">
-        <Components>
-          <Component id="11" />
-          <Component id="6" />
-        </Components>
-      </org.gk.render.RenderableCompartment>
-      <org.gk.render.RenderableCompartment id="18" reactomeId="13231" position="890 368" bounds="686 243 408 250" textPosition="847 452" bgColor="250 240 240" lineColor="255 153 102" insets="696 253 393 235">
-        <Components>
-          <Component id="10" />
-          <Component id="17" />
-        </Components>
-      </org.gk.render.RenderableCompartment>
-      <org.gk.render.RenderableCompartment id="19" reactomeId="70101" position="659 386" bounds="145 40 1028 693" textPosition="730 673" bgColor="250 240 240" lineColor="255 153 102" insets="161 48 1000 671">
-        <Components>
-          <Component id="13" />
-          <Component id="14" />
-          <Component id="18" />
-          <Component id="29" />
-        </Components>
-      </org.gk.render.RenderableCompartment>
-      <org.gk.render.RenderableEntitySet id="27" reactomeId="-132" position="287 521" bounds="228 485 119 72" textPosition="241 489" />
-      <org.gk.render.RenderableChemical id="29" reactomeId="1131161" position="455 673" bounds="412 658 87 30" textPosition="416 662" />
     </Nodes>
     <Edges>
-      <org.gk.render.RenderableReaction id="2" reactomeId="-19" points="497 223, 496 224, 458 339" position="496 224" lineWidth="1.0">
+      <org.gk.render.RenderableReaction id="6" reactomeId="-157" points="579 475, 545 274, 518 113" position="545 274" lineWidth="1.0">
         <Inputs>
-          <Input id="9" points="522 219" />
-          <Input id="13" points="446 113" />
+          <Input id="15" />
         </Inputs>
         <Outputs>
-          <Output id="4" />
+          <Output id="5" />
         </Outputs>
+        <Catalysts>
+          <Catalyst id="8" points="479 274" />
+        </Catalysts>
+        <Inhibitors>
+          <Inhibitor id="14" points="677 274" />
+        </Inhibitors>
       </org.gk.render.RenderableReaction>
-      <org.gk.render.RenderableReaction id="3" reactomeId="-105" points="387 266, 388 268, 435 113" position="388 268" lineWidth="1.0">
+      <org.gk.render.RenderableReaction id="9" reactomeId="-161" points="491 480, 402 457, 280 490" position="402 457" lineWidth="1.0">
         <Inputs>
-          <Input id="4" points="436 339" />
-          <Input id="5" points="344 257" />
-          <Input id="7" points="314 329" />
+          <Input id="15" />
         </Inputs>
         <Outputs>
-          <Output id="13" />
+          <Output id="17" />
         </Outputs>
+        <Catalysts>
+          <Catalyst id="10" points="402 432" />
+        </Catalysts>
       </org.gk.render.RenderableReaction>
-      <org.gk.render.RenderableReaction id="10" reactomeId="-24" points="688 360, 687 358, 833 361" position="687 358" lineWidth="1.0">
+      <org.gk.render.RenderableReaction id="11" reactomeId="-24" points="678 503, 793 503, 906 503" position="793 503" lineWidth="1.0">
         <Inputs>
-          <Input id="4" points="515 362" />
-          <Input id="6" points="688 387" />
+          <Input id="15" />
         </Inputs>
         <Outputs>
-          <Output id="11" />
+          <Output id="3" />
         </Outputs>
+        <Catalysts>
+          <Catalyst id="4" points="793 552" />
+        </Catalysts>
       </org.gk.render.RenderableReaction>
-      <org.gk.render.RenderableReaction id="26" reactomeId="-133" points="450 518, 455 515, 455 655" position="455 515" lineWidth="1.0">
+      <org.gk.render.RenderableReaction id="12" reactomeId="-133" points="491 503, 398 503, 280 502" position="398 503" lineWidth="1.0">
         <Inputs>
-          <Input id="4" points="450 389" />
-          <Input id="27" points="353 519" />
+          <Input id="15" />
         </Inputs>
         <Outputs>
-          <Output id="29" />
+          <Output id="17" />
         </Outputs>
+        <Catalysts>
+          <Catalyst id="7" points="397 554" />
+        </Catalysts>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="13" reactomeId="-19" points="656 118, 623 303, 588 475" position="623 303" lineWidth="1.0">
+        <Inputs>
+          <Input id="21" />
+        </Inputs>
+        <Outputs>
+          <Output id="15" />
+        </Outputs>
+        <Catalysts>
+          <Catalyst id="14" points="677 291" />
+        </Catalysts>
       </org.gk.render.RenderableReaction>
     </Edges>
     <Pathways />
