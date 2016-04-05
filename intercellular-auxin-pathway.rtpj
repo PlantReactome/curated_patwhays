@@ -84,6 +84,8 @@
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
         <attribute name="catalystActivity" class="CatalystActivity" referTo="-168" />
         <attribute name="output" class="SimpleEntity" referTo="-21" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-41" />
         <attribute name="compartment" class="EntityCompartment" referTo="70101" />
         <attribute name="compartment" class="EntityCompartment" referTo="17957" />
         <attribute name="compartment" class="EntityCompartment" referTo="12045" />
@@ -99,7 +101,10 @@
       <instance DB_ID="-24" displayName="IAA transport from endoplasmic reticulum lumen to nucleoplasm: PIN6 mediated" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
         <attribute name="catalystActivity" class="CatalystActivity" referTo="-166" />
+        <attribute name="summation" class="Summation" referTo="-170" />
         <attribute name="output" class="SimpleEntity" referTo="5608128" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-61" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
         <attribute name="compartment" class="EntityCompartment" referTo="17957" />
         <attribute name="compartment" class="EntityCompartment" referTo="12045" />
         <attribute name="compartment" class="EntityCompartment" referTo="13231" />
@@ -128,6 +133,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="-41" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-92" />
         <attribute name="literatureReference" class="URL" referTo="-35" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
         <attribute name="compartment" class="EntityCompartment" referTo="12045" />
         <attribute name="DB_ID" value="-133" />
         <attribute name="_doRelease" value="true" />
@@ -142,7 +148,11 @@
       <instance DB_ID="-157" displayName="IAA transport from endoplasmic reticulum lumen to cytosol: PIN8 mediated" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
         <attribute name="catalystActivity" class="CatalystActivity" referTo="-167" />
+        <attribute name="summation" class="Summation" referTo="-33" />
+        <attribute name="summation" class="Summation" referTo="-171" />
         <attribute name="output" class="SimpleEntity" referTo="1131161" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-73" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
         <attribute name="compartment" class="EntityCompartment" referTo="70101" />
         <attribute name="compartment" class="EntityCompartment" referTo="17957" />
         <attribute name="compartment" class="EntityCompartment" referTo="12045" />
@@ -159,6 +169,8 @@
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
         <attribute name="catalystActivity" class="CatalystActivity" referTo="-165" />
         <attribute name="output" class="SimpleEntity" referTo="1131161" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-61" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
         <attribute name="compartment" class="EntityCompartment" referTo="70101" />
         <attribute name="compartment" class="EntityCompartment" referTo="17957" />
         <attribute name="compartment" class="EntityCompartment" referTo="12045" />
@@ -315,6 +327,19 @@
         <attribute name="pages" value="119-22" />
         <attribute name="_displayName" value="A novel putative auxin carrier family regulates intracellular auxin homeostasis in plants" />
         <attribute name="pubMedIdentifier" value="22504182" />
+      </instance>
+      <instance DB_ID="-172" displayName="Patterning of leaf vein networks by convergent auxin transport pathways" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-172" />
+        <attribute name="year" value="2013" />
+        <attribute name="author" class="Person" referTo="-173" />
+        <attribute name="author" class="Person" referTo="-174" />
+        <attribute name="author" class="Person" referTo="-175" />
+        <attribute name="title" value="Patterning of leaf vein networks by convergent auxin transport pathways" />
+        <attribute name="volume" value="9" />
+        <attribute name="journal" value="PLoS Genet." />
+        <attribute name="pages" value="e1003294" />
+        <attribute name="_displayName" value="Patterning of leaf vein networks by convergent auxin transport pathways" />
+        <attribute name="pubMedIdentifier" value="23437008" />
       </instance>
     </LiteratureReference>
     <GO_BiologicalProcess>
@@ -1194,6 +1219,27 @@
         <attribute name="surname" value="Kleine-Vehn" />
         <attribute name="_displayName" value="Kleine-Vehn, Jürgen" />
       </instance>
+      <instance DB_ID="-173" displayName="Sawchuk, Megan G" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-173" />
+        <attribute name="firstname" value="Megan G" />
+        <attribute name="initial" value="MG" />
+        <attribute name="surname" value="Sawchuk" />
+        <attribute name="_displayName" value="Sawchuk, Megan G" />
+      </instance>
+      <instance DB_ID="-174" displayName="Edgar, Alexander" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-174" />
+        <attribute name="firstname" value="Alexander" />
+        <attribute name="initial" value="A" />
+        <attribute name="surname" value="Edgar" />
+        <attribute name="_displayName" value="Edgar, Alexander" />
+      </instance>
+      <instance DB_ID="-175" displayName="Scarpella, Enrico" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-175" />
+        <attribute name="firstname" value="Enrico" />
+        <attribute name="initial" value="E" />
+        <attribute name="surname" value="Scarpella" />
+        <attribute name="_displayName" value="Scarpella, Enrico" />
+      </instance>
     </Person>
     <Taxon>
       <instance DB_ID="186856" displayName="Oryza" isShell="true" />
@@ -1355,6 +1401,8 @@
       </instance>
       <instance DB_ID="-147" displayName="The PIN-LIKES (PILS) are known to be involved in regulating ..." isShell="false" isDirty="true">
         <attribute name="DB_ID" value="-147" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-134" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-92" />
         <attribute name="_displayName" value="The PIN-LIKES (PILS) are known to be involved in regulating ..." />
         <attribute name="text" value="The PIN-LIKES (PILS) are known to be involved in regulating the intracellular auxin homeostasis, accumulation and regulating nuclear auxin signaling. They are located in the Endoplasmic Reticulum Envelop and differ from PINs (PIN1, PIN2, PIN3, PIN4, PIN7) involved in the intercellular polar auxin transport by having a shorter non-memebrane integrated loop in their protein structure, similar to ER located PINs (PIN5, PIN6 and PIN8)." />
       </instance>
@@ -1366,6 +1414,7 @@
       <instance DB_ID="-154" displayName="This event was created based on the known homologous event i..." isShell="false" isDirty="true">
         <attribute name="DB_ID" value="-154" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-39" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
         <attribute name="_displayName" value="This event was created based on the known homologous event i..." />
         <attribute name="text" value="This event was created based on the known homologous event in Arabidopsis" />
       </instance>
@@ -1373,6 +1422,18 @@
         <attribute name="DB_ID" value="-158" />
         <attribute name="_displayName" value="PIN6 mediated auxin export from endoplasmic reticulum" />
         <attribute name="text" value="PIN6 mediated auxin export from endoplasmic reticulum" />
+      </instance>
+      <instance DB_ID="-170" displayName="The event was curated using the known information about Arab..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-170" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
+        <attribute name="_displayName" value="The event was curated using the known information about Arab..." />
+        <attribute name="text" value="The event was curated using the known information about Arabidopsis PIN6" />
+      </instance>
+      <instance DB_ID="-171" displayName="The event was created based on the known information about A..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-171" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
+        <attribute name="_displayName" value="The event was created based on the known information about A..." />
+        <attribute name="text" value="The event was created based on the known information about Arabidopsis PIN8" />
       </instance>
     </Summation>
     <EntityCompartment>
@@ -1608,7 +1669,7 @@
       <defaultPerson dbId="8858034" />
     </meta>
   </reactome>
-  <Process nextId="30" reactomeDiagramId="-169" hideCompartmentInName="true">
+  <Process nextId="33" reactomeDiagramId="-169" hideCompartmentInName="true">
     <Nodes>
       <org.gk.render.RenderableChemical id="3" reactomeId="5608128" position="969 503" bounds="909 488 120 30" textPosition="955 492" />
       <org.gk.render.RenderableEntitySet id="4" reactomeId="-111" position="793 583" bounds="729 558 128 50" textPosition="729 565" />
@@ -1618,7 +1679,7 @@
       <org.gk.render.RenderableEntitySet id="10" reactomeId="-163" position="404 387" bounds="340 348 128 78" textPosition="340 369" />
       <org.gk.render.RenderableEntitySet id="14" reactomeId="-95" position="767 274" bounds="683 235 169 78" textPosition="704 256" />
       <org.gk.render.RenderableChemical id="15" reactomeId="-21" position="584 503" bounds="494 478 181 51" textPosition="571 493" />
-      <org.gk.render.RenderableChemical id="17" reactomeId="1131161" position="233 502" bounds="190 487 87 30" textPosition="220 491" />
+      <org.gk.render.RenderableChemical id="17" reactomeId="1131161" position="235 503" bounds="192 488 87 30" textPosition="222 492" />
       <org.gk.render.RenderableChemical id="21" reactomeId="1131161" position="659 100" bounds="616 85 87 30" textPosition="646 89" />
       <org.gk.render.RenderableCompartment id="24" reactomeId="7660" position="965 537" bounds="862 419 207 237" textPosition="950 434" bgColor="250 240 240" lineColor="255 153 102" insets="870 429 188 219">
         <Components>
@@ -1675,7 +1736,7 @@
           <Inhibitor id="14" points="677 274" />
         </Inhibitors>
       </org.gk.render.RenderableReaction>
-      <org.gk.render.RenderableReaction id="9" reactomeId="-161" points="491 480, 402 457, 280 490" position="402 457" lineWidth="1.0">
+      <org.gk.render.RenderableReaction id="9" reactomeId="-161" points="491 480, 402 457, 282 491" position="402 457" lineWidth="1.0">
         <Inputs>
           <Input id="15" />
         </Inputs>
@@ -1697,7 +1758,7 @@
           <Catalyst id="4" points="793 552" />
         </Catalysts>
       </org.gk.render.RenderableReaction>
-      <org.gk.render.RenderableReaction id="12" reactomeId="-133" points="491 503, 398 503, 280 502" position="398 503" lineWidth="1.0">
+      <org.gk.render.RenderableReaction id="12" reactomeId="-133" points="491 502, 399 502, 282 502" position="399 502" lineWidth="1.0">
         <Inputs>
           <Input id="15" />
         </Inputs>
