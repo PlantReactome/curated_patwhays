@@ -47,13 +47,6 @@
         <attribute name="name" value="indole-3-acetic acid" />
       </instance>
     </SimpleEntity>
-    <RegulationType>
-      <instance DB_ID="-156" displayName="down regulation of intracellular auxin transport" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-156" />
-        <attribute name="_displayName" value="down regulation of intracellular auxin transport" />
-        <attribute name="name" value="down regulation of intracellular auxin transport" />
-      </instance>
-    </RegulationType>
     <PathwayDiagram>
       <instance DB_ID="-169" displayName="Diagram of Intracellular auxin transport" isShell="false" isDirty="true">
         <attribute name="DB_ID" value="-169" />
@@ -104,7 +97,6 @@
         <attribute name="authored" class="InstanceEdit" referTo="8864116" />
         <attribute name="DB_ID" value="-34" />
         <attribute name="containedInPathway" class="Pathway" referTo="-106" />
-        <attribute name="regulationType" class="RegulationType" referTo="-156" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-39" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-41" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-92" />
