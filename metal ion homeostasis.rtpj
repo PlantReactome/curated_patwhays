@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtpj>
+  <reactome>
+    <ReferenceDatabase>
+      <instance DB_ID="1" displayName="GO" isShell="true" />
+      <instance DB_ID="1385634" displayName="AraCyc" isShell="true" />
+      <instance DB_ID="2" displayName="UniProt" isShell="true" />
+      <instance DB_ID="114984" displayName="ChEBI" isShell="true" />
+    </ReferenceDatabase>
+    <ReferenceGeneProduct>
+      <instance DB_ID="5313114" displayName="UniProt:Q8VY13 FRO8" isShell="false" isDirty="true">
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="5288460" />
+        <attribute name="geneName" value="FRO8" />
+        <attribute name="geneName" value="At5g50160" />
+        <attribute name="geneName" value="K6A12.2" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="FRO8_ARATH" />
+        <attribute name="secondaryIdentifier" value="Q9FGS9" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Electron transport" />
+        <attribute name="keyword" value="FAD" />
+        <attribute name="keyword" value="Flavoprotein" />
+        <attribute name="keyword" value="Heme" />
+        <attribute name="keyword" value="Ion transport" />
+        <attribute name="keyword" value="Iron" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Metal-binding" />
+        <attribute name="keyword" value="Mitochondrion" />
+        <attribute name="keyword" value="NAD" />
+        <attribute name="keyword" value="Oxidoreductase" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transit peptide" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="keyword" value="Transport" />
+        <attribute name="identifier" value="Q8VY13" />
+        <attribute name="DB_ID" value="5313114" />
+        <attribute name="created" class="InstanceEdit" referTo="5323153" />
+        <attribute name="species" class="Species" referTo="170905" />
+        <attribute name="_displayName" value="UniProt:Q8VY13 FRO8" />
+        <attribute name="name" value="ferric-chelate reductase" />
+        <attribute name="name" value="protein19283" />
+        <attribute name="name" value="AT5G50160" />
+        <attribute name="comment" value="FUNCTION: Ferric chelate reductase probably involved in iron reduction in leaf veins for transport. May participate in the transport of electrons to a Fe(3+) ion via FAD and heme intermediates. {ECO:0000269|PubMed:16006655}." />
+        <attribute name="comment" value="CATALYTIC ACTIVITY: 2 Fe(II)-siderophore + NAD(+) + H(+) = 2 Fe(III)-siderophore + NADH." />
+        <attribute name="comment" value="COFACTOR: Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000305};" />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Mitochondrion membrane {ECO:0000305}; Multi- pass membrane protein {ECO:0000305}." />
+        <attribute name="comment" value="TISSUE SPECIFICITY: Expressed in shoots. Detected in roots, pedicels, flowers, siliques and leaf veins. {ECO:0000269|PubMed:16006655, ECO:0000269|PubMed:16362328}." />
+        <attribute name="comment" value="INDUCTION: Down-regulated in shoots by copper deficiency. Not regulated by iron availability. {ECO:0000269|PubMed:16006655, ECO:0000269|PubMed:16362328}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the ferric reductase (FRE) family. {ECO:0000305}." />
+        <attribute name="comment" value="SIMILARITY: Contains 1 FAD-binding FR-type domain. {ECO:0000255|PROSITE-ProRule:PRU00716}." />
+        <attribute name="comment" value="SIMILARITY: Contains 1 ferric oxidoreductase domain. {ECO:0000305}." />
+      </instance>
+    </ReferenceGeneProduct>
+    <EntityWithAccessionedSequence>
+      <instance DB_ID="5275114" displayName="ferric-chelate reductase [mitochondrial inner membrane]" isShell="false" isDirty="true">
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-3" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70616" />
+        <attribute name="modified" class="InstanceEdit" referTo="5673683" />
+        <attribute name="DB_ID" value="5275114" />
+        <attribute name="created" class="InstanceEdit" referTo="5323153" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="5313114" />
+        <attribute name="species" class="Species" referTo="8862676" />
+        <attribute name="_displayName" value="ferric-chelate reductase [mitochondrial inner membrane]" />
+        <attribute name="name" value="ferric-chelate reductase" />
+        <attribute name="name" value="phys-ent-participant19286" />
+        <attribute name="revised" class="InstanceEdit" referTo="8869022" />
+      </instance>
+    </EntityWithAccessionedSequence>
+    <EntityCompartment>
+      <instance DB_ID="858" displayName="chloroplast" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="858" />
+        <attribute name="accession" value="0009507" />
+        <attribute name="instanceOf" class="EntityCompartment" referTo="841" />
+        <attribute name="_displayName" value="chloroplast" />
+        <attribute name="name" value="chloroplast" />
+        <attribute name="modified" class="InstanceEdit" referTo="1112778" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1251367" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="A chlorophyll-containing plastid with thylakoids organized into grana and frets, or stroma thylakoids, and embedded in a stroma." />
+      </instance>
+      <instance DB_ID="841" displayName="plastid" isShell="true" />
+      <instance DB_ID="5462" displayName="mitochondrion" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="5462" />
+        <attribute name="accession" value="0005739" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="159960" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="_displayName" value="mitochondrion" />
+        <attribute name="name" value="mitochondrion" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="212600" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration." />
+      </instance>
+      <instance DB_ID="6803646" displayName="vacuolar membrane" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="6803646" />
+        <attribute name="created" class="InstanceEdit" referTo="6803661" />
+        <attribute name="accession" value="0005774" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="259036" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="5433258" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="6791911" />
+        <attribute name="_displayName" value="vacuolar membrane" />
+        <attribute name="name" value="vacuolar membrane" />
+        <attribute name="modified" class="InstanceEdit" referTo="6808028" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The lipid bilayer surrounding the vacuole and separating its contents from the cytoplasm of the cell." />
+      </instance>
+      <instance DB_ID="-18" displayName="vacuole" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-18" />
+        <attribute name="accession" value="0005773" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="159960" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="_displayName" value="vacuole" />
+        <attribute name="name" value="vacuole" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol." />
+      </instance>
+      <instance DB_ID="459" displayName="cytoplasm" isShell="true" />
+      <instance DB_ID="70616" displayName="mitochondrial inner membrane" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="70616" />
+        <attribute name="accession" value="0005743" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="1078" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="171548" />
+        <attribute name="_displayName" value="mitochondrial inner membrane" />
+        <attribute name="name" value="mitochondrial inner membrane" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The inner, i.e. lumen-facing, lipid bilayer of the mitochondrial envelope. It is highly folded to form cristae." />
+      </instance>
+      <instance DB_ID="17927" displayName="mitochondrial intermembrane space" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="17927" />
+        <attribute name="accession" value="0005758" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="171479" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258371" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="70617" />
+        <attribute name="_displayName" value="mitochondrial intermembrane space" />
+        <attribute name="name" value="mitochondrial intermembrane space" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The region between the inner and outer lipid bilayers of the mitochondrial envelope." />
+      </instance>
+      <instance DB_ID="70101" displayName="cytosol" isShell="true" />
+    </EntityCompartment>
+    <InstanceEdit>
+      <instance DB_ID="258122" displayName="Kanapin, EE, 2008-03-27 12:15:20" isShell="true" />
+      <instance DB_ID="357819" displayName="Kanapin, EE, 2008-06-18 10:45:39" isShell="true" />
+      <instance DB_ID="376438" displayName="Kanapin, EE, 2008-09-08 10:23:04" isShell="true" />
+      <instance DB_ID="383393" displayName="Kanapin, AA, 2008-11-26 13:49:44" isShell="true" />
+      <instance DB_ID="396309" displayName="Kanapin, EE, 2009-03-09 13:26:57" isShell="true" />
+      <instance DB_ID="422569" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="436347" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="447572" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="526073" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="528085" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="615500" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="797782" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="937668" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1042299" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1220942" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301023" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1552540" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1996004" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2132408" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2133145" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266147" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2454362" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2455542" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2587907" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3132285" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3445953" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="4341211" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5083267" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5263134" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="8869022" displayName="Jaiswal, Pankaj, 2016-04-25" isShell="false" isDirty="false">
+        <attribute name="dateTime" value="2016-04-25 12:12:48.0" />
+        <attribute name="DB_ID" value="8869022" />
+        <attribute name="author" class="Person" referTo="8858034" />
+        <attribute name="_displayName" value="Jaiswal, Pankaj, 2016-04-25" />
+      </instance>
+      <instance DB_ID="186845" displayName="D'Eustachio, P, 2006-08-28 17:20:12" isShell="true" />
+      <instance DB_ID="1112778" displayName="Wu, G, 2010-12-10" isShell="true" />
+      <instance DB_ID="1251367" displayName="D'Eustachio, P, 2011-04-25" isShell="true" />
+      <instance DB_ID="1301009" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2266118" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="160533" displayName="Schmidt, EE, 2005-03-23 05:24:35" isShell="true" />
+      <instance DB_ID="162607" displayName="Schmidt, EE, 2005-04-01 11:06:09" isShell="true" />
+      <instance DB_ID="171322" displayName="Schmidt, EE, 2006-02-06 10:50:16" isShell="true" />
+      <instance DB_ID="212600" displayName="Mahajan, SS, 2008-02-12 19:05:29" isShell="true" />
+      <instance DB_ID="6803661" displayName="Shamovsky, Veronica, 2015-10-07" isShell="true" />
+      <instance DB_ID="6808028" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="8862675" displayName="Preece, Justin, 2016-04-29" isShell="true" />
+      <instance DB_ID="6791824" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5323153" displayName="Preece, Justin, 2014-02-14" isShell="true" />
+      <instance DB_ID="5673683" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="1164949" displayName="Wu, G, 2010-12-10" isShell="true" />
+      <instance DB_ID="2534390" displayName="Gillespie, ME, 2012-10-25" isShell="true" />
+      <instance DB_ID="2562609" displayName="D'Eustachio, P, 2012-11-06" isShell="true" />
+      <instance DB_ID="1173233" displayName="D'Eustachio, P, 2011-01-21" isShell="true" />
+      <instance DB_ID="437168" displayName="Jupe, S, 2009-09-11" isShell="true" />
+      <instance DB_ID="622345" displayName="Jupe, S, 2010-04-23" isShell="true" />
+      <instance DB_ID="622423" displayName="D'Eustachio, P, 2010-04-23" isShell="true" />
+      <instance DB_ID="188251" displayName="Jassal, B, 2006-10-05 14:45:35" isShell="true" />
+      <instance DB_ID="912517" displayName="Jassal, B, 2010-07-09" isShell="true" />
+      <instance DB_ID="5625002" displayName="Jassal, Bijay, 2014-10-01" isShell="true" />
+      <instance DB_ID="2018650" displayName="D'Eustachio, P, 2011-11-23" isShell="true" />
+      <instance DB_ID="2537470" displayName="Wu, G, 2012-10-26" isShell="true" />
+      <instance DB_ID="352606" displayName="Jassal, Bijay, 2008-06-04" isShell="true" />
+      <instance DB_ID="1824279" displayName="Jassal, B, 2011-10-26" isShell="true" />
+      <instance DB_ID="111698" displayName="D'Eustachio, P, 2004-03-17 17:27:00" isShell="true" />
+      <instance DB_ID="1362386" displayName="May, B, 2011-06-09" isShell="true" />
+      <instance DB_ID="163952" displayName="Jassal, Bijay, 2005-05-10" isShell="true" />
+      <instance DB_ID="5688344" displayName="Jupe, Steve, 2015-04-15" isShell="true" />
+      <instance DB_ID="5688324" displayName="Jupe, Steve, 2015-04-15" isShell="true" />
+      <instance DB_ID="162334" displayName="Schmidt, EE, 2005-03-23 05:45:22" isShell="true" />
+      <instance DB_ID="423222" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="448165" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="938674" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1043152" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1221553" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301022" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301626" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1552982" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1996190" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2133759" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2133760" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2133761" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2266115" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2266117" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2267216" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2455544" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2588510" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="3132714" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="3446290" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="4341654" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="5083619" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="5263568" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="5433708" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="5619033" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="5634717" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="5673679" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="5692203" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="6792433" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="6808304" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="8857520" displayName="Yung, CK" isShell="true" />
+    </InstanceEdit>
+    <Person>
+      <instance DB_ID="8858034" displayName="Jaiswal, Pankaj" isShell="true" />
+      <instance DB_ID="-4" displayName="Nouet, Cécile" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-4" />
+        <attribute name="firstname" value="Cécile" />
+        <attribute name="initial" value="C" />
+        <attribute name="surname" value="Nouet" />
+        <attribute name="_displayName" value="Nouet, Cécile" />
+      </instance>
+      <instance DB_ID="-5" displayName="Motte, Patrick" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-5" />
+        <attribute name="firstname" value="Patrick" />
+        <attribute name="initial" value="P" />
+        <attribute name="surname" value="Motte" />
+        <attribute name="_displayName" value="Motte, Patrick" />
+      </instance>
+      <instance DB_ID="-6" displayName="Hanikenne, Marc" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-6" />
+        <attribute name="firstname" value="Marc" />
+        <attribute name="initial" value="M" />
+        <attribute name="surname" value="Hanikenne" />
+        <attribute name="_displayName" value="Hanikenne, Marc" />
+      </instance>
+    </Person>
+    <CatalystActivity>
+      <instance DB_ID="5265600" displayName="ferric-chelate reductase activity of AT5G49730 [cytoplasm]" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="5265600" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="22789" />
+        <attribute name="created" class="InstanceEdit" referTo="5323153" />
+        <attribute name="_displayName" value="ferric-chelate reductase activity of AT5G49730 [cytoplasm]" />
+        <attribute name="physicalEntity" class="DefinedSet" referTo="5277108" />
+      </instance>
+      <instance DB_ID="-30" displayName="ferric-chelate reductase activity of ferric-chelate reductase [mitochondrial inner membrane]" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-30" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="22789" />
+        <attribute name="_displayName" value="ferric-chelate reductase activity of ferric-chelate reductase [mitochondrial inner membrane]" />
+        <attribute name="physicalEntity" class="EntityWithAccessionedSequence" referTo="5275114" />
+      </instance>
+    </CatalystActivity>
+    <Summation>
+      <instance DB_ID="-19" displayName="Enzyme catalyzes conversion of Fe3+ (Ferric) to Fe2+ (ferrou..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-19" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-3" />
+        <attribute name="_displayName" value="Enzyme catalyzes conversion of Fe3+ (Ferric) to Fe2+ (ferrou..." />
+        <attribute name="text" value="Enzyme catalyzes conversion of Fe3+ (Ferric) to Fe2+ (ferrous) form. The protein is located on a membrane." />
+      </instance>
+    </Summation>
+    <ReferenceMolecule>
+      <instance DB_ID="5316186" displayName="iron(2+) [ChEBI:29033]" isShell="true" />
+      <instance DB_ID="912518" displayName="iron(3+) [ChEBI:29034]" isShell="false" isDirty="false">
+        <attribute name="identifier" value="29034" />
+        <attribute name="DB_ID" value="912518" />
+        <attribute name="created" class="InstanceEdit" referTo="912517" />
+        <attribute name="_displayName" value="iron(3+) [ChEBI:29034]" />
+        <attribute name="name" value="iron(3+)" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="114984" />
+      </instance>
+      <instance DB_ID="114918" displayName="hydron [ChEBI:15378]" isShell="true" />
+      <instance DB_ID="114730" displayName="NAD(+) [ChEBI:15846]" isShell="true" />
+      <instance DB_ID="114731" displayName="NADH [ChEBI:16908]" isShell="true" />
+      <instance DB_ID="917869" displayName="iron(3+) [ChEBI:29034]" isShell="true" />
+      <instance DB_ID="114919" displayName="iron atom [ChEBI:18248]" isShell="true" />
+    </ReferenceMolecule>
+    <Species>
+      <instance DB_ID="186860" displayName="Oryza sativa" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="186860" />
+        <attribute name="created" class="InstanceEdit" referTo="186845" />
+        <attribute name="_displayName" value="Oryza sativa" />
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="186858" />
+        <attribute name="name" value="Oryza sativa" />
+        <attribute name="name" value="rice" />
+        <attribute name="superTaxon" class="Taxon" referTo="186856" />
+      </instance>
+      <instance DB_ID="8862676" displayName="Plant reference" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="8862676" />
+        <attribute name="created" class="InstanceEdit" referTo="8862675" />
+        <attribute name="_displayName" value="Plant reference" />
+        <attribute name="name" value="Plant reference" />
+      </instance>
+      <instance DB_ID="170905" displayName="Arabidopsis thaliana" isShell="true" />
+    </Species>
+    <DeletedControlledVocabulary>
+      <instance DB_ID="188252" displayName="Split" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188252" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Split" />
+        <attribute name="name" value="Split" />
+        <attribute name="definition" value="This instance will be split into multiple instances" />
+      </instance>
+      <instance DB_ID="188253" displayName="Merged" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188253" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Merged" />
+        <attribute name="name" value="Merged" />
+        <attribute name="definition" value="This instance will be merged with other instance(s)" />
+      </instance>
+      <instance DB_ID="437176" displayName="Duplicate" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="437176" />
+        <attribute name="created" class="InstanceEdit" referTo="437168" />
+        <attribute name="_displayName" value="Duplicate" />
+        <attribute name="name" value="Duplicate" />
+      </instance>
+      <instance DB_ID="188249" displayName="Obsoleted" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188249" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Obsoleted" />
+        <attribute name="name" value="Obsoleted" />
+        <attribute name="modified" class="InstanceEdit" referTo="622345" />
+        <attribute name="modified" class="InstanceEdit" referTo="622423" />
+        <attribute name="definition" value="This instance is now obsolete" />
+      </instance>
+      <instance DB_ID="188250" displayName="Killed not replaced" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188250" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Killed not replaced" />
+        <attribute name="name" value="Killed not replaced" />
+        <attribute name="definition" value="This instance will not be replaced by other instance(s)" />
+      </instance>
+    </DeletedControlledVocabulary>
+    <GO_BiologicalProcess>
+      <instance DB_ID="258707" displayName="metal ion homeostasis" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="258707" />
+        <attribute name="created" class="InstanceEdit" referTo="258122" />
+        <attribute name="accession" value="0055065" />
+        <attribute name="instanceOf" class="GO_BiologicalProcess" referTo="258325" />
+        <attribute name="instanceOf" class="GO_BiologicalProcess" referTo="5673287" />
+        <attribute name="_displayName" value="metal ion homeostasis" />
+        <attribute name="name" value="metal ion homeostasis" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="definition" value="Any process involved in the maintenance of an internal steady state of metal ions within an organism or cell." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+      </instance>
+      <instance DB_ID="258325" displayName="cation homeostasis" isShell="true" />
+      <instance DB_ID="5673287" displayName="inorganic ion homeostasis" isShell="true" />
+    </GO_BiologicalProcess>
+    <_Deleted>
+      <instance DB_ID="-20" displayName="Deletion of instance: 1130844" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-20" />
+        <attribute name="_displayName" value="Deletion of instance: 1130844" />
+        <attribute name="deletedInstanceDB_ID" value="1130844" />
+      </instance>
+      <instance DB_ID="-27" displayName="Deletion of instance: 352604" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-27" />
+        <attribute name="_displayName" value="Deletion of instance: 352604" />
+        <attribute name="deletedInstanceDB_ID" value="352604" />
+      </instance>
+      <instance DB_ID="-29" displayName="Deletion of instance: 5270062" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-29" />
+        <attribute name="_displayName" value="Deletion of instance: 5270062" />
+        <attribute name="deletedInstanceDB_ID" value="5270062" />
+      </instance>
+    </_Deleted>
+    <DatabaseIdentifier>
+      <instance DB_ID="186858" displayName="NCBI_taxonomy:4530" isShell="true" />
+      <instance DB_ID="5288460" displayName="UniProt:Q8VY13" isShell="false" isDirty="false">
+        <attribute name="identifier" value="Q8VY13" />
+        <attribute name="DB_ID" value="5288460" />
+        <attribute name="created" class="InstanceEdit" referTo="5323153" />
+        <attribute name="_displayName" value="UniProt:Q8VY13" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+      </instance>
+      <instance DB_ID="5302655" displayName="AraCyc:FERRIC-CHELATE-REDUCTASE-RXN" isShell="true" />
+      <instance DB_ID="5306309" displayName="EC-NUMBER:1.16.1.7" isShell="true" />
+      <instance DB_ID="29363" displayName="COMPOUND:C00004" isShell="true" />
+      <instance DB_ID="29401" displayName="COMPOUND:C00023" isShell="true" />
+      <instance DB_ID="70107" displayName="COMPOUND:C00080" isShell="true" />
+      <instance DB_ID="29361" displayName="COMPOUND:C00003" isShell="true" />
+    </DatabaseIdentifier>
+    <StableIdentifier>
+      <instance DB_ID="3656093" displayName="R-ALL-1132304.1" isShell="true" />
+      <instance DB_ID="6794518" displayName="R-ALL-1132064.1" isShell="true" />
+      <instance DB_ID="6794513" displayName="R-ALL-1130844.1" isShell="true" />
+      <instance DB_ID="369189" displayName="R-ALL-111736.1" isShell="true" />
+      <instance DB_ID="3201131" displayName="R-ALL-1362385.1" isShell="true" />
+      <instance DB_ID="362832" displayName="R-ALL-163953.1" isShell="true" />
+    </StableIdentifier>
+    <Taxon>
+      <instance DB_ID="186856" displayName="Oryza" isShell="true" />
+    </Taxon>
+    <LiteratureReference>
+      <instance DB_ID="-3" displayName="Chloroplastic and mitochondrial metal homeostasis" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-3" />
+        <attribute name="year" value="2011" />
+        <attribute name="author" class="Person" referTo="-4" />
+        <attribute name="author" class="Person" referTo="-5" />
+        <attribute name="author" class="Person" referTo="-6" />
+        <attribute name="title" value="Chloroplastic and mitochondrial metal homeostasis" />
+        <attribute name="volume" value="16" />
+        <attribute name="pages" value="395-404" />
+        <attribute name="journal" value="Trends Plant Sci." />
+        <attribute name="_displayName" value="Chloroplastic and mitochondrial metal homeostasis" />
+        <attribute name="pubMedIdentifier" value="21489854" />
+      </instance>
+    </LiteratureReference>
+    <SimpleEntity>
+      <instance DB_ID="1132014" displayName="Fe3+ [cytoplasm]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="459" />
+        <attribute name="DB_ID" value="1132014" />
+        <attribute name="created" class="InstanceEdit" referTo="1164949" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="912518" />
+        <attribute name="_displayName" value="Fe3+ [cytoplasm]" />
+        <attribute name="name" value="Fe3+" />
+        <attribute name="name" value="phys-ent-participant83748" />
+        <attribute name="name" value="iron(3+)" />
+      </instance>
+      <instance DB_ID="5278104" displayName="Fe2+ [cytoplasm]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="459" />
+        <attribute name="DB_ID" value="5278104" />
+        <attribute name="created" class="InstanceEdit" referTo="5323153" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="5316186" />
+        <attribute name="_displayName" value="Fe2+ [cytoplasm]" />
+        <attribute name="name" value="Fe2+" />
+        <attribute name="name" value="phys-ent-participant59141" />
+        <attribute name="name" value="iron(2+)" />
+        <attribute name="name" value="phys-ent-participant1133" />
+        <attribute name="name" value="phys-ent-participant1134" />
+        <attribute name="name" value="phys-ent-participant13101" />
+        <attribute name="name" value="phys-ent-participant77893" />
+        <attribute name="name" value="phys-ent-participant30150" />
+        <attribute name="name" value="phys-ent-participant86319" />
+        <attribute name="name" value="phys-ent-participant68074" />
+        <attribute name="name" value="phys-ent-participant7092" />
+        <attribute name="name" value="phys-ent-participant86349" />
+        <attribute name="name" value="phys-ent-participant72221" />
+        <attribute name="name" value="phys-ent-participant67791" />
+        <attribute name="name" value="phys-ent-participant105157" />
+        <attribute name="name" value="phys-ent-participant98385" />
+        <attribute name="name" value="phys-ent-participant67728" />
+        <attribute name="name" value="phys-ent-participant104306" />
+        <attribute name="name" value="phys-ent-participant43372" />
+        <attribute name="name" value="phys-ent-participant64970" />
+        <attribute name="name" value="phys-ent-participant19254" />
+        <attribute name="name" value="phys-ent-participant65328" />
+      </instance>
+      <instance DB_ID="1132064" displayName="NAD+ [cytoplasm]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="459" />
+        <attribute name="modified" class="InstanceEdit" referTo="1173233" />
+        <attribute name="DB_ID" value="1132064" />
+        <attribute name="created" class="InstanceEdit" referTo="1164949" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114730" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="6794518" />
+        <attribute name="_displayName" value="NAD+ [cytoplasm]" />
+        <attribute name="name" value="NAD+" />
+        <attribute name="name" value="phys-ent-participant98973" />
+        <attribute name="name" value="NAD(+)" />
+        <attribute name="name" value="phys-ent-participant82670" />
+        <attribute name="name" value="phys-ent-participant86307" />
+        <attribute name="name" value="phys-ent-participant97200" />
+        <attribute name="name" value="phys-ent-participant79810" />
+        <attribute name="name" value="phys-ent-participant82944" />
+        <attribute name="name" value="phys-ent-participant90603" />
+        <attribute name="name" value="phys-ent-participant86317" />
+        <attribute name="name" value="phys-ent-participant85999" />
+        <attribute name="name" value="phys-ent-participant83327" />
+        <attribute name="name" value="phys-ent-participant83557" />
+        <attribute name="name" value="phys-ent-participant86394" />
+        <attribute name="name" value="phys-ent-participant97875" />
+        <attribute name="name" value="phys-ent-participant83504" />
+        <attribute name="name" value="phys-ent-participant83540" />
+        <attribute name="name" value="phys-ent-participant82677" />
+        <attribute name="name" value="phys-ent-participant93100" />
+        <attribute name="name" value="phys-ent-participant92967" />
+        <attribute name="name" value="phys-ent-participant94331" />
+        <attribute name="name" value="phys-ent-participant83350" />
+        <attribute name="name" value="phys-ent-participant92283" />
+        <attribute name="name" value="phys-ent-participant97957" />
+        <attribute name="name" value="phys-ent-participant90659" />
+        <attribute name="name" value="phys-ent-participant56847" />
+        <attribute name="name" value="phys-ent-participant91289" />
+        <attribute name="name" value="phys-ent-participant93776" />
+        <attribute name="name" value="phys-ent-participant36845" />
+        <attribute name="name" value="phys-ent-participant82979" />
+        <attribute name="name" value="phys-ent-participant79835" />
+        <attribute name="name" value="phys-ent-participant83407" />
+        <attribute name="name" value="phys-ent-participant82711" />
+        <attribute name="name" value="phys-ent-participant96292" />
+        <attribute name="name" value="phys-ent-participant93091" />
+        <attribute name="name" value="phys-ent-participant97185" />
+        <attribute name="name" value="phys-ent-participant90855" />
+        <attribute name="name" value="phys-ent-participant92554" />
+        <attribute name="name" value="phys-ent-participant92742" />
+        <attribute name="name" value="phys-ent-participant83394" />
+        <attribute name="name" value="phys-ent-participant92958" />
+        <attribute name="name" value="phys-ent-participant83635" />
+        <attribute name="name" value="phys-ent-participant98012" />
+        <attribute name="name" value="phys-ent-participant93338" />
+        <attribute name="name" value="phys-ent-participant93810" />
+        <attribute name="name" value="phys-ent-participant62974" />
+        <attribute name="name" value="phys-ent-participant97153" />
+        <attribute name="name" value="phys-ent-participant83744" />
+        <attribute name="name" value="phys-ent-participant82867" />
+        <attribute name="name" value="phys-ent-participant32057" />
+        <attribute name="name" value="phys-ent-participant91109" />
+        <attribute name="name" value="phys-ent-participant59031" />
+        <attribute name="name" value="phys-ent-participant93149" />
+        <attribute name="name" value="phys-ent-participant94579" />
+        <attribute name="name" value="phys-ent-participant10614" />
+        <attribute name="name" value="phys-ent-participant63191" />
+        <attribute name="name" value="phys-ent-participant36529" />
+        <attribute name="name" value="phys-ent-participant97054" />
+        <attribute name="name" value="phys-ent-participant83244" />
+        <attribute name="name" value="phys-ent-participant97208" />
+        <attribute name="name" value="phys-ent-participant93874" />
+        <attribute name="name" value="phys-ent-participant92669" />
+        <attribute name="name" value="phys-ent-participant92342" />
+        <attribute name="name" value="phys-ent-participant83063" />
+        <attribute name="name" value="phys-ent-participant93394" />
+        <attribute name="name" value="phys-ent-participant79718" />
+        <attribute name="name" value="phys-ent-participant34094" />
+        <attribute name="name" value="phys-ent-participant97567" />
+        <attribute name="name" value="phys-ent-participant94598" />
+        <attribute name="name" value="phys-ent-participant80163" />
+        <attribute name="name" value="phys-ent-participant81313" />
+        <attribute name="name" value="phys-ent-participant92995" />
+        <attribute name="name" value="phys-ent-participant79654" />
+        <attribute name="name" value="phys-ent-participant94525" />
+        <attribute name="name" value="phys-ent-participant83577" />
+        <attribute name="name" value="phys-ent-participant90440" />
+        <attribute name="name" value="phys-ent-participant78094" />
+        <attribute name="name" value="phys-ent-participant85332" />
+        <attribute name="name" value="phys-ent-participant5857" />
+        <attribute name="name" value="phys-ent-participant93453" />
+        <attribute name="name" value="phys-ent-participant94418" />
+        <attribute name="name" value="phys-ent-participant78441" />
+        <attribute name="name" value="phys-ent-participant92925" />
+        <attribute name="name" value="phys-ent-participant86366" />
+        <attribute name="name" value="phys-ent-participant78574" />
+        <attribute name="name" value="phys-ent-participant6977" />
+        <attribute name="name" value="phys-ent-participant93706" />
+        <attribute name="name" value="phys-ent-participant83017" />
+        <attribute name="name" value="phys-ent-participant90907" />
+        <attribute name="name" value="phys-ent-participant91464" />
+        <attribute name="name" value="phys-ent-participant94061" />
+        <attribute name="name" value="phys-ent-participant93586" />
+        <attribute name="name" value="phys-ent-participant82725" />
+        <attribute name="name" value="phys-ent-participant81994" />
+        <attribute name="name" value="phys-ent-participant80176" />
+        <attribute name="name" value="phys-ent-participant78929" />
+        <attribute name="name" value="phys-ent-participant94310" />
+        <attribute name="name" value="phys-ent-participant79382" />
+        <attribute name="name" value="phys-ent-participant93189" />
+        <attribute name="name" value="phys-ent-participant93196" />
+        <attribute name="name" value="phys-ent-participant94561" />
+        <attribute name="name" value="phys-ent-participant94337" />
+        <attribute name="name" value="phys-ent-participant91649" />
+        <attribute name="name" value="phys-ent-participant93836" />
+        <attribute name="name" value="phys-ent-participant78163" />
+        <attribute name="name" value="phys-ent-participant94953" />
+        <attribute name="name" value="phys-ent-participant79593" />
+        <attribute name="name" value="phys-ent-participant83666" />
+        <attribute name="name" value="phys-ent-participant94552" />
+        <attribute name="name" value="phys-ent-participant94410" />
+        <attribute name="name" value="phys-ent-participant83586" />
+        <attribute name="name" value="phys-ent-participant83029" />
+        <attribute name="name" value="phys-ent-participant78938" />
+        <attribute name="name" value="phys-ent-participant93893" />
+        <attribute name="name" value="phys-ent-participant78391" />
+        <attribute name="name" value="phys-ent-participant90433" />
+        <attribute name="name" value="phys-ent-participant93016" />
+        <attribute name="name" value="phys-ent-participant81132" />
+        <attribute name="name" value="phys-ent-participant83449" />
+        <attribute name="name" value="phys-ent-participant83443" />
+        <attribute name="name" value="phys-ent-participant97193" />
+        <attribute name="name" value="phys-ent-participant93783" />
+        <attribute name="name" value="phys-ent-participant98106" />
+        <attribute name="name" value="phys-ent-participant93496" />
+        <attribute name="name" value="phys-ent-participant97223" />
+        <attribute name="name" value="phys-ent-participant93471" />
+        <attribute name="name" value="phys-ent-participant97075" />
+      </instance>
+      <instance DB_ID="1132304" displayName="H+ [cytoplasm]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="459" />
+        <attribute name="modified" class="InstanceEdit" referTo="2534390" />
+        <attribute name="modified" class="InstanceEdit" referTo="2562609" />
+        <attribute name="DB_ID" value="1132304" />
+        <attribute name="created" class="InstanceEdit" referTo="1164949" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114918" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="3656093" />
+        <attribute name="_displayName" value="H+ [cytoplasm]" />
+        <attribute name="name" value="H+" />
+        <attribute name="name" value="phys-ent-participant40014" />
+        <attribute name="name" value="hydron" />
+        <attribute name="name" value="phys-ent-participant79980" />
+        <attribute name="name" value="phys-ent-participant92545" />
+        <attribute name="name" value="phys-ent-participant95641" />
+        <attribute name="name" value="phys-ent-participant85683" />
+        <attribute name="name" value="phys-ent-participant60121" />
+        <attribute name="name" value="phys-ent-participant87783" />
+        <attribute name="name" value="phys-ent-participant10825" />
+        <attribute name="name" value="phys-ent-participant81216" />
+        <attribute name="name" value="phys-ent-participant80943" />
+        <attribute name="name" value="phys-ent-participant37499" />
+        <attribute name="name" value="phys-ent-participant10903" />
+        <attribute name="name" value="phys-ent-participant86314" />
+        <attribute name="name" value="phys-ent-participant85954" />
+        <attribute name="name" value="phys-ent-participant93429" />
+        <attribute name="name" value="phys-ent-participant98175" />
+        <attribute name="name" value="phys-ent-participant78141" />
+        <attribute name="name" value="phys-ent-participant10979" />
+        <attribute name="name" value="phys-ent-participant86594" />
+        <attribute name="name" value="phys-ent-participant86029" />
+        <attribute name="name" value="phys-ent-participant79534" />
+        <attribute name="name" value="phys-ent-participant78557" />
+        <attribute name="name" value="phys-ent-participant81949" />
+        <attribute name="name" value="phys-ent-participant11026" />
+        <attribute name="name" value="phys-ent-participant98215" />
+        <attribute name="name" value="phys-ent-participant92345" />
+        <attribute name="name" value="phys-ent-participant95669" />
+        <attribute name="name" value="phys-ent-participant94316" />
+        <attribute name="name" value="phys-ent-participant95655" />
+        <attribute name="name" value="phys-ent-participant83338" />
+        <attribute name="name" value="phys-ent-participant10624" />
+        <attribute name="name" value="phys-ent-participant5774" />
+        <attribute name="name" value="phys-ent-participant96019" />
+        <attribute name="name" value="phys-ent-participant5466" />
+        <attribute name="name" value="phys-ent-participant92716" />
+        <attribute name="name" value="phys-ent-participant86064" />
+        <attribute name="name" value="phys-ent-participant10788" />
+        <attribute name="name" value="phys-ent-participant92629" />
+        <attribute name="name" value="phys-ent-participant98320" />
+        <attribute name="name" value="phys-ent-participant83639" />
+        <attribute name="name" value="phys-ent-participant37208" />
+        <attribute name="name" value="phys-ent-participant79586" />
+        <attribute name="name" value="phys-ent-participant57538" />
+        <attribute name="name" value="phys-ent-participant78101" />
+        <attribute name="name" value="phys-ent-participant82789" />
+        <attribute name="name" value="phys-ent-participant94414" />
+        <attribute name="name" value="phys-ent-participant80083" />
+        <attribute name="name" value="phys-ent-participant60195" />
+        <attribute name="name" value="phys-ent-participant63615" />
+        <attribute name="name" value="phys-ent-participant94945" />
+        <attribute name="name" value="phys-ent-participant94528" />
+        <attribute name="name" value="phys-ent-participant14916" />
+        <attribute name="name" value="phys-ent-participant33450" />
+        <attribute name="name" value="phys-ent-participant10888" />
+        <attribute name="name" value="phys-ent-participant85728" />
+        <attribute name="name" value="phys-ent-participant82753" />
+        <attribute name="name" value="phys-ent-participant90438" />
+        <attribute name="name" value="phys-ent-participant10856" />
+        <attribute name="name" value="phys-ent-participant93582" />
+        <attribute name="name" value="phys-ent-participant85716" />
+        <attribute name="name" value="phys-ent-participant86020" />
+        <attribute name="name" value="phys-ent-participant90591" />
+        <attribute name="name" value="phys-ent-participant79971" />
+        <attribute name="name" value="phys-ent-participant10872" />
+        <attribute name="name" value="phys-ent-participant97877" />
+        <attribute name="name" value="phys-ent-participant94260" />
+        <attribute name="name" value="phys-ent-participant96416" />
+        <attribute name="name" value="phys-ent-participant83554" />
+        <attribute name="name" value="phys-ent-participant79843" />
+        <attribute name="name" value="phys-ent-participant80202" />
+        <attribute name="name" value="phys-ent-participant9736" />
+        <attribute name="name" value="phys-ent-participant98108" />
+        <attribute name="name" value="phys-ent-participant95545" />
+        <attribute name="name" value="phys-ent-participant63584" />
+        <attribute name="name" value="phys-ent-participant85773" />
+        <attribute name="name" value="phys-ent-participant87790" />
+        <attribute name="name" value="phys-ent-participant96965" />
+        <attribute name="name" value="phys-ent-participant10808" />
+        <attribute name="name" value="phys-ent-participant95558" />
+        <attribute name="name" value="phys-ent-participant94604" />
+        <attribute name="name" value="phys-ent-participant98350" />
+        <attribute name="name" value="phys-ent-participant10934" />
+        <attribute name="name" value="phys-ent-participant83767" />
+        <attribute name="name" value="phys-ent-participant95623" />
+        <attribute name="name" value="phys-ent-participant87771" />
+        <attribute name="name" value="phys-ent-participant79909" />
+        <attribute name="name" value="phys-ent-participant93398" />
+        <attribute name="name" value="phys-ent-participant10949" />
+        <attribute name="name" value="phys-ent-participant90901" />
+        <attribute name="name" value="phys-ent-participant96298" />
+        <attribute name="name" value="phys-ent-participant98766" />
+        <attribute name="name" value="phys-ent-participant79992" />
+        <attribute name="name" value="phys-ent-participant80920" />
+        <attribute name="name" value="phys-ent-participant98014" />
+        <attribute name="name" value="phys-ent-participant83335" />
+        <attribute name="name" value="phys-ent-participant86549" />
+        <attribute name="name" value="phys-ent-participant85790" />
+        <attribute name="name" value="phys-ent-participant7338" />
+        <attribute name="name" value="phys-ent-participant90639" />
+        <attribute name="name" value="phys-ent-participant83670" />
+        <attribute name="name" value="phys-ent-participant93589" />
+        <attribute name="name" value="phys-ent-participant79857" />
+        <attribute name="name" value="phys-ent-participant79821" />
+        <attribute name="name" value="phys-ent-participant83074" />
+        <attribute name="name" value="phys-ent-participant97277" />
+        <attribute name="name" value="phys-ent-participant97959" />
+        <attribute name="name" value="phys-ent-participant5737" />
+        <attribute name="name" value="phys-ent-participant86008" />
+        <attribute name="name" value="phys-ent-participant80799" />
+        <attribute name="name" value="phys-ent-participant83398" />
+        <attribute name="name" value="phys-ent-participant87722" />
+        <attribute name="name" value="phys-ent-participant5625" />
+        <attribute name="name" value="phys-ent-participant96239" />
+        <attribute name="name" value="phys-ent-participant14018" />
+        <attribute name="name" value="phys-ent-participant75402" />
+        <attribute name="name" value="phys-ent-participant90858" />
+        <attribute name="name" value="phys-ent-participant10840" />
+        <attribute name="name" value="phys-ent-participant86605" />
+        <attribute name="name" value="phys-ent-participant93770" />
+        <attribute name="name" value="phys-ent-participant10964" />
+        <attribute name="name" value="phys-ent-participant95715" />
+        <attribute name="name" value="phys-ent-participant90431" />
+        <attribute name="name" value="phys-ent-participant96422" />
+        <attribute name="name" value="phys-ent-participant11010" />
+        <attribute name="name" value="phys-ent-participant14154" />
+        <attribute name="name" value="phys-ent-participant83711" />
+        <attribute name="name" value="phys-ent-participant94421" />
+        <attribute name="name" value="phys-ent-participant10994" />
+        <attribute name="name" value="phys-ent-participant80178" />
+        <attribute name="name" value="phys-ent-participant97860" />
+        <attribute name="name" value="phys-ent-participant93535" />
+        <attribute name="name" value="phys-ent-participant10919" />
+        <attribute name="name" value="phys-ent-participant80546" />
+        <attribute name="name" value="phys-ent-participant80800" />
+        <attribute name="name" value="phys-ent-participant93512" />
+        <attribute name="name" value="phys-ent-participant83652" />
+        <attribute name="name" value="phys-ent-participant60176" />
+        <attribute name="name" value="phys-ent-participant59981" />
+      </instance>
+      <instance DB_ID="-22" displayName="Fe3+ [mitochondrial intermembrane space]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="17927" />
+        <attribute name="DB_ID" value="-22" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="912518" />
+        <attribute name="_displayName" value="Fe3+ [mitochondrial intermembrane space]" />
+        <attribute name="name" value="Fe3+" />
+        <attribute name="name" value="phys-ent-participant83748" />
+        <attribute name="name" value="iron(3+)" />
+      </instance>
+      <instance DB_ID="-24" displayName="Clone of H+ [cytoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="459" />
+        <attribute name="DB_ID" value="-24" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114918" />
+        <attribute name="_displayName" value="Clone of H+ [cytoplasm]" />
+        <attribute name="name" value="H+" />
+        <attribute name="name" value="phys-ent-participant40014" />
+        <attribute name="name" value="hydron" />
+        <attribute name="name" value="phys-ent-participant79980" />
+        <attribute name="name" value="phys-ent-participant92545" />
+        <attribute name="name" value="phys-ent-participant95641" />
+        <attribute name="name" value="phys-ent-participant85683" />
+        <attribute name="name" value="phys-ent-participant60121" />
+        <attribute name="name" value="phys-ent-participant87783" />
+        <attribute name="name" value="phys-ent-participant10825" />
+        <attribute name="name" value="phys-ent-participant81216" />
+        <attribute name="name" value="phys-ent-participant80943" />
+        <attribute name="name" value="phys-ent-participant37499" />
+        <attribute name="name" value="phys-ent-participant10903" />
+        <attribute name="name" value="phys-ent-participant86314" />
+        <attribute name="name" value="phys-ent-participant85954" />
+        <attribute name="name" value="phys-ent-participant93429" />
+        <attribute name="name" value="phys-ent-participant98175" />
+        <attribute name="name" value="phys-ent-participant78141" />
+        <attribute name="name" value="phys-ent-participant10979" />
+        <attribute name="name" value="phys-ent-participant86594" />
+        <attribute name="name" value="phys-ent-participant86029" />
+        <attribute name="name" value="phys-ent-participant79534" />
+        <attribute name="name" value="phys-ent-participant78557" />
+        <attribute name="name" value="phys-ent-participant81949" />
+        <attribute name="name" value="phys-ent-participant11026" />
+        <attribute name="name" value="phys-ent-participant98215" />
+        <attribute name="name" value="phys-ent-participant92345" />
+        <attribute name="name" value="phys-ent-participant95669" />
+        <attribute name="name" value="phys-ent-participant94316" />
+        <attribute name="name" value="phys-ent-participant95655" />
+        <attribute name="name" value="phys-ent-participant83338" />
+        <attribute name="name" value="phys-ent-participant10624" />
+        <attribute name="name" value="phys-ent-participant5774" />
+        <attribute name="name" value="phys-ent-participant96019" />
+        <attribute name="name" value="phys-ent-participant5466" />
+        <attribute name="name" value="phys-ent-participant92716" />
+        <attribute name="name" value="phys-ent-participant86064" />
+        <attribute name="name" value="phys-ent-participant10788" />
+        <attribute name="name" value="phys-ent-participant92629" />
+        <attribute name="name" value="phys-ent-participant98320" />
+        <attribute name="name" value="phys-ent-participant83639" />
+        <attribute name="name" value="phys-ent-participant37208" />
+        <attribute name="name" value="phys-ent-participant79586" />
+        <attribute name="name" value="phys-ent-participant57538" />
+        <attribute name="name" value="phys-ent-participant78101" />
+        <attribute name="name" value="phys-ent-participant82789" />
+        <attribute name="name" value="phys-ent-participant94414" />
+        <attribute name="name" value="phys-ent-participant80083" />
+        <attribute name="name" value="phys-ent-participant60195" />
+        <attribute name="name" value="phys-ent-participant63615" />
+        <attribute name="name" value="phys-ent-participant94945" />
+        <attribute name="name" value="phys-ent-participant94528" />
+        <attribute name="name" value="phys-ent-participant14916" />
+        <attribute name="name" value="phys-ent-participant33450" />
+        <attribute name="name" value="phys-ent-participant10888" />
+        <attribute name="name" value="phys-ent-participant85728" />
+        <attribute name="name" value="phys-ent-participant82753" />
+        <attribute name="name" value="phys-ent-participant90438" />
+        <attribute name="name" value="phys-ent-participant10856" />
+        <attribute name="name" value="phys-ent-participant93582" />
+        <attribute name="name" value="phys-ent-participant85716" />
+        <attribute name="name" value="phys-ent-participant86020" />
+        <attribute name="name" value="phys-ent-participant90591" />
+        <attribute name="name" value="phys-ent-participant79971" />
+        <attribute name="name" value="phys-ent-participant10872" />
+        <attribute name="name" value="phys-ent-participant97877" />
+        <attribute name="name" value="phys-ent-participant94260" />
+        <attribute name="name" value="phys-ent-participant96416" />
+        <attribute name="name" value="phys-ent-participant83554" />
+        <attribute name="name" value="phys-ent-participant79843" />
+        <attribute name="name" value="phys-ent-participant80202" />
+        <attribute name="name" value="phys-ent-participant9736" />
+        <attribute name="name" value="phys-ent-participant98108" />
+        <attribute name="name" value="phys-ent-participant95545" />
+        <attribute name="name" value="phys-ent-participant63584" />
+        <attribute name="name" value="phys-ent-participant85773" />
+        <attribute name="name" value="phys-ent-participant87790" />
+        <attribute name="name" value="phys-ent-participant96965" />
+        <attribute name="name" value="phys-ent-participant10808" />
+        <attribute name="name" value="phys-ent-participant95558" />
+        <attribute name="name" value="phys-ent-participant94604" />
+        <attribute name="name" value="phys-ent-participant98350" />
+        <attribute name="name" value="phys-ent-participant10934" />
+        <attribute name="name" value="phys-ent-participant83767" />
+        <attribute name="name" value="phys-ent-participant95623" />
+        <attribute name="name" value="phys-ent-participant87771" />
+        <attribute name="name" value="phys-ent-participant79909" />
+        <attribute name="name" value="phys-ent-participant93398" />
+        <attribute name="name" value="phys-ent-participant10949" />
+        <attribute name="name" value="phys-ent-participant90901" />
+        <attribute name="name" value="phys-ent-participant96298" />
+        <attribute name="name" value="phys-ent-participant98766" />
+        <attribute name="name" value="phys-ent-participant79992" />
+        <attribute name="name" value="phys-ent-participant80920" />
+        <attribute name="name" value="phys-ent-participant98014" />
+        <attribute name="name" value="phys-ent-participant83335" />
+        <attribute name="name" value="phys-ent-participant86549" />
+        <attribute name="name" value="phys-ent-participant85790" />
+        <attribute name="name" value="phys-ent-participant7338" />
+        <attribute name="name" value="phys-ent-participant90639" />
+        <attribute name="name" value="phys-ent-participant83670" />
+        <attribute name="name" value="phys-ent-participant93589" />
+        <attribute name="name" value="phys-ent-participant79857" />
+        <attribute name="name" value="phys-ent-participant79821" />
+        <attribute name="name" value="phys-ent-participant83074" />
+        <attribute name="name" value="phys-ent-participant97277" />
+        <attribute name="name" value="phys-ent-participant97959" />
+        <attribute name="name" value="phys-ent-participant5737" />
+        <attribute name="name" value="phys-ent-participant86008" />
+        <attribute name="name" value="phys-ent-participant80799" />
+        <attribute name="name" value="phys-ent-participant83398" />
+        <attribute name="name" value="phys-ent-participant87722" />
+        <attribute name="name" value="phys-ent-participant5625" />
+        <attribute name="name" value="phys-ent-participant96239" />
+        <attribute name="name" value="phys-ent-participant14018" />
+        <attribute name="name" value="phys-ent-participant75402" />
+        <attribute name="name" value="phys-ent-participant90858" />
+        <attribute name="name" value="phys-ent-participant10840" />
+        <attribute name="name" value="phys-ent-participant86605" />
+        <attribute name="name" value="phys-ent-participant93770" />
+        <attribute name="name" value="phys-ent-participant10964" />
+        <attribute name="name" value="phys-ent-participant95715" />
+        <attribute name="name" value="phys-ent-participant90431" />
+        <attribute name="name" value="phys-ent-participant96422" />
+        <attribute name="name" value="phys-ent-participant11010" />
+        <attribute name="name" value="phys-ent-participant14154" />
+        <attribute name="name" value="phys-ent-participant83711" />
+        <attribute name="name" value="phys-ent-participant94421" />
+        <attribute name="name" value="phys-ent-participant10994" />
+        <attribute name="name" value="phys-ent-participant80178" />
+        <attribute name="name" value="phys-ent-participant97860" />
+        <attribute name="name" value="phys-ent-participant93535" />
+        <attribute name="name" value="phys-ent-participant10919" />
+        <attribute name="name" value="phys-ent-participant80546" />
+        <attribute name="name" value="phys-ent-participant80800" />
+        <attribute name="name" value="phys-ent-participant93512" />
+        <attribute name="name" value="phys-ent-participant83652" />
+        <attribute name="name" value="phys-ent-participant60176" />
+        <attribute name="name" value="phys-ent-participant59981" />
+      </instance>
+      <instance DB_ID="-25" displayName="Clone of NAD+ [cytoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="459" />
+        <attribute name="DB_ID" value="-25" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114730" />
+        <attribute name="_displayName" value="Clone of NAD+ [cytoplasm]" />
+        <attribute name="name" value="NAD+" />
+        <attribute name="name" value="phys-ent-participant98973" />
+        <attribute name="name" value="NAD(+)" />
+        <attribute name="name" value="phys-ent-participant82670" />
+        <attribute name="name" value="phys-ent-participant86307" />
+        <attribute name="name" value="phys-ent-participant97200" />
+        <attribute name="name" value="phys-ent-participant79810" />
+        <attribute name="name" value="phys-ent-participant82944" />
+        <attribute name="name" value="phys-ent-participant90603" />
+        <attribute name="name" value="phys-ent-participant86317" />
+        <attribute name="name" value="phys-ent-participant85999" />
+        <attribute name="name" value="phys-ent-participant83327" />
+        <attribute name="name" value="phys-ent-participant83557" />
+        <attribute name="name" value="phys-ent-participant86394" />
+        <attribute name="name" value="phys-ent-participant97875" />
+        <attribute name="name" value="phys-ent-participant83504" />
+        <attribute name="name" value="phys-ent-participant83540" />
+        <attribute name="name" value="phys-ent-participant82677" />
+        <attribute name="name" value="phys-ent-participant93100" />
+        <attribute name="name" value="phys-ent-participant92967" />
+        <attribute name="name" value="phys-ent-participant94331" />
+        <attribute name="name" value="phys-ent-participant83350" />
+        <attribute name="name" value="phys-ent-participant92283" />
+        <attribute name="name" value="phys-ent-participant97957" />
+        <attribute name="name" value="phys-ent-participant90659" />
+        <attribute name="name" value="phys-ent-participant56847" />
+        <attribute name="name" value="phys-ent-participant91289" />
+        <attribute name="name" value="phys-ent-participant93776" />
+        <attribute name="name" value="phys-ent-participant36845" />
+        <attribute name="name" value="phys-ent-participant82979" />
+        <attribute name="name" value="phys-ent-participant79835" />
+        <attribute name="name" value="phys-ent-participant83407" />
+        <attribute name="name" value="phys-ent-participant82711" />
+        <attribute name="name" value="phys-ent-participant96292" />
+        <attribute name="name" value="phys-ent-participant93091" />
+        <attribute name="name" value="phys-ent-participant97185" />
+        <attribute name="name" value="phys-ent-participant90855" />
+        <attribute name="name" value="phys-ent-participant92554" />
+        <attribute name="name" value="phys-ent-participant92742" />
+        <attribute name="name" value="phys-ent-participant83394" />
+        <attribute name="name" value="phys-ent-participant92958" />
+        <attribute name="name" value="phys-ent-participant83635" />
+        <attribute name="name" value="phys-ent-participant98012" />
+        <attribute name="name" value="phys-ent-participant93338" />
+        <attribute name="name" value="phys-ent-participant93810" />
+        <attribute name="name" value="phys-ent-participant62974" />
+        <attribute name="name" value="phys-ent-participant97153" />
+        <attribute name="name" value="phys-ent-participant83744" />
+        <attribute name="name" value="phys-ent-participant82867" />
+        <attribute name="name" value="phys-ent-participant32057" />
+        <attribute name="name" value="phys-ent-participant91109" />
+        <attribute name="name" value="phys-ent-participant59031" />
+        <attribute name="name" value="phys-ent-participant93149" />
+        <attribute name="name" value="phys-ent-participant94579" />
+        <attribute name="name" value="phys-ent-participant10614" />
+        <attribute name="name" value="phys-ent-participant63191" />
+        <attribute name="name" value="phys-ent-participant36529" />
+        <attribute name="name" value="phys-ent-participant97054" />
+        <attribute name="name" value="phys-ent-participant83244" />
+        <attribute name="name" value="phys-ent-participant97208" />
+        <attribute name="name" value="phys-ent-participant93874" />
+        <attribute name="name" value="phys-ent-participant92669" />
+        <attribute name="name" value="phys-ent-participant92342" />
+        <attribute name="name" value="phys-ent-participant83063" />
+        <attribute name="name" value="phys-ent-participant93394" />
+        <attribute name="name" value="phys-ent-participant79718" />
+        <attribute name="name" value="phys-ent-participant34094" />
+        <attribute name="name" value="phys-ent-participant97567" />
+        <attribute name="name" value="phys-ent-participant94598" />
+        <attribute name="name" value="phys-ent-participant80163" />
+        <attribute name="name" value="phys-ent-participant81313" />
+        <attribute name="name" value="phys-ent-participant92995" />
+        <attribute name="name" value="phys-ent-participant79654" />
+        <attribute name="name" value="phys-ent-participant94525" />
+        <attribute name="name" value="phys-ent-participant83577" />
+        <attribute name="name" value="phys-ent-participant90440" />
+        <attribute name="name" value="phys-ent-participant78094" />
+        <attribute name="name" value="phys-ent-participant85332" />
+        <attribute name="name" value="phys-ent-participant5857" />
+        <attribute name="name" value="phys-ent-participant93453" />
+        <attribute name="name" value="phys-ent-participant94418" />
+        <attribute name="name" value="phys-ent-participant78441" />
+        <attribute name="name" value="phys-ent-participant92925" />
+        <attribute name="name" value="phys-ent-participant86366" />
+        <attribute name="name" value="phys-ent-participant78574" />
+        <attribute name="name" value="phys-ent-participant6977" />
+        <attribute name="name" value="phys-ent-participant93706" />
+        <attribute name="name" value="phys-ent-participant83017" />
+        <attribute name="name" value="phys-ent-participant90907" />
+        <attribute name="name" value="phys-ent-participant91464" />
+        <attribute name="name" value="phys-ent-participant94061" />
+        <attribute name="name" value="phys-ent-participant93586" />
+        <attribute name="name" value="phys-ent-participant82725" />
+        <attribute name="name" value="phys-ent-participant81994" />
+        <attribute name="name" value="phys-ent-participant80176" />
+        <attribute name="name" value="phys-ent-participant78929" />
+        <attribute name="name" value="phys-ent-participant94310" />
+        <attribute name="name" value="phys-ent-participant79382" />
+        <attribute name="name" value="phys-ent-participant93189" />
+        <attribute name="name" value="phys-ent-participant93196" />
+        <attribute name="name" value="phys-ent-participant94561" />
+        <attribute name="name" value="phys-ent-participant94337" />
+        <attribute name="name" value="phys-ent-participant91649" />
+        <attribute name="name" value="phys-ent-participant93836" />
+        <attribute name="name" value="phys-ent-participant78163" />
+        <attribute name="name" value="phys-ent-participant94953" />
+        <attribute name="name" value="phys-ent-participant79593" />
+        <attribute name="name" value="phys-ent-participant83666" />
+        <attribute name="name" value="phys-ent-participant94552" />
+        <attribute name="name" value="phys-ent-participant94410" />
+        <attribute name="name" value="phys-ent-participant83586" />
+        <attribute name="name" value="phys-ent-participant83029" />
+        <attribute name="name" value="phys-ent-participant78938" />
+        <attribute name="name" value="phys-ent-participant93893" />
+        <attribute name="name" value="phys-ent-participant78391" />
+        <attribute name="name" value="phys-ent-participant90433" />
+        <attribute name="name" value="phys-ent-participant93016" />
+        <attribute name="name" value="phys-ent-participant81132" />
+        <attribute name="name" value="phys-ent-participant83449" />
+        <attribute name="name" value="phys-ent-participant83443" />
+        <attribute name="name" value="phys-ent-participant97193" />
+        <attribute name="name" value="phys-ent-participant93783" />
+        <attribute name="name" value="phys-ent-participant98106" />
+        <attribute name="name" value="phys-ent-participant93496" />
+        <attribute name="name" value="phys-ent-participant97223" />
+        <attribute name="name" value="phys-ent-participant93471" />
+        <attribute name="name" value="phys-ent-participant97075" />
+      </instance>
+      <instance DB_ID="5625003" displayName="NADH [mitochondrial intermembrane space]" isShell="false" isDirty="false">
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="29363" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17927" />
+        <attribute name="DB_ID" value="5625003" />
+        <attribute name="created" class="InstanceEdit" referTo="5625002" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114731" />
+        <attribute name="_displayName" value="NADH [mitochondrial intermembrane space]" />
+        <attribute name="name" value="NADH" />
+      </instance>
+      <instance DB_ID="111736" displayName="Fe3+ [cytosol]" isShell="false" isDirty="false">
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="29401" />
+        <attribute name="_Protege_id" value="PROJECT_2120_00511" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="modified" class="InstanceEdit" referTo="1824279" />
+        <attribute name="DB_ID" value="111736" />
+        <attribute name="created" class="InstanceEdit" referTo="111698" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="917869" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="369189" />
+        <attribute name="_displayName" value="Fe3+ [cytosol]" />
+        <attribute name="name" value="Fe3+" />
+        <attribute name="name" value="iron (ferric)" />
+        <attribute name="name" value="iron(3+)" />
+      </instance>
+      <instance DB_ID="1362385" displayName="Fe2+ [mitochondrial intermembrane space]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="17927" />
+        <attribute name="modified" class="InstanceEdit" referTo="2537470" />
+        <attribute name="DB_ID" value="1362385" />
+        <attribute name="created" class="InstanceEdit" referTo="1362386" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114919" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="3201131" />
+        <attribute name="_displayName" value="Fe2+ [mitochondrial intermembrane space]" />
+        <attribute name="name" value="Fe2+" />
+        <attribute name="name" value="iron (ferrous)" />
+        <attribute name="name" value="iron atom" />
+      </instance>
+      <instance DB_ID="163953" displayName="H+ [mitochondrial intermembrane space]" isShell="false" isDirty="false">
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="70107" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17927" />
+        <attribute name="DB_ID" value="163953" />
+        <attribute name="created" class="InstanceEdit" referTo="163952" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114918" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="362832" />
+        <attribute name="_displayName" value="H+ [mitochondrial intermembrane space]" />
+        <attribute name="name" value="H+" />
+        <attribute name="name" value="hydron" />
+      </instance>
+      <instance DB_ID="5688282" displayName="NAD+ [mitochondrial intermembrane space]" isShell="false" isDirty="false">
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="29361" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17927" />
+        <attribute name="modified" class="InstanceEdit" referTo="5688344" />
+        <attribute name="DB_ID" value="5688282" />
+        <attribute name="created" class="InstanceEdit" referTo="5688324" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114730" />
+        <attribute name="_displayName" value="NAD+ [mitochondrial intermembrane space]" />
+        <attribute name="name" value="NAD+" />
+        <attribute name="name" value="NAD" />
+        <attribute name="name" value="NAD(+)" />
+        <attribute name="name" value="Nicotinamide adenine dinucleotide" />
+        <attribute name="name" value="DPN" />
+        <attribute name="name" value="Diphosphopyridine nucleotide" />
+        <attribute name="name" value="NAD+ " />
+      </instance>
+    </SimpleEntity>
+    <GO_MolecularFunction>
+      <instance DB_ID="22789" displayName="ferric-chelate reductase activity" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="22789" />
+        <attribute name="accession" value="0000293" />
+        <attribute name="instanceOf" class="GO_MolecularFunction" referTo="882" />
+        <attribute name="_displayName" value="ferric-chelate reductase activity" />
+        <attribute name="name" value="ferric-chelate reductase activity" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162334" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="423222" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="448165" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="938674" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1043152" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1221553" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301022" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301626" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552982" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996190" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133759" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133760" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133761" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266115" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266117" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2267216" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455544" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="2588510" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132714" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="3446290" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341654" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083619" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263568" />
+        <attribute name="modified" class="InstanceEdit" referTo="5433708" />
+        <attribute name="modified" class="InstanceEdit" referTo="5619033" />
+        <attribute name="modified" class="InstanceEdit" referTo="5634717" />
+        <attribute name="modified" class="InstanceEdit" referTo="5673679" />
+        <attribute name="modified" class="InstanceEdit" referTo="5692203" />
+        <attribute name="modified" class="InstanceEdit" referTo="6792433" />
+        <attribute name="modified" class="InstanceEdit" referTo="6808304" />
+        <attribute name="modified" class="InstanceEdit" referTo="8857520" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="ecNumber" value="1.16.1.7" />
+        <attribute name="definition" value="Catalysis of the reaction: 2 Fe2+ + NAD+ = 2 Fe3+ + NADH + H(+)." />
+      </instance>
+      <instance DB_ID="882" displayName="oxidoreductase activity, oxidizing metal ions, NAD or NADP as acceptor" isShell="true" />
+    </GO_MolecularFunction>
+    <Reaction>
+      <instance DB_ID="-28" displayName="ferric-chelate reductase (NADH)" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8869022" />
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="5302655" />
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="5306309" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-30" />
+        <attribute name="summation" class="Summation" referTo="-19" />
+        <attribute name="output" class="SimpleEntity" referTo="1362385" />
+        <attribute name="output" class="SimpleEntity" referTo="163953" />
+        <attribute name="output" class="SimpleEntity" referTo="5688282" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-3" />
+        <attribute name="compartment" class="EntityCompartment" referTo="17927" />
+        <attribute name="DB_ID" value="-28" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="input" class="SimpleEntity" referTo="-22" />
+        <attribute name="input" class="SimpleEntity" referTo="5625003" />
+        <attribute name="species" class="Species" referTo="8862676" />
+        <attribute name="_displayName" value="ferric-chelate reductase (NADH)" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="258707" />
+        <attribute name="name" value="ferric-chelate reductase (NADH)" />
+        <attribute name="name" value="Fe2++NAD++H+-&gt;Fe3++NADH" />
+        <attribute name="name" value="FERRIC-CHELATE-REDUCTASE-RXN" />
+        <attribute name="name" value="biochemicalReaction19252" />
+        <attribute name="name" value="iron chelate reductase" />
+        <attribute name="name" value="NADH:Fe3+-EDTA reductase" />
+        <attribute name="name" value="NADH2:Fe3+ oxidoreductase" />
+        <attribute name="name" value="Fe(II):NAD+ oxidoreductase" />
+        <attribute name="name" value="FRO8" />
+      </instance>
+    </Reaction>
+    <DefinedSet>
+      <instance DB_ID="5277108" displayName="AT5G49730 [cytoplasm]" isShell="true" />
+    </DefinedSet>
+    <GO_CellularComponent>
+      <instance DB_ID="159960" displayName="intracellular membrane-bounded organelle" isShell="true" />
+      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
+      <instance DB_ID="259036" displayName="vacuolar part" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="259036" />
+        <attribute name="created" class="InstanceEdit" referTo="258122" />
+        <attribute name="accession" value="0044437" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258149" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="457" />
+        <attribute name="_displayName" value="vacuolar part" />
+        <attribute name="name" value="vacuolar part" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="definition" value="Any constituent part of a vacuole, a closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+      </instance>
+      <instance DB_ID="5433258" displayName="bounding membrane of organelle" isShell="true" />
+      <instance DB_ID="6791911" displayName="whole membrane" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="6791911" />
+        <attribute name="created" class="InstanceEdit" referTo="6791824" />
+        <attribute name="accession" value="0098805" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="383187" />
+        <attribute name="_displayName" value="whole membrane" />
+        <attribute name="name" value="whole membrane" />
+        <attribute name="definition" value="Any lipid bilayer that completely encloses some structure, and all the proteins embedded in it or attached to it.  Examples include the plasma membrane and most organelle membranes." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+      </instance>
+      <instance DB_ID="258149" displayName="intracellular organelle part" isShell="true" />
+      <instance DB_ID="457" displayName="vacuole" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="457" />
+        <attribute name="accession" value="0005773" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="159960" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="_displayName" value="vacuole" />
+        <attribute name="name" value="vacuole" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="definition" value="A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+      </instance>
+      <instance DB_ID="383187" displayName="membrane" isShell="true" />
+      <instance DB_ID="1078" displayName="organelle inner membrane" isShell="true" />
+      <instance DB_ID="171548" displayName="mitochondrial membrane" isShell="true" />
+      <instance DB_ID="171479" displayName="organelle envelope lumen" isShell="true" />
+      <instance DB_ID="258371" displayName="mitochondrial part" isShell="true" />
+      <instance DB_ID="70617" displayName="mitochondrial envelope" isShell="true" />
+    </GO_CellularComponent>
+    <Pathway>
+      <instance DB_ID="-1" displayName="metal ion homeostasis" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8869022" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-3" />
+        <attribute name="hasEvent" class="Pathway" referTo="-7" />
+        <attribute name="hasEvent" class="Pathway" referTo="-9" />
+        <attribute name="hasEvent" class="Pathway" referTo="-8" />
+        <attribute name="DB_ID" value="-1" />
+        <attribute name="species" class="Species" referTo="8862676" />
+        <attribute name="_displayName" value="metal ion homeostasis" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="258707" />
+        <attribute name="name" value="metal ion homeostasis" />
+      </instance>
+      <instance DB_ID="-7" displayName="metal ion homeostasis in chloroplast" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8869022" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-3" />
+        <attribute name="compartment" class="EntityCompartment" referTo="858" />
+        <attribute name="compartment" class="EntityCompartment" referTo="841" />
+        <attribute name="DB_ID" value="-7" />
+        <attribute name="species" class="Species" referTo="8862676" />
+        <attribute name="_displayName" value="metal ion homeostasis in chloroplast" />
+        <attribute name="name" value="metal ion homeostasis in chloroplast" />
+        <attribute name="name" value="metal ion homeostasis in plastid" />
+      </instance>
+      <instance DB_ID="-8" displayName="metal ion homeostasis in vacuole" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8869022" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-3" />
+        <attribute name="compartment" class="EntityCompartment" referTo="-18" />
+        <attribute name="DB_ID" value="-8" />
+        <attribute name="species" class="Species" referTo="8862676" />
+        <attribute name="_displayName" value="metal ion homeostasis in vacuole" />
+        <attribute name="name" value="metal ion homeostasis in vacuole" />
+      </instance>
+      <instance DB_ID="-9" displayName="metal ion homeostasis in mitochondria" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8869022" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-3" />
+        <attribute name="hasEvent" class="Reaction" referTo="-28" />
+        <attribute name="compartment" class="EntityCompartment" referTo="5462" />
+        <attribute name="DB_ID" value="-9" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="species" class="Species" referTo="8862676" />
+        <attribute name="_displayName" value="metal ion homeostasis in mitochondria" />
+        <attribute name="name" value="metal ion homeostasis in mitochondria" />
+      </instance>
+    </Pathway>
+    <PathwayDiagram>
+      <instance DB_ID="-31" displayName="Diagram of metal ion homeostasis in mitochondria" isShell="false" isDirty="true">
+        <attribute name="representedPathway" class="Pathway" referTo="-9" />
+        <attribute name="DB_ID" value="-31" />
+        <attribute name="_displayName" value="Diagram of metal ion homeostasis in mitochondria" />
+      </instance>
+    </PathwayDiagram>
+    <meta>
+      <deletion>
+        <instance DB_ID="352604" class="SimpleEntity" />
+        <instance DB_ID="1130844" class="SimpleEntity" />
+        <instance DB_ID="5270062" class="Reaction" />
+      </deletion>
+      <defaultPerson dbId="8858034" />
+    </meta>
+  </reactome>
+  <Process nextId="9" reactomeDiagramId="-31" hideCompartmentInName="true">
+    <Nodes>
+      <org.gk.render.RenderableProtein id="3" reactomeId="5275114" position="546 245" bounds="482 213 128 64" textPosition="501 227" />
+      <org.gk.render.RenderableChemical id="4" reactomeId="1362385" position="225 385" bounds="156 356 138 58" textPosition="205 374" />
+      <org.gk.render.RenderableChemical id="5" reactomeId="5625003" position="405 105" bounds="334 76 142 58" textPosition="383 94" />
+      <org.gk.render.RenderableChemical id="6" reactomeId="163953" position="405 385" bounds="342 356 126 58" textPosition="391 374" />
+      <org.gk.render.RenderableChemical id="7" reactomeId="5688282" position="585 385" bounds="514 356 143 58" textPosition="563 374" />
+      <org.gk.render.RenderableChemical id="9" reactomeId="-22" position="585 105" bounds="516 76 138 58" textPosition="565 94" />
+    </Nodes>
+    <Edges>
+      <org.gk.render.RenderableReaction id="8" reactomeId="-28" points="450 151, 450 245, 420 308" position="450 245" lineWidth="1.0">
+        <Inputs>
+          <Input id="5" points="433 137" />
+          <Input id="9" points="513 128" />
+        </Inputs>
+        <Outputs>
+          <Output id="4" points="297 357" />
+          <Output id="6" points="410 353" />
+          <Output id="7" points="522 353" />
+        </Outputs>
+        <Catalysts>
+          <Catalyst id="3" points="479 245" />
+        </Catalysts>
+      </org.gk.render.RenderableReaction>
+    </Edges>
+    <Pathways />
+  </Process>
+</rtpj>
+
