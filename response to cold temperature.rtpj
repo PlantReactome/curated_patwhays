@@ -1,76 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rtpj>
   <reactome>
-    <Person>
-      <instance DB_ID="8858034" displayName="Jaiswal, Pankaj" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="8858034" />
-        <attribute name="firstname" value="Pankaj" />
-        <attribute name="initial" value="P" />
-        <attribute name="created" class="InstanceEdit" referTo="8858035" />
-        <attribute name="project" value="Plant Reactome" />
-        <attribute name="eMailAddress" value="jaiswalp@oregonstate.edu" />
-        <attribute name="affiliation" class="Affiliation" referTo="2186798" />
-        <attribute name="surname" value="Jaiswal" />
-        <attribute name="_displayName" value="Jaiswal, Pankaj" />
-        <attribute name="modified" class="InstanceEdit" referTo="8858123" />
+    <ReferenceDatabase>
+      <instance DB_ID="2" displayName="UniProt" isShell="true" />
+      <instance DB_ID="1" displayName="GO" isShell="true" />
+    </ReferenceDatabase>
+    <InstanceEdit>
+      <instance DB_ID="8858035" displayName="Jaiswal, Pankaj, 2016-02-17" isShell="true" />
+      <instance DB_ID="8858123" displayName="Jaiswal, Pankaj, 2016-02-17" isShell="true" />
+      <instance DB_ID="160533" displayName="Schmidt, EE, 2005-03-23 05:24:35" isShell="true" />
+      <instance DB_ID="162607" displayName="Schmidt, EE, 2005-04-01 11:06:09" isShell="true" />
+      <instance DB_ID="171322" displayName="Schmidt, EE, 2006-02-06 10:50:16" isShell="true" />
+      <instance DB_ID="258122" displayName="Kanapin, EE, 2008-03-27 12:15:20" isShell="true" />
+      <instance DB_ID="357819" displayName="Kanapin, EE, 2008-06-18 10:45:39" isShell="true" />
+      <instance DB_ID="376438" displayName="Kanapin, EE, 2008-09-08 10:23:04" isShell="true" />
+      <instance DB_ID="383393" displayName="Kanapin, AA, 2008-11-26 13:49:44" isShell="true" />
+      <instance DB_ID="396309" displayName="Kanapin, EE, 2009-03-09 13:26:57" isShell="true" />
+      <instance DB_ID="422569" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="436347" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="447572" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="526073" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="528085" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="615500" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="797782" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="937668" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1042299" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1220942" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301009" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301023" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1552540" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1996004" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2132408" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2133145" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266118" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266147" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2454362" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2455542" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2587907" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3132285" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3445953" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="4341211" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5083267" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5263134" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="186845" displayName="D'Eustachio, P, 2006-08-28 17:20:12" isShell="true" />
+      <instance DB_ID="74163" displayName="Joshi-Tope, G, 2003-07-15 16:33:00" isShell="true" />
+      <instance DB_ID="74292" displayName="Schmidt, EE, 2003-07-18 12:05:45" isShell="true" />
+      <instance DB_ID="74387" displayName="Schmidt, EE, 2003-07-21 09:15:46" isShell="true" />
+      <instance DB_ID="74498" displayName="Schmidt, EE, 2003-07-24 12:17:14" isShell="true" />
+      <instance DB_ID="75321" displayName="Schmidt, EE, 2003-09-01 06:01:22" isShell="true" />
+      <instance DB_ID="111852" displayName="Schmidt, EE, 2004-03-24 06:49:11" isShell="true" />
+      <instance DB_ID="111998" displayName="Schmidt, EE, 2004-03-31 07:59:41" isShell="true" />
+      <instance DB_ID="112274" displayName="Schmidt, EE, 2004-04-19 12:06:05" isShell="true" />
+      <instance DB_ID="114498" displayName="de Bono, B, 2004-08-04 09:17:50" isShell="true" />
+      <instance DB_ID="143493" displayName="de Bono, B, 2004-11-11 14:21:48" isShell="true" />
+      <instance DB_ID="202104" displayName="Hemish, J, 2007-10-19 18:00:42" isShell="true" />
+      <instance DB_ID="203590" displayName="Hemish, J, 2007-11-15 17:00:52" isShell="true" />
+      <instance DB_ID="1498719" displayName="Williams, MG, 2011-08-17" isShell="true" />
+      <instance DB_ID="2534374" displayName="Gillespie, ME, 2012-10-25" isShell="true" />
+      <instance DB_ID="2562608" displayName="D'Eustachio, P, 2012-11-06" isShell="true" />
+      <instance DB_ID="5673184" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5673680" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5618474" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="352581" displayName="Caudy, M, 2008-06-04 08:46:28" isShell="true" />
+      <instance DB_ID="386938" displayName="Mahajan, SS, 2008-11-27 13:18:35" isShell="true" />
+      <instance DB_ID="386939" displayName="Mahajan, SS, 2008-11-27 13:19:30" isShell="true" />
+      <instance DB_ID="387036" displayName="Gopinathrao, G, 2008-11-29 16:08:46" isShell="true" />
+    </InstanceEdit>
+    <DefinedSet>
+      <instance DB_ID="-52" displayName="SIZ1 homolog" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-52" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-35" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-33" />
+        <attribute name="_displayName" value="SIZ1 homolog" />
+        <attribute name="name" value="SIZ1 homolog" />
       </instance>
-      <instance DB_ID="-6" displayName="Chinnusamy, Viswanathan" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-6" />
-        <attribute name="firstname" value="Viswanathan" />
-        <attribute name="initial" value="V" />
-        <attribute name="surname" value="Chinnusamy" />
-        <attribute name="_displayName" value="Chinnusamy, Viswanathan" />
+      <instance DB_ID="-57" displayName="LOS2 homolog" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-57" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-15" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-13" />
+        <attribute name="_displayName" value="LOS2 homolog" />
+        <attribute name="name" value="LOS2 homolog" />
       </instance>
-      <instance DB_ID="-7" displayName="Zhu, Jianhua" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-7" />
-        <attribute name="firstname" value="Jianhua" />
-        <attribute name="initial" value="J" />
-        <attribute name="surname" value="Zhu" />
-        <attribute name="_displayName" value="Zhu, Jianhua" />
+      <instance DB_ID="-59" displayName="CBF1 homolog" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-59" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-25" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-22" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-20" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-18" />
+        <attribute name="_displayName" value="CBF1 homolog" />
+        <attribute name="name" value="CBF1 homolog" />
       </instance>
-      <instance DB_ID="-8" displayName="Zhu, Jian-Kang" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-8" />
-        <attribute name="firstname" value="Jian-Kang" />
-        <attribute name="initial" value="JK" />
-        <attribute name="surname" value="Zhu" />
-        <attribute name="_displayName" value="Zhu, Jian-Kang" />
-      </instance>
-      <instance DB_ID="-103" displayName="Thomashow, M F" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-103" />
-        <attribute name="firstname" value="M F" />
-        <attribute name="initial" value="MF" />
-        <attribute name="surname" value="Thomashow" />
-        <attribute name="_displayName" value="Thomashow, M F" />
-      </instance>
-      <instance DB_ID="-108" displayName="Wathugala, Deepthi L" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-108" />
-        <attribute name="firstname" value="Deepthi L" />
-        <attribute name="initial" value="DL" />
-        <attribute name="surname" value="Wathugala" />
-        <attribute name="_displayName" value="Wathugala, Deepthi L" />
-      </instance>
-      <instance DB_ID="-109" displayName="Richards, Shane A" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-109" />
-        <attribute name="firstname" value="Shane A" />
-        <attribute name="initial" value="SA" />
-        <attribute name="surname" value="Richards" />
-        <attribute name="_displayName" value="Richards, Shane A" />
-      </instance>
-      <instance DB_ID="-110" displayName="Knight, Heather" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-110" />
-        <attribute name="firstname" value="Heather" />
-        <attribute name="initial" value="H" />
-        <attribute name="surname" value="Knight" />
-        <attribute name="_displayName" value="Knight, Heather" />
-      </instance>
-      <instance DB_ID="-111" displayName="Knight, Marc R" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-111" />
-        <attribute name="firstname" value="Marc R" />
-        <attribute name="initial" value="MR" />
-        <attribute name="surname" value="Knight" />
-        <attribute name="_displayName" value="Knight, Marc R" />
-      </instance>
-    </Person>
+    </DefinedSet>
+    <StableIdentifier>
+      <instance DB_ID="365770" displayName="R-ALL-74016.1" isShell="true" />
+    </StableIdentifier>
+    <ReferenceMolecule>
+      <instance DB_ID="114768" displayName="calcium(2+) [ChEBI:29108]" isShell="true" />
+    </ReferenceMolecule>
     <Pathway>
       <instance DB_ID="-1" displayName="response to cold temperature" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8858035" />
@@ -124,708 +150,44 @@
         <attribute name="name" value="proteolysis" />
       </instance>
     </Pathway>
-    <NegativeRegulation>
-      <instance DB_ID="-62" displayName="'sumoylated ICE1 [nucleoplasm]' negatively regulates 'expression of MYB15 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-62" />
-        <attribute name="_displayName" value="'sumoylated ICE1 [nucleoplasm]' negatively regulates 'expression of MYB15 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-54" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-44" />
+    <SimpleEntity>
+      <instance DB_ID="-39" displayName="cold temperature" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-39" />
+        <attribute name="_displayName" value="cold temperature" />
+        <attribute name="name" value="cold temperature" />
       </instance>
-      <instance DB_ID="-63" displayName="'MYB15 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-63" />
-        <attribute name="_displayName" value="'MYB15 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-60" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-29" />
-      </instance>
-      <instance DB_ID="-64" displayName="'ZAT12 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-64" />
-        <attribute name="_displayName" value="'ZAT12 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-60" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-10" />
-      </instance>
-      <instance DB_ID="-66" displayName="'LOS2 homolog' negatively regulates 'expression of ZAT10 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-66" />
-        <attribute name="_displayName" value="'LOS2 homolog' negatively regulates 'expression of ZAT10 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-56" />
-        <attribute name="regulator" class="DefinedSet" referTo="-57" />
-      </instance>
-      <instance DB_ID="-67" displayName="'CBF1 homolog' negatively regulates 'expression of ZAT10 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-67" />
-        <attribute name="_displayName" value="'CBF1 homolog' negatively regulates 'expression of ZAT10 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-56" />
-        <attribute name="regulator" class="DefinedSet" referTo="-59" />
-      </instance>
-      <instance DB_ID="-86" displayName="'ZAT10 homolog [nucleoplasm]' negatively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-86" />
-        <attribute name="_displayName" value="'ZAT10 homolog [nucleoplasm]' negatively regulates 'expression of COR gene homologs'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-27" />
-      </instance>
-    </NegativeRegulation>
-    <StableIdentifier>
-      <instance DB_ID="365770" displayName="R-ALL-74016.1" isShell="true" />
-    </StableIdentifier>
-    <Summation>
-      <instance DB_ID="-11" displayName="Homolog of A. thaliana AT5G59820 ZAT12" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-11" />
-        <attribute name="_displayName" value="Homolog of A. thaliana AT5G59820 ZAT12" />
-        <attribute name="text" value="Homolog of A. thaliana AT5G59820 ZAT12" />
-      </instance>
-      <instance DB_ID="-16" displayName="Homolog of A. thaliana AT2G36530 LOS2 or ENO1" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-16" />
-        <attribute name="_displayName" value="Homolog of A. thaliana AT2G36530 LOS2 or ENO1" />
-        <attribute name="text" value="Homolog of A. thaliana AT2G36530 LOS2 or ENO1" />
-      </instance>
-      <instance DB_ID="-113" displayName="There are number of COR set of genes known in Arabidopsis. H..." isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-113" />
-        <attribute name="_displayName" value="There are number of COR set of genes known in Arabidopsis. H..." />
-        <attribute name="text" value="There are number of COR set of genes known in Arabidopsis. However, based on our gene homology searchers, we could not find a reasonable rice gene supported by sequence alignment and gene homology." />
-      </instance>
-    </Summation>
-    <ReferenceDatabase>
-      <instance DB_ID="2" displayName="UniProt" isShell="true" />
-      <instance DB_ID="1" displayName="GO" isShell="true" />
-    </ReferenceDatabase>
-    <BlackBoxEvent>
-      <instance DB_ID="-40" displayName="expression of ICE1 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-4" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-40" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of ICE1 homolog" />
-        <attribute name="name" value="expression of ICE1 homolog" />
-      </instance>
-      <instance DB_ID="-46" displayName="modulation of calcium ion concentration" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="SimpleEntity" referTo="74016" />
+      <instance DB_ID="74016" displayName="Ca2+ [cytosol]" isShell="false" isDirty="false">
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="29497" />
+        <attribute name="_Protege_id" value="GK_74016" />
         <attribute name="compartment" class="EntityCompartment" referTo="70101" />
-        <attribute name="DB_ID" value="-46" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="modulation of calcium ion concentration" />
-        <attribute name="name" value="modulation of calcium ion concentration" />
+        <attribute name="modified" class="InstanceEdit" referTo="74163" />
+        <attribute name="modified" class="InstanceEdit" referTo="74292" />
+        <attribute name="modified" class="InstanceEdit" referTo="74387" />
+        <attribute name="modified" class="InstanceEdit" referTo="74498" />
+        <attribute name="modified" class="InstanceEdit" referTo="75321" />
+        <attribute name="modified" class="InstanceEdit" referTo="111852" />
+        <attribute name="modified" class="InstanceEdit" referTo="111998" />
+        <attribute name="modified" class="InstanceEdit" referTo="112274" />
+        <attribute name="modified" class="InstanceEdit" referTo="114498" />
+        <attribute name="modified" class="InstanceEdit" referTo="143493" />
+        <attribute name="modified" class="InstanceEdit" referTo="202104" />
+        <attribute name="modified" class="InstanceEdit" referTo="203590" />
+        <attribute name="modified" class="InstanceEdit" referTo="1498719" />
+        <attribute name="modified" class="InstanceEdit" referTo="2534374" />
+        <attribute name="modified" class="InstanceEdit" referTo="2562608" />
+        <attribute name="DB_ID" value="74016" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114768" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="365770" />
+        <attribute name="_displayName" value="Ca2+ [cytosol]" />
+        <attribute name="name" value="Ca2+" />
+        <attribute name="name" value="Calcium" />
+        <attribute name="name" value="calcium(2+)" />
       </instance>
-      <instance DB_ID="-50" displayName="signaling pathway kinases" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-49" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-50" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="signaling pathway kinases" />
-        <attribute name="name" value="signaling pathway kinases" />
-      </instance>
-      <instance DB_ID="-54" displayName="expression of MYB15 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-29" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-54" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of MYB15 homolog" />
-        <attribute name="name" value="expression of MYB15 homolog" />
-      </instance>
-      <instance DB_ID="-55" displayName="expression of ZAT12 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-10" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-55" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of ZAT12 homolog" />
-        <attribute name="name" value="expression of ZAT12 homolog" />
-      </instance>
-      <instance DB_ID="-56" displayName="expression of ZAT10 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-27" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-56" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of ZAT10 homolog" />
-        <attribute name="name" value="expression of ZAT10 homolog" />
-      </instance>
-      <instance DB_ID="-58" displayName="expression of LOS2 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="DefinedSet" referTo="-57" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-58" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of LOS2 homolog" />
-        <attribute name="name" value="expression of LOS2 homolog" />
-      </instance>
-      <instance DB_ID="-60" displayName="expression of CBF1 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="DefinedSet" referTo="-59" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-60" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of CBF1 homolog" />
-        <attribute name="name" value="expression of CBF1 homolog" />
-      </instance>
-      <instance DB_ID="-79" displayName="expression of COR gene homologs" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-76" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-79" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of COR gene homologs" />
-        <attribute name="name" value="expression of COR gene homologs" />
-      </instance>
-      <instance DB_ID="-80" displayName="expression of RAP2-1 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-75" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-80" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of RAP2-1 homolog" />
-        <attribute name="name" value="expression of RAP2-1 homolog" />
-      </instance>
-      <instance DB_ID="-96" displayName="expression of CTB1" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-94" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-96" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="species" class="Species" referTo="186860" />
-        <attribute name="_displayName" value="expression of CTB1" />
-        <attribute name="name" value="expression of CTB1" />
-      </instance>
-      <instance DB_ID="-104" displayName="expression of HVA1 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-101" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-102" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-104" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of HVA1 homolog" />
-        <attribute name="name" value="expression of HVA1 homolog" />
-      </instance>
-      <instance DB_ID="-112" displayName="expression of FR6" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-106" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-112" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="_displayName" value="expression of FR6" />
-        <attribute name="name" value="expression of FR6" />
-      </instance>
-    </BlackBoxEvent>
-    <CatalystActivity>
-      <instance DB_ID="-42" displayName="SUMO transferase activity of SIZ1 homolog" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-42" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-5" />
-        <attribute name="activity" class="GO_MolecularFunction" referTo="13837" />
-        <attribute name="_displayName" value="SUMO transferase activity of SIZ1 homolog" />
-        <attribute name="physicalEntity" class="DefinedSet" referTo="-52" />
-      </instance>
-      <instance DB_ID="-72" displayName="ubiquitin protein ligase activity of HOS1 homolog [cytosol]" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-72" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-5" />
-        <attribute name="activity" class="GO_MolecularFunction" referTo="5618522" />
-        <attribute name="_displayName" value="ubiquitin protein ligase activity of HOS1 homolog [cytosol]" />
-        <attribute name="physicalEntity" class="EntityWithAccessionedSequence" referTo="-31" />
-      </instance>
-    </CatalystActivity>
-    <ReferenceMolecule>
-      <instance DB_ID="114768" displayName="calcium(2+) [ChEBI:29108]" isShell="true" />
-    </ReferenceMolecule>
-    <EntityCompartment>
-      <instance DB_ID="70101" displayName="cytosol" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="70101" />
-        <attribute name="accession" value="0005829" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
-        <attribute name="_displayName" value="cytosol" />
-        <attribute name="name" value="cytosol" />
-        <attribute name="modified" class="InstanceEdit" referTo="160533" />
-        <attribute name="modified" class="InstanceEdit" referTo="162607" />
-        <attribute name="modified" class="InstanceEdit" referTo="171322" />
-        <attribute name="modified" class="InstanceEdit" referTo="258122" />
-        <attribute name="modified" class="InstanceEdit" referTo="357819" />
-        <attribute name="modified" class="InstanceEdit" referTo="376438" />
-        <attribute name="modified" class="InstanceEdit" referTo="383393" />
-        <attribute name="modified" class="InstanceEdit" referTo="396309" />
-        <attribute name="modified" class="InstanceEdit" referTo="422569" />
-        <attribute name="modified" class="InstanceEdit" referTo="436347" />
-        <attribute name="modified" class="InstanceEdit" referTo="447572" />
-        <attribute name="modified" class="InstanceEdit" referTo="526073" />
-        <attribute name="modified" class="InstanceEdit" referTo="528085" />
-        <attribute name="modified" class="InstanceEdit" referTo="615500" />
-        <attribute name="modified" class="InstanceEdit" referTo="797782" />
-        <attribute name="modified" class="InstanceEdit" referTo="937668" />
-        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
-        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
-        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
-        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
-        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
-        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
-        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
-        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
-        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
-        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
-        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
-        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
-        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
-        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
-        <attribute name="definition" value="The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes." />
-      </instance>
-      <instance DB_ID="7660" displayName="nucleoplasm" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="7660" />
-        <attribute name="accession" value="0005654" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258151" />
-        <attribute name="componentOf" class="GO_CellularComponent" referTo="171405" />
-        <attribute name="_displayName" value="nucleoplasm" />
-        <attribute name="name" value="nucleoplasm" />
-        <attribute name="modified" class="InstanceEdit" referTo="160533" />
-        <attribute name="modified" class="InstanceEdit" referTo="162607" />
-        <attribute name="modified" class="InstanceEdit" referTo="171322" />
-        <attribute name="modified" class="InstanceEdit" referTo="258122" />
-        <attribute name="modified" class="InstanceEdit" referTo="352581" />
-        <attribute name="modified" class="InstanceEdit" referTo="357819" />
-        <attribute name="modified" class="InstanceEdit" referTo="376438" />
-        <attribute name="modified" class="InstanceEdit" referTo="383393" />
-        <attribute name="modified" class="InstanceEdit" referTo="396309" />
-        <attribute name="modified" class="InstanceEdit" referTo="422569" />
-        <attribute name="modified" class="InstanceEdit" referTo="436347" />
-        <attribute name="modified" class="InstanceEdit" referTo="447572" />
-        <attribute name="modified" class="InstanceEdit" referTo="526073" />
-        <attribute name="modified" class="InstanceEdit" referTo="528085" />
-        <attribute name="modified" class="InstanceEdit" referTo="615500" />
-        <attribute name="modified" class="InstanceEdit" referTo="797782" />
-        <attribute name="modified" class="InstanceEdit" referTo="937668" />
-        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
-        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
-        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
-        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
-        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
-        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
-        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
-        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
-        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
-        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
-        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
-        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
-        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
-        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
-        <attribute name="definition" value="That part of the nuclear content other than the chromosomes or the nucleolus." />
-      </instance>
-      <instance DB_ID="-120" displayName="vacuole lumen" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-120" />
-        <attribute name="accession" value="0005775" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="259036" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="383433" />
-        <attribute name="componentOf" class="GO_CellularComponent" referTo="457" />
-        <attribute name="_displayName" value="vacuole lumen" />
-        <attribute name="name" value="vacuole lumen" />
-        <attribute name="name" value="vacuolar lumen" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
-        <attribute name="definition" value="The volume enclosed within the vacuolar membrane." />
-      </instance>
-      <instance DB_ID="876" displayName="plasma membrane" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="876" />
-        <attribute name="accession" value="0005886" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="383187" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258147" />
-        <attribute name="componentOf" class="GO_CellularComponent" referTo="1042833" />
-        <attribute name="_displayName" value="plasma membrane" />
-        <attribute name="name" value="plasma membrane" />
-        <attribute name="modified" class="InstanceEdit" referTo="160533" />
-        <attribute name="modified" class="InstanceEdit" referTo="162607" />
-        <attribute name="modified" class="InstanceEdit" referTo="171322" />
-        <attribute name="modified" class="InstanceEdit" referTo="258122" />
-        <attribute name="modified" class="InstanceEdit" referTo="357819" />
-        <attribute name="modified" class="InstanceEdit" referTo="376438" />
-        <attribute name="modified" class="InstanceEdit" referTo="383393" />
-        <attribute name="modified" class="InstanceEdit" referTo="386938" />
-        <attribute name="modified" class="InstanceEdit" referTo="386939" />
-        <attribute name="modified" class="InstanceEdit" referTo="387036" />
-        <attribute name="modified" class="InstanceEdit" referTo="396309" />
-        <attribute name="modified" class="InstanceEdit" referTo="422569" />
-        <attribute name="modified" class="InstanceEdit" referTo="436347" />
-        <attribute name="modified" class="InstanceEdit" referTo="447572" />
-        <attribute name="modified" class="InstanceEdit" referTo="526073" />
-        <attribute name="modified" class="InstanceEdit" referTo="528085" />
-        <attribute name="modified" class="InstanceEdit" referTo="615500" />
-        <attribute name="modified" class="InstanceEdit" referTo="797782" />
-        <attribute name="modified" class="InstanceEdit" referTo="937668" />
-        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
-        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
-        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
-        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
-        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
-        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
-        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
-        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
-        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
-        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
-        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
-        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
-        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
-        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
-        <attribute name="definition" value="The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins." />
-      </instance>
-    </EntityCompartment>
-    <GO_CellularComponent>
-      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
-      <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
-      <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
-      <instance DB_ID="17945" displayName="vacuolar lumen" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="17945" />
-        <attribute name="accession" value="0005775" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="259036" />
-        <attribute name="instanceOf" class="GO_CellularComponent" referTo="383433" />
-        <attribute name="componentOf" class="GO_CellularComponent" referTo="457" />
-        <attribute name="_displayName" value="vacuolar lumen" />
-        <attribute name="name" value="vacuolar lumen" />
-        <attribute name="modified" class="InstanceEdit" referTo="160533" />
-        <attribute name="modified" class="InstanceEdit" referTo="162607" />
-        <attribute name="modified" class="InstanceEdit" referTo="171322" />
-        <attribute name="modified" class="InstanceEdit" referTo="258122" />
-        <attribute name="modified" class="InstanceEdit" referTo="357819" />
-        <attribute name="modified" class="InstanceEdit" referTo="376438" />
-        <attribute name="modified" class="InstanceEdit" referTo="383393" />
-        <attribute name="modified" class="InstanceEdit" referTo="396309" />
-        <attribute name="modified" class="InstanceEdit" referTo="422569" />
-        <attribute name="modified" class="InstanceEdit" referTo="436347" />
-        <attribute name="modified" class="InstanceEdit" referTo="447572" />
-        <attribute name="modified" class="InstanceEdit" referTo="526073" />
-        <attribute name="modified" class="InstanceEdit" referTo="528085" />
-        <attribute name="modified" class="InstanceEdit" referTo="615500" />
-        <attribute name="modified" class="InstanceEdit" referTo="797782" />
-        <attribute name="modified" class="InstanceEdit" referTo="937668" />
-        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
-        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
-        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
-        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
-        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
-        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
-        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
-        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
-        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
-        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
-        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
-        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
-        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
-        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
-        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
-        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
-        <attribute name="definition" value="The volume enclosed within the vacuolar membrane." />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
-      </instance>
-      <instance DB_ID="259036" displayName="vacuolar part" isShell="true" />
-      <instance DB_ID="383433" displayName="intracellular organelle lumen" isShell="true" />
-      <instance DB_ID="457" displayName="vacuole" isShell="true" />
-      <instance DB_ID="383187" displayName="membrane" isShell="true" />
-      <instance DB_ID="258147" displayName="cell part" isShell="true" />
-      <instance DB_ID="1042833" displayName="cell periphery" isShell="true" />
-    </GO_CellularComponent>
-    <URL>
-      <instance DB_ID="-95" displayName="http://www.sciencedirect.com/science/article/pii/S0168945210000993" isShell="false" isDirty="true">
-        <attribute name="uniformResourceLocator" value="http://www.sciencedirect.com/science/article/pii/S0168945210000993" />
-        <attribute name="DB_ID" value="-95" />
-        <attribute name="author" class="Person" referTo="8858034" />
-        <attribute name="_displayName" value="http://www.sciencedirect.com/science/article/pii/S0168945210000993" />
-      </instance>
-    </URL>
-    <PathwayDiagram>
-      <instance DB_ID="-68" displayName="Diagram of response to cold temperature" isShell="false" isDirty="true">
-        <attribute name="representedPathway" class="Pathway" referTo="-1" />
-        <attribute name="DB_ID" value="-68" />
-        <attribute name="_displayName" value="Diagram of response to cold temperature" />
-      </instance>
-    </PathwayDiagram>
-    <Reaction>
-      <instance DB_ID="-41" displayName="sumoylation of ICE1 mediated by SIZ1 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="catalystActivity" class="CatalystActivity" referTo="-42" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-44" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-5" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-41" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-4" />
-        <attribute name="_displayName" value="sumoylation of ICE1 mediated by SIZ1 homolog" />
-        <attribute name="name" value="sumoylation of ICE1 mediated by SIZ1 homolog" />
-      </instance>
-      <instance DB_ID="-71" displayName="ubiquitinylation of ICE1 mediated by HOS1 homolog" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="catalystActivity" class="CatalystActivity" referTo="-72" />
-        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-73" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
-        <attribute name="DB_ID" value="-71" />
-        <attribute name="_doRelease" value="true" />
-        <attribute name="isChimeric" value="false" />
-        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-44" />
-        <attribute name="species" class="Species" referTo="186860" />
-        <attribute name="_displayName" value="ubiquitinylation of ICE1 mediated by HOS1 homolog" />
-        <attribute name="name" value="ubiquitinylation of ICE1 mediated by HOS1 homolog" />
-      </instance>
-    </Reaction>
+    </SimpleEntity>
     <DatabaseIdentifier>
       <instance DB_ID="186858" displayName="NCBI_taxonomy:4530" isShell="true" />
       <instance DB_ID="29497" displayName="COMPOUND:C00076" isShell="true" />
     </DatabaseIdentifier>
-    <Taxon>
-      <instance DB_ID="186856" displayName="Oryza" isShell="true" />
-    </Taxon>
-    <LiteratureReference>
-      <instance DB_ID="-5" displayName="Cold stress regulation of gene expression in plants" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-5" />
-        <attribute name="year" value="2007" />
-        <attribute name="author" class="Person" referTo="-6" />
-        <attribute name="author" class="Person" referTo="-7" />
-        <attribute name="author" class="Person" referTo="-8" />
-        <attribute name="title" value="Cold stress regulation of gene expression in plants" />
-        <attribute name="volume" value="12" />
-        <attribute name="pages" value="444-51" />
-        <attribute name="journal" value="Trends Plant Sci." />
-        <attribute name="_displayName" value="Cold stress regulation of gene expression in plants" />
-        <attribute name="pubMedIdentifier" value="17855156" />
-      </instance>
-      <instance DB_ID="-102" displayName="Role of cold-responsive genes in plant freezing tolerance" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-102" />
-        <attribute name="year" value="1998" />
-        <attribute name="author" class="Person" referTo="-103" />
-        <attribute name="title" value="Role of cold-responsive genes in plant freezing tolerance" />
-        <attribute name="volume" value="118" />
-        <attribute name="pages" value="1-8" />
-        <attribute name="journal" value="Plant Physiol." />
-        <attribute name="_displayName" value="Role of cold-responsive genes in plant freezing tolerance" />
-        <attribute name="pubMedIdentifier" value="9733520" />
-      </instance>
-      <instance DB_ID="-107" displayName="OsSFR6 is a functional rice orthologue of SENSITIVE TO FREEZING-6 and can act as a regulator of COR gene expression, osmotic stress and freezing tolerance in Arabidopsis" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-107" />
-        <attribute name="year" value="2011" />
-        <attribute name="author" class="Person" referTo="-108" />
-        <attribute name="author" class="Person" referTo="-109" />
-        <attribute name="author" class="Person" referTo="-110" />
-        <attribute name="author" class="Person" referTo="-111" />
-        <attribute name="title" value="OsSFR6 is a functional rice orthologue of SENSITIVE TO FREEZING-6 and can act as a regulator of COR gene expression, osmotic stress and freezing tolerance in Arabidopsis" />
-        <attribute name="volume" value="191" />
-        <attribute name="pages" value="984-95" />
-        <attribute name="journal" value="New Phytol." />
-        <attribute name="_displayName" value="OsSFR6 is a functional rice orthologue of SENSITIVE TO FREEZING-6 and can act as a regulator of COR gene expression, osmotic stress and freezing tolerance in Arabidopsis" />
-        <attribute name="pubMedIdentifier" value="21585388" />
-      </instance>
-    </LiteratureReference>
-    <ReferenceIsoform>
-      <instance DB_ID="-99" displayName="UniProt:P0C5A4-1 LEA3" isShell="false" isDirty="true">
-        <attribute name="isoformParent" class="ReferenceGeneProduct" referTo="-98" />
-        <attribute name="geneName" value="LEA3" />
-        <attribute name="geneName" value="LEA" />
-        <attribute name="geneName" value="Os05g0542500" />
-        <attribute name="geneName" value="LOC_Os05g46480" />
-        <attribute name="geneName" value="OJ1288_A07.1" />
-        <attribute name="geneName" value="OJ1362_G11.19" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="secondaryIdentifier" value="LEA3_ORYSJ" />
-        <attribute name="secondaryIdentifier" value="P83197" />
-        <attribute name="secondaryIdentifier" value="Q0PMA1" />
-        <attribute name="secondaryIdentifier" value="Q40696" />
-        <attribute name="secondaryIdentifier" value="Q40741" />
-        <attribute name="secondaryIdentifier" value="Q65XN9" />
-        <attribute name="secondaryIdentifier" value="Q9SBI3" />
-        <attribute name="keyword" value="Alternative splicing" />
-        <attribute name="keyword" value="Coiled coil" />
-        <attribute name="keyword" value="Complete proteome" />
-        <attribute name="keyword" value="Reference proteome" />
-        <attribute name="keyword" value="Repeat" />
-        <attribute name="identifier" value="P0C5A4" />
-        <attribute name="DB_ID" value="-99" />
-        <attribute name="species" class="Species" referTo="-3" />
-        <attribute name="_displayName" value="UniProt:P0C5A4-1 LEA3" />
-        <attribute name="variantIdentifier" value="P0C5A4-1" />
-        <attribute name="comment" value="ALTERNATIVE PRODUCTS: Event=Alternative splicing; Named isoforms=2; Name=1; IsoId=P0C5A4-1; Sequence=Displayed; Name=2; IsoId=P0C5A4-2; Sequence=VSP_027161, VSP_027162, VSP_027163; Note=No experimental confirmation available.;" />
-      </instance>
-      <instance DB_ID="-100" displayName="UniProt:P0C5A4-2 LEA3" isShell="false" isDirty="true">
-        <attribute name="isoformParent" class="ReferenceGeneProduct" referTo="-98" />
-        <attribute name="geneName" value="LEA3" />
-        <attribute name="geneName" value="LEA" />
-        <attribute name="geneName" value="Os05g0542500" />
-        <attribute name="geneName" value="LOC_Os05g46480" />
-        <attribute name="geneName" value="OJ1288_A07.1" />
-        <attribute name="geneName" value="OJ1362_G11.19" />
-        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
-        <attribute name="secondaryIdentifier" value="LEA3_ORYSJ" />
-        <attribute name="secondaryIdentifier" value="P83197" />
-        <attribute name="secondaryIdentifier" value="Q0PMA1" />
-        <attribute name="secondaryIdentifier" value="Q40696" />
-        <attribute name="secondaryIdentifier" value="Q40741" />
-        <attribute name="secondaryIdentifier" value="Q65XN9" />
-        <attribute name="secondaryIdentifier" value="Q9SBI3" />
-        <attribute name="keyword" value="Alternative splicing" />
-        <attribute name="keyword" value="Coiled coil" />
-        <attribute name="keyword" value="Complete proteome" />
-        <attribute name="keyword" value="Reference proteome" />
-        <attribute name="keyword" value="Repeat" />
-        <attribute name="identifier" value="P0C5A4" />
-        <attribute name="DB_ID" value="-100" />
-        <attribute name="species" class="Species" referTo="-3" />
-        <attribute name="_displayName" value="UniProt:P0C5A4-2 LEA3" />
-        <attribute name="variantIdentifier" value="P0C5A4-2" />
-        <attribute name="comment" value="ALTERNATIVE PRODUCTS: Event=Alternative splicing; Named isoforms=2; Name=1; IsoId=P0C5A4-1; Sequence=Displayed; Name=2; IsoId=P0C5A4-2; Sequence=VSP_027161, VSP_027162, VSP_027163; Note=No experimental confirmation available.;" />
-      </instance>
-    </ReferenceIsoform>
-    <DefinedSet>
-      <instance DB_ID="-52" displayName="SIZ1 homolog" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-52" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-35" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-33" />
-        <attribute name="_displayName" value="SIZ1 homolog" />
-        <attribute name="name" value="SIZ1 homolog" />
-      </instance>
-      <instance DB_ID="-57" displayName="LOS2 homolog" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-57" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-15" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-13" />
-        <attribute name="_displayName" value="LOS2 homolog" />
-        <attribute name="name" value="LOS2 homolog" />
-      </instance>
-      <instance DB_ID="-59" displayName="CBF1 homolog" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-59" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-25" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-22" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-20" />
-        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-18" />
-        <attribute name="_displayName" value="CBF1 homolog" />
-        <attribute name="name" value="CBF1 homolog" />
-      </instance>
-    </DefinedSet>
-    <PositiveRegulation>
-      <instance DB_ID="-45" displayName="'cold temperature' positively regulates 'membrane rigidification'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-45" />
-        <attribute name="_displayName" value="'cold temperature' positively regulates 'membrane rigidification'" />
-        <attribute name="regulatedEntity" class="Pathway" referTo="-37" />
-        <attribute name="regulator" class="SimpleEntity" referTo="-39" />
-      </instance>
-      <instance DB_ID="-51" displayName="'Ca2+ [cytosol]' positively regulates 'signaling pathway kinases'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-51" />
-        <attribute name="_displayName" value="'Ca2+ [cytosol]' positively regulates 'signaling pathway kinases'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-50" />
-        <attribute name="regulator" class="SimpleEntity" referTo="74016" />
-      </instance>
-      <instance DB_ID="-61" displayName="'sumoylated ICE1 [nucleoplasm]' positively regulates 'expression of CBF1 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-61" />
-        <attribute name="_displayName" value="'sumoylated ICE1 [nucleoplasm]' positively regulates 'expression of CBF1 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-60" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-44" />
-      </instance>
-      <instance DB_ID="-69" displayName="'signaling pathway kinases [cytosol]' positively regulates 'sumoylation of ICE1 mediated by SIZ1 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-69" />
-        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'sumoylation of ICE1 mediated by SIZ1 homolog'" />
-        <attribute name="regulatedEntity" class="Reaction" referTo="-41" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
-      </instance>
-      <instance DB_ID="-70" displayName="'signaling pathway kinases [cytosol]' positively regulates 'expression of ZAT12 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-70" />
-        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'expression of ZAT12 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-55" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
-      </instance>
-      <instance DB_ID="-81" displayName="'CBF1 homolog' positively regulates 'expression of RAP2-1 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-81" />
-        <attribute name="_displayName" value="'CBF1 homolog' positively regulates 'expression of RAP2-1 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-80" />
-        <attribute name="regulator" class="DefinedSet" referTo="-59" />
-      </instance>
-      <instance DB_ID="-82" displayName="'RAP2.1 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-82" />
-        <attribute name="_displayName" value="'RAP2.1 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-75" />
-      </instance>
-      <instance DB_ID="-84" displayName="'CBF1 homolog' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-84" />
-        <attribute name="_displayName" value="'CBF1 homolog' positively regulates 'expression of COR gene homologs'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
-        <attribute name="regulator" class="DefinedSet" referTo="-59" />
-      </instance>
-      <instance DB_ID="-85" displayName="'ZAT10 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-85" />
-        <attribute name="_displayName" value="'ZAT10 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-27" />
-      </instance>
-      <instance DB_ID="-87" displayName="'COR gene homologs [nucleoplasm]' positively regulates 'cold accilimation'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-87" />
-        <attribute name="_displayName" value="'COR gene homologs [nucleoplasm]' positively regulates 'cold accilimation'" />
-        <attribute name="regulatedEntity" class="Pathway" referTo="-78" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-76" />
-      </instance>
-      <instance DB_ID="-90" displayName="'ZAT12 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-90" />
-        <attribute name="_displayName" value="'ZAT12 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-10" />
-      </instance>
-      <instance DB_ID="-91" displayName="'signaling pathway kinases [cytosol]' positively regulates 'expression of LOS2 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-91" />
-        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'expression of LOS2 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-58" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
-      </instance>
-      <instance DB_ID="-121" displayName="'membrane rigidification' positively regulates 'modulation of calcium ion concentration'" isShell="false" isDirty="true">
-        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
-        <attribute name="DB_ID" value="-121" />
-        <attribute name="literatureReference" class="LiteratureReference" referTo="-5" />
-        <attribute name="_displayName" value="'membrane rigidification' positively regulates 'modulation of calcium ion concentration'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-46" />
-        <attribute name="regulator" class="Pathway" referTo="-37" />
-      </instance>
-      <instance DB_ID="-122" displayName="'signaling pathway kinases [cytosol]' positively regulates 'expression of ICE1 homolog'" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-122" />
-        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'expression of ICE1 homolog'" />
-        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-40" />
-        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
-      </instance>
-    </PositiveRegulation>
-    <Species>
-      <instance DB_ID="-3" displayName="Oryza sativa subsp. japonica" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-3" />
-        <attribute name="_displayName" value="Oryza sativa subsp. japonica" />
-        <attribute name="name" value="Oryza sativa subsp. japonica" />
-      </instance>
-      <instance DB_ID="186860" displayName="Oryza sativa" isShell="false" isDirty="false">
-        <attribute name="DB_ID" value="186860" />
-        <attribute name="created" class="InstanceEdit" referTo="186845" />
-        <attribute name="_displayName" value="Oryza sativa" />
-        <attribute name="crossReference" class="DatabaseIdentifier" referTo="186858" />
-        <attribute name="name" value="Oryza sativa" />
-        <attribute name="name" value="rice" />
-        <attribute name="superTaxon" class="Taxon" referTo="186856" />
-      </instance>
-    </Species>
-    <Affiliation>
-      <instance DB_ID="2186798" displayName="Oregon State University" isShell="true" />
-    </Affiliation>
     <EntityWithAccessionedSequence>
       <instance DB_ID="-4" displayName="ICE1 [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8858035" />
@@ -1144,40 +506,681 @@
       <instance DB_ID="202455" displayName="ubiquitin-protein transferase activity" isShell="true" />
       <instance DB_ID="5673216" displayName="ubiquitin-like protein ligase activity" isShell="true" />
     </GO_MolecularFunction>
-    <SimpleEntity>
-      <instance DB_ID="-39" displayName="cold temperature" isShell="false" isDirty="true">
-        <attribute name="DB_ID" value="-39" />
-        <attribute name="_displayName" value="cold temperature" />
-        <attribute name="name" value="cold temperature" />
+    <CatalystActivity>
+      <instance DB_ID="-42" displayName="SUMO transferase activity of SIZ1 homolog" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-42" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-5" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="13837" />
+        <attribute name="_displayName" value="SUMO transferase activity of SIZ1 homolog" />
+        <attribute name="physicalEntity" class="DefinedSet" referTo="-52" />
       </instance>
-      <instance DB_ID="74016" displayName="Ca2+ [cytosol]" isShell="false" isDirty="false">
-        <attribute name="crossReference" class="DatabaseIdentifier" referTo="29497" />
-        <attribute name="_Protege_id" value="GK_74016" />
+      <instance DB_ID="-72" displayName="ubiquitin protein ligase activity of HOS1 homolog [cytosol]" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-72" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-5" />
+        <attribute name="activity" class="GO_MolecularFunction" referTo="5618522" />
+        <attribute name="_displayName" value="ubiquitin protein ligase activity of HOS1 homolog [cytosol]" />
+        <attribute name="physicalEntity" class="EntityWithAccessionedSequence" referTo="-31" />
+      </instance>
+    </CatalystActivity>
+    <URL>
+      <instance DB_ID="-95" displayName="http://www.sciencedirect.com/science/article/pii/S0168945210000993" isShell="false" isDirty="true">
+        <attribute name="uniformResourceLocator" value="http://www.sciencedirect.com/science/article/pii/S0168945210000993" />
+        <attribute name="DB_ID" value="-95" />
+        <attribute name="author" class="Person" referTo="8858034" />
+        <attribute name="_displayName" value="http://www.sciencedirect.com/science/article/pii/S0168945210000993" />
+      </instance>
+    </URL>
+    <NegativeRegulation>
+      <instance DB_ID="-62" displayName="'sumoylated ICE1 [nucleoplasm]' negatively regulates 'expression of MYB15 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-62" />
+        <attribute name="_displayName" value="'sumoylated ICE1 [nucleoplasm]' negatively regulates 'expression of MYB15 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-54" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-44" />
+      </instance>
+      <instance DB_ID="-63" displayName="'MYB15 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-63" />
+        <attribute name="_displayName" value="'MYB15 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-60" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-29" />
+      </instance>
+      <instance DB_ID="-64" displayName="'ZAT12 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-64" />
+        <attribute name="_displayName" value="'ZAT12 homolog [nucleoplasm]' negatively regulates 'expression of CBF1 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-60" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-10" />
+      </instance>
+      <instance DB_ID="-66" displayName="'LOS2 homolog' negatively regulates 'expression of ZAT10 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-66" />
+        <attribute name="_displayName" value="'LOS2 homolog' negatively regulates 'expression of ZAT10 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-56" />
+        <attribute name="regulator" class="DefinedSet" referTo="-57" />
+      </instance>
+      <instance DB_ID="-67" displayName="'CBF1 homolog' negatively regulates 'expression of ZAT10 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-67" />
+        <attribute name="_displayName" value="'CBF1 homolog' negatively regulates 'expression of ZAT10 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-56" />
+        <attribute name="regulator" class="DefinedSet" referTo="-59" />
+      </instance>
+      <instance DB_ID="-86" displayName="'ZAT10 homolog [nucleoplasm]' negatively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-86" />
+        <attribute name="_displayName" value="'ZAT10 homolog [nucleoplasm]' negatively regulates 'expression of COR gene homologs'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-27" />
+      </instance>
+    </NegativeRegulation>
+    <Taxon>
+      <instance DB_ID="186856" displayName="Oryza" isShell="true" />
+    </Taxon>
+    <Reaction>
+      <instance DB_ID="-41" displayName="sumoylation of ICE1 mediated by SIZ1 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-42" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-44" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-5" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-41" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-4" />
+        <attribute name="_displayName" value="sumoylation of ICE1 mediated by SIZ1 homolog" />
+        <attribute name="name" value="sumoylation of ICE1 mediated by SIZ1 homolog" />
+      </instance>
+      <instance DB_ID="-71" displayName="ubiquitinylation of ICE1 mediated by HOS1 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="catalystActivity" class="CatalystActivity" referTo="-72" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-73" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-71" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-44" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="ubiquitinylation of ICE1 mediated by HOS1 homolog" />
+        <attribute name="name" value="ubiquitinylation of ICE1 mediated by HOS1 homolog" />
+      </instance>
+    </Reaction>
+    <LiteratureReference>
+      <instance DB_ID="-5" displayName="Cold stress regulation of gene expression in plants" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-5" />
+        <attribute name="year" value="2007" />
+        <attribute name="author" class="Person" referTo="-6" />
+        <attribute name="author" class="Person" referTo="-7" />
+        <attribute name="author" class="Person" referTo="-8" />
+        <attribute name="title" value="Cold stress regulation of gene expression in plants" />
+        <attribute name="volume" value="12" />
+        <attribute name="pages" value="444-51" />
+        <attribute name="journal" value="Trends Plant Sci." />
+        <attribute name="_displayName" value="Cold stress regulation of gene expression in plants" />
+        <attribute name="pubMedIdentifier" value="17855156" />
+      </instance>
+      <instance DB_ID="-102" displayName="Role of cold-responsive genes in plant freezing tolerance" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-102" />
+        <attribute name="year" value="1998" />
+        <attribute name="author" class="Person" referTo="-103" />
+        <attribute name="title" value="Role of cold-responsive genes in plant freezing tolerance" />
+        <attribute name="volume" value="118" />
+        <attribute name="pages" value="1-8" />
+        <attribute name="journal" value="Plant Physiol." />
+        <attribute name="_displayName" value="Role of cold-responsive genes in plant freezing tolerance" />
+        <attribute name="pubMedIdentifier" value="9733520" />
+      </instance>
+      <instance DB_ID="-107" displayName="OsSFR6 is a functional rice orthologue of SENSITIVE TO FREEZING-6 and can act as a regulator of COR gene expression, osmotic stress and freezing tolerance in Arabidopsis" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-107" />
+        <attribute name="year" value="2011" />
+        <attribute name="author" class="Person" referTo="-108" />
+        <attribute name="author" class="Person" referTo="-109" />
+        <attribute name="author" class="Person" referTo="-110" />
+        <attribute name="author" class="Person" referTo="-111" />
+        <attribute name="title" value="OsSFR6 is a functional rice orthologue of SENSITIVE TO FREEZING-6 and can act as a regulator of COR gene expression, osmotic stress and freezing tolerance in Arabidopsis" />
+        <attribute name="volume" value="191" />
+        <attribute name="pages" value="984-95" />
+        <attribute name="journal" value="New Phytol." />
+        <attribute name="_displayName" value="OsSFR6 is a functional rice orthologue of SENSITIVE TO FREEZING-6 and can act as a regulator of COR gene expression, osmotic stress and freezing tolerance in Arabidopsis" />
+        <attribute name="pubMedIdentifier" value="21585388" />
+      </instance>
+    </LiteratureReference>
+    <PathwayDiagram>
+      <instance DB_ID="-68" displayName="Diagram of response to cold temperature" isShell="false" isDirty="true">
+        <attribute name="representedPathway" class="Pathway" referTo="-1" />
+        <attribute name="DB_ID" value="-68" />
+        <attribute name="_displayName" value="Diagram of response to cold temperature" />
+      </instance>
+    </PathwayDiagram>
+    <EntityCompartment>
+      <instance DB_ID="70101" displayName="cytosol" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="70101" />
+        <attribute name="accession" value="0005829" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="_displayName" value="cytosol" />
+        <attribute name="name" value="cytosol" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes." />
+      </instance>
+      <instance DB_ID="7660" displayName="nucleoplasm" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="7660" />
+        <attribute name="accession" value="0005654" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258151" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="171405" />
+        <attribute name="_displayName" value="nucleoplasm" />
+        <attribute name="name" value="nucleoplasm" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="352581" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="That part of the nuclear content other than the chromosomes or the nucleolus." />
+      </instance>
+      <instance DB_ID="-120" displayName="vacuole lumen" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-120" />
+        <attribute name="accession" value="0005775" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="259036" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="383433" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="457" />
+        <attribute name="_displayName" value="vacuole lumen" />
+        <attribute name="name" value="vacuole lumen" />
+        <attribute name="name" value="vacuolar lumen" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The volume enclosed within the vacuolar membrane." />
+      </instance>
+      <instance DB_ID="876" displayName="plasma membrane" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="876" />
+        <attribute name="accession" value="0005886" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="383187" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258147" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="1042833" />
+        <attribute name="_displayName" value="plasma membrane" />
+        <attribute name="name" value="plasma membrane" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="386938" />
+        <attribute name="modified" class="InstanceEdit" referTo="386939" />
+        <attribute name="modified" class="InstanceEdit" referTo="387036" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins." />
+      </instance>
+    </EntityCompartment>
+    <Person>
+      <instance DB_ID="8858034" displayName="Jaiswal, Pankaj" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="8858034" />
+        <attribute name="firstname" value="Pankaj" />
+        <attribute name="initial" value="P" />
+        <attribute name="created" class="InstanceEdit" referTo="8858035" />
+        <attribute name="project" value="Plant Reactome" />
+        <attribute name="eMailAddress" value="jaiswalp@oregonstate.edu" />
+        <attribute name="affiliation" class="Affiliation" referTo="2186798" />
+        <attribute name="surname" value="Jaiswal" />
+        <attribute name="_displayName" value="Jaiswal, Pankaj" />
+        <attribute name="modified" class="InstanceEdit" referTo="8858123" />
+      </instance>
+      <instance DB_ID="-6" displayName="Chinnusamy, Viswanathan" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-6" />
+        <attribute name="firstname" value="Viswanathan" />
+        <attribute name="initial" value="V" />
+        <attribute name="surname" value="Chinnusamy" />
+        <attribute name="_displayName" value="Chinnusamy, Viswanathan" />
+      </instance>
+      <instance DB_ID="-7" displayName="Zhu, Jianhua" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-7" />
+        <attribute name="firstname" value="Jianhua" />
+        <attribute name="initial" value="J" />
+        <attribute name="surname" value="Zhu" />
+        <attribute name="_displayName" value="Zhu, Jianhua" />
+      </instance>
+      <instance DB_ID="-8" displayName="Zhu, Jian-Kang" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-8" />
+        <attribute name="firstname" value="Jian-Kang" />
+        <attribute name="initial" value="JK" />
+        <attribute name="surname" value="Zhu" />
+        <attribute name="_displayName" value="Zhu, Jian-Kang" />
+      </instance>
+      <instance DB_ID="-103" displayName="Thomashow, M F" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-103" />
+        <attribute name="firstname" value="M F" />
+        <attribute name="initial" value="MF" />
+        <attribute name="surname" value="Thomashow" />
+        <attribute name="_displayName" value="Thomashow, M F" />
+      </instance>
+      <instance DB_ID="-108" displayName="Wathugala, Deepthi L" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-108" />
+        <attribute name="firstname" value="Deepthi L" />
+        <attribute name="initial" value="DL" />
+        <attribute name="surname" value="Wathugala" />
+        <attribute name="_displayName" value="Wathugala, Deepthi L" />
+      </instance>
+      <instance DB_ID="-109" displayName="Richards, Shane A" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-109" />
+        <attribute name="firstname" value="Shane A" />
+        <attribute name="initial" value="SA" />
+        <attribute name="surname" value="Richards" />
+        <attribute name="_displayName" value="Richards, Shane A" />
+      </instance>
+      <instance DB_ID="-110" displayName="Knight, Heather" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-110" />
+        <attribute name="firstname" value="Heather" />
+        <attribute name="initial" value="H" />
+        <attribute name="surname" value="Knight" />
+        <attribute name="_displayName" value="Knight, Heather" />
+      </instance>
+      <instance DB_ID="-111" displayName="Knight, Marc R" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-111" />
+        <attribute name="firstname" value="Marc R" />
+        <attribute name="initial" value="MR" />
+        <attribute name="surname" value="Knight" />
+        <attribute name="_displayName" value="Knight, Marc R" />
+      </instance>
+    </Person>
+    <Affiliation>
+      <instance DB_ID="2186798" displayName="Oregon State University" isShell="true" />
+    </Affiliation>
+    <Summation>
+      <instance DB_ID="-11" displayName="Homolog of A. thaliana AT5G59820 ZAT12" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-11" />
+        <attribute name="_displayName" value="Homolog of A. thaliana AT5G59820 ZAT12" />
+        <attribute name="text" value="Homolog of A. thaliana AT5G59820 ZAT12" />
+      </instance>
+      <instance DB_ID="-16" displayName="Homolog of A. thaliana AT2G36530 LOS2 or ENO1" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-16" />
+        <attribute name="_displayName" value="Homolog of A. thaliana AT2G36530 LOS2 or ENO1" />
+        <attribute name="text" value="Homolog of A. thaliana AT2G36530 LOS2 or ENO1" />
+      </instance>
+      <instance DB_ID="-113" displayName="There are number of COR set of genes known in Arabidopsis. H..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-113" />
+        <attribute name="_displayName" value="There are number of COR set of genes known in Arabidopsis. H..." />
+        <attribute name="text" value="There are number of COR set of genes known in Arabidopsis. However, based on our gene homology searchers, we could not find a reasonable rice gene supported by sequence alignment and gene homology." />
+      </instance>
+    </Summation>
+    <Species>
+      <instance DB_ID="-3" displayName="Oryza sativa subsp. japonica" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-3" />
+        <attribute name="_displayName" value="Oryza sativa subsp. japonica" />
+        <attribute name="name" value="Oryza sativa subsp. japonica" />
+      </instance>
+      <instance DB_ID="186860" displayName="Oryza sativa" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="186860" />
+        <attribute name="created" class="InstanceEdit" referTo="186845" />
+        <attribute name="_displayName" value="Oryza sativa" />
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="186858" />
+        <attribute name="name" value="Oryza sativa" />
+        <attribute name="name" value="rice" />
+        <attribute name="superTaxon" class="Taxon" referTo="186856" />
+      </instance>
+    </Species>
+    <BlackBoxEvent>
+      <instance DB_ID="-40" displayName="expression of ICE1 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-4" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-40" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of ICE1 homolog" />
+        <attribute name="name" value="expression of ICE1 homolog" />
+      </instance>
+      <instance DB_ID="-46" displayName="modulation of calcium ion concentration" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="SimpleEntity" referTo="74016" />
         <attribute name="compartment" class="EntityCompartment" referTo="70101" />
-        <attribute name="modified" class="InstanceEdit" referTo="74163" />
-        <attribute name="modified" class="InstanceEdit" referTo="74292" />
-        <attribute name="modified" class="InstanceEdit" referTo="74387" />
-        <attribute name="modified" class="InstanceEdit" referTo="74498" />
-        <attribute name="modified" class="InstanceEdit" referTo="75321" />
-        <attribute name="modified" class="InstanceEdit" referTo="111852" />
-        <attribute name="modified" class="InstanceEdit" referTo="111998" />
-        <attribute name="modified" class="InstanceEdit" referTo="112274" />
-        <attribute name="modified" class="InstanceEdit" referTo="114498" />
-        <attribute name="modified" class="InstanceEdit" referTo="143493" />
-        <attribute name="modified" class="InstanceEdit" referTo="202104" />
-        <attribute name="modified" class="InstanceEdit" referTo="203590" />
-        <attribute name="modified" class="InstanceEdit" referTo="1498719" />
-        <attribute name="modified" class="InstanceEdit" referTo="2534374" />
-        <attribute name="modified" class="InstanceEdit" referTo="2562608" />
-        <attribute name="DB_ID" value="74016" />
-        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="114768" />
-        <attribute name="stableIdentifier" class="StableIdentifier" referTo="365770" />
-        <attribute name="_displayName" value="Ca2+ [cytosol]" />
-        <attribute name="name" value="Ca2+" />
-        <attribute name="name" value="Calcium" />
-        <attribute name="name" value="calcium(2+)" />
+        <attribute name="DB_ID" value="-46" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="modulation of calcium ion concentration" />
+        <attribute name="name" value="modulation of calcium ion concentration" />
       </instance>
-    </SimpleEntity>
+      <instance DB_ID="-50" displayName="signaling pathway kinases" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-49" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-50" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="signaling pathway kinases" />
+        <attribute name="name" value="signaling pathway kinases" />
+      </instance>
+      <instance DB_ID="-54" displayName="expression of MYB15 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-29" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-54" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of MYB15 homolog" />
+        <attribute name="name" value="expression of MYB15 homolog" />
+      </instance>
+      <instance DB_ID="-55" displayName="expression of ZAT12 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-10" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-55" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of ZAT12 homolog" />
+        <attribute name="name" value="expression of ZAT12 homolog" />
+      </instance>
+      <instance DB_ID="-56" displayName="expression of ZAT10 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-27" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-56" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of ZAT10 homolog" />
+        <attribute name="name" value="expression of ZAT10 homolog" />
+      </instance>
+      <instance DB_ID="-58" displayName="expression of LOS2 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="DefinedSet" referTo="-57" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-58" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of LOS2 homolog" />
+        <attribute name="name" value="expression of LOS2 homolog" />
+      </instance>
+      <instance DB_ID="-60" displayName="expression of CBF1 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="DefinedSet" referTo="-59" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-60" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of CBF1 homolog" />
+        <attribute name="name" value="expression of CBF1 homolog" />
+      </instance>
+      <instance DB_ID="-79" displayName="expression of COR gene homologs" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-76" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-79" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of COR gene homologs" />
+        <attribute name="name" value="expression of COR gene homologs" />
+      </instance>
+      <instance DB_ID="-80" displayName="expression of RAP2-1 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-75" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-80" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of RAP2-1 homolog" />
+        <attribute name="name" value="expression of RAP2-1 homolog" />
+      </instance>
+      <instance DB_ID="-96" displayName="expression of CTB1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-94" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-96" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="expression of CTB1" />
+        <attribute name="name" value="expression of CTB1" />
+      </instance>
+      <instance DB_ID="-104" displayName="expression of HVA1 homolog" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-101" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-102" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-104" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of HVA1 homolog" />
+        <attribute name="name" value="expression of HVA1 homolog" />
+      </instance>
+      <instance DB_ID="-112" displayName="expression of FR6" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8858035" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-106" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-112" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="expression of FR6" />
+        <attribute name="name" value="expression of FR6" />
+      </instance>
+    </BlackBoxEvent>
+    <PositiveRegulation>
+      <instance DB_ID="-45" displayName="'cold temperature' positively regulates 'membrane rigidification'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-45" />
+        <attribute name="_displayName" value="'cold temperature' positively regulates 'membrane rigidification'" />
+        <attribute name="regulatedEntity" class="Pathway" referTo="-37" />
+        <attribute name="regulator" class="SimpleEntity" referTo="-39" />
+      </instance>
+      <instance DB_ID="-51" displayName="'Ca2+ [cytosol]' positively regulates 'signaling pathway kinases'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-51" />
+        <attribute name="_displayName" value="'Ca2+ [cytosol]' positively regulates 'signaling pathway kinases'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-50" />
+        <attribute name="regulator" class="SimpleEntity" referTo="74016" />
+      </instance>
+      <instance DB_ID="-61" displayName="'sumoylated ICE1 [nucleoplasm]' positively regulates 'expression of CBF1 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-61" />
+        <attribute name="_displayName" value="'sumoylated ICE1 [nucleoplasm]' positively regulates 'expression of CBF1 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-60" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-44" />
+      </instance>
+      <instance DB_ID="-69" displayName="'signaling pathway kinases [cytosol]' positively regulates 'sumoylation of ICE1 mediated by SIZ1 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-69" />
+        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'sumoylation of ICE1 mediated by SIZ1 homolog'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-41" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
+      </instance>
+      <instance DB_ID="-70" displayName="'signaling pathway kinases [cytosol]' positively regulates 'expression of ZAT12 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-70" />
+        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'expression of ZAT12 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-55" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
+      </instance>
+      <instance DB_ID="-81" displayName="'CBF1 homolog' positively regulates 'expression of RAP2-1 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-81" />
+        <attribute name="_displayName" value="'CBF1 homolog' positively regulates 'expression of RAP2-1 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-80" />
+        <attribute name="regulator" class="DefinedSet" referTo="-59" />
+      </instance>
+      <instance DB_ID="-82" displayName="'RAP2.1 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-82" />
+        <attribute name="_displayName" value="'RAP2.1 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-75" />
+      </instance>
+      <instance DB_ID="-84" displayName="'CBF1 homolog' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-84" />
+        <attribute name="_displayName" value="'CBF1 homolog' positively regulates 'expression of COR gene homologs'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
+        <attribute name="regulator" class="DefinedSet" referTo="-59" />
+      </instance>
+      <instance DB_ID="-85" displayName="'ZAT10 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-85" />
+        <attribute name="_displayName" value="'ZAT10 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-27" />
+      </instance>
+      <instance DB_ID="-87" displayName="'COR gene homologs [nucleoplasm]' positively regulates 'cold accilimation'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-87" />
+        <attribute name="_displayName" value="'COR gene homologs [nucleoplasm]' positively regulates 'cold accilimation'" />
+        <attribute name="regulatedEntity" class="Pathway" referTo="-78" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-76" />
+      </instance>
+      <instance DB_ID="-90" displayName="'ZAT12 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-90" />
+        <attribute name="_displayName" value="'ZAT12 homolog [nucleoplasm]' positively regulates 'expression of COR gene homologs'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-79" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-10" />
+      </instance>
+      <instance DB_ID="-91" displayName="'signaling pathway kinases [cytosol]' positively regulates 'expression of LOS2 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-91" />
+        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'expression of LOS2 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-58" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
+      </instance>
+      <instance DB_ID="-122" displayName="'signaling pathway kinases [cytosol]' positively regulates 'expression of ICE1 homolog'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-122" />
+        <attribute name="_displayName" value="'signaling pathway kinases [cytosol]' positively regulates 'expression of ICE1 homolog'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-40" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-49" />
+      </instance>
+      <instance DB_ID="-125" displayName="'membrane rigidification' positively regulates 'modulation of calcium ion concentration'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-125" />
+        <attribute name="_displayName" value="'membrane rigidification' positively regulates 'modulation of calcium ion concentration'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-46" />
+        <attribute name="regulator" class="Pathway" referTo="-37" />
+      </instance>
+    </PositiveRegulation>
+    <ReferenceIsoform>
+      <instance DB_ID="-99" displayName="UniProt:P0C5A4-1 LEA3" isShell="false" isDirty="true">
+        <attribute name="isoformParent" class="ReferenceGeneProduct" referTo="-98" />
+        <attribute name="geneName" value="LEA3" />
+        <attribute name="geneName" value="LEA" />
+        <attribute name="geneName" value="Os05g0542500" />
+        <attribute name="geneName" value="LOC_Os05g46480" />
+        <attribute name="geneName" value="OJ1288_A07.1" />
+        <attribute name="geneName" value="OJ1362_G11.19" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="LEA3_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="P83197" />
+        <attribute name="secondaryIdentifier" value="Q0PMA1" />
+        <attribute name="secondaryIdentifier" value="Q40696" />
+        <attribute name="secondaryIdentifier" value="Q40741" />
+        <attribute name="secondaryIdentifier" value="Q65XN9" />
+        <attribute name="secondaryIdentifier" value="Q9SBI3" />
+        <attribute name="keyword" value="Alternative splicing" />
+        <attribute name="keyword" value="Coiled coil" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Repeat" />
+        <attribute name="identifier" value="P0C5A4" />
+        <attribute name="DB_ID" value="-99" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:P0C5A4-1 LEA3" />
+        <attribute name="variantIdentifier" value="P0C5A4-1" />
+        <attribute name="comment" value="ALTERNATIVE PRODUCTS: Event=Alternative splicing; Named isoforms=2; Name=1; IsoId=P0C5A4-1; Sequence=Displayed; Name=2; IsoId=P0C5A4-2; Sequence=VSP_027161, VSP_027162, VSP_027163; Note=No experimental confirmation available.;" />
+      </instance>
+      <instance DB_ID="-100" displayName="UniProt:P0C5A4-2 LEA3" isShell="false" isDirty="true">
+        <attribute name="isoformParent" class="ReferenceGeneProduct" referTo="-98" />
+        <attribute name="geneName" value="LEA3" />
+        <attribute name="geneName" value="LEA" />
+        <attribute name="geneName" value="Os05g0542500" />
+        <attribute name="geneName" value="LOC_Os05g46480" />
+        <attribute name="geneName" value="OJ1288_A07.1" />
+        <attribute name="geneName" value="OJ1362_G11.19" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="LEA3_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="P83197" />
+        <attribute name="secondaryIdentifier" value="Q0PMA1" />
+        <attribute name="secondaryIdentifier" value="Q40696" />
+        <attribute name="secondaryIdentifier" value="Q40741" />
+        <attribute name="secondaryIdentifier" value="Q65XN9" />
+        <attribute name="secondaryIdentifier" value="Q9SBI3" />
+        <attribute name="keyword" value="Alternative splicing" />
+        <attribute name="keyword" value="Coiled coil" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Repeat" />
+        <attribute name="identifier" value="P0C5A4" />
+        <attribute name="DB_ID" value="-100" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:P0C5A4-2 LEA3" />
+        <attribute name="variantIdentifier" value="P0C5A4-2" />
+        <attribute name="comment" value="ALTERNATIVE PRODUCTS: Event=Alternative splicing; Named isoforms=2; Name=1; IsoId=P0C5A4-1; Sequence=Displayed; Name=2; IsoId=P0C5A4-2; Sequence=VSP_027161, VSP_027162, VSP_027163; Note=No experimental confirmation available.;" />
+      </instance>
+    </ReferenceIsoform>
     <ReferenceGeneProduct>
       <instance DB_ID="-2" displayName="UniProt:Q5JK17 Os01g0928000" isShell="false" isDirty="true">
         <attribute name="geneName" value="Os01g0928000" />
@@ -1545,74 +1548,69 @@
         <attribute name="_displayName" value="UniProt:Q7G2F7 Os10g0498700" />
       </instance>
     </ReferenceGeneProduct>
-    <InstanceEdit>
-      <instance DB_ID="8858035" displayName="Jaiswal, Pankaj, 2016-02-17" isShell="true" />
-      <instance DB_ID="8858123" displayName="Jaiswal, Pankaj, 2016-02-17" isShell="true" />
-      <instance DB_ID="160533" displayName="Schmidt, EE, 2005-03-23 05:24:35" isShell="true" />
-      <instance DB_ID="162607" displayName="Schmidt, EE, 2005-04-01 11:06:09" isShell="true" />
-      <instance DB_ID="171322" displayName="Schmidt, EE, 2006-02-06 10:50:16" isShell="true" />
-      <instance DB_ID="258122" displayName="Kanapin, EE, 2008-03-27 12:15:20" isShell="true" />
-      <instance DB_ID="357819" displayName="Kanapin, EE, 2008-06-18 10:45:39" isShell="true" />
-      <instance DB_ID="376438" displayName="Kanapin, EE, 2008-09-08 10:23:04" isShell="true" />
-      <instance DB_ID="383393" displayName="Kanapin, AA, 2008-11-26 13:49:44" isShell="true" />
-      <instance DB_ID="396309" displayName="Kanapin, EE, 2009-03-09 13:26:57" isShell="true" />
-      <instance DB_ID="422569" displayName="Kanapin, EE" isShell="true" />
-      <instance DB_ID="436347" displayName="Kanapin, EE" isShell="true" />
-      <instance DB_ID="447572" displayName="Kanapin, EE" isShell="true" />
-      <instance DB_ID="526073" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="528085" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="615500" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="797782" displayName="Kanapin, AA" isShell="true" />
-      <instance DB_ID="937668" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1042299" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1220942" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1301009" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1301023" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1552540" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="1996004" displayName="Yung, CK" isShell="true" />
-      <instance DB_ID="2132408" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2133145" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2266118" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2266147" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2454362" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2455542" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="2587907" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="3132285" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="3445953" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="4341211" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="5083267" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="5263134" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="186845" displayName="D'Eustachio, P, 2006-08-28 17:20:12" isShell="true" />
-      <instance DB_ID="74163" displayName="Joshi-Tope, G, 2003-07-15 16:33:00" isShell="true" />
-      <instance DB_ID="74292" displayName="Schmidt, EE, 2003-07-18 12:05:45" isShell="true" />
-      <instance DB_ID="74387" displayName="Schmidt, EE, 2003-07-21 09:15:46" isShell="true" />
-      <instance DB_ID="74498" displayName="Schmidt, EE, 2003-07-24 12:17:14" isShell="true" />
-      <instance DB_ID="75321" displayName="Schmidt, EE, 2003-09-01 06:01:22" isShell="true" />
-      <instance DB_ID="111852" displayName="Schmidt, EE, 2004-03-24 06:49:11" isShell="true" />
-      <instance DB_ID="111998" displayName="Schmidt, EE, 2004-03-31 07:59:41" isShell="true" />
-      <instance DB_ID="112274" displayName="Schmidt, EE, 2004-04-19 12:06:05" isShell="true" />
-      <instance DB_ID="114498" displayName="de Bono, B, 2004-08-04 09:17:50" isShell="true" />
-      <instance DB_ID="143493" displayName="de Bono, B, 2004-11-11 14:21:48" isShell="true" />
-      <instance DB_ID="202104" displayName="Hemish, J, 2007-10-19 18:00:42" isShell="true" />
-      <instance DB_ID="203590" displayName="Hemish, J, 2007-11-15 17:00:52" isShell="true" />
-      <instance DB_ID="1498719" displayName="Williams, MG, 2011-08-17" isShell="true" />
-      <instance DB_ID="2534374" displayName="Gillespie, ME, 2012-10-25" isShell="true" />
-      <instance DB_ID="2562608" displayName="D'Eustachio, P, 2012-11-06" isShell="true" />
-      <instance DB_ID="5673184" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="5673680" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="5618474" displayName="Weiser, JD" isShell="true" />
-      <instance DB_ID="352581" displayName="Caudy, M, 2008-06-04 08:46:28" isShell="true" />
-      <instance DB_ID="386938" displayName="Mahajan, SS, 2008-11-27 13:18:35" isShell="true" />
-      <instance DB_ID="386939" displayName="Mahajan, SS, 2008-11-27 13:19:30" isShell="true" />
-      <instance DB_ID="387036" displayName="Gopinathrao, G, 2008-11-29 16:08:46" isShell="true" />
-    </InstanceEdit>
+    <GO_CellularComponent>
+      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
+      <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
+      <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
+      <instance DB_ID="17945" displayName="vacuolar lumen" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="17945" />
+        <attribute name="accession" value="0005775" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="259036" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="383433" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="457" />
+        <attribute name="_displayName" value="vacuolar lumen" />
+        <attribute name="name" value="vacuolar lumen" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="definition" value="The volume enclosed within the vacuolar membrane." />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+      </instance>
+      <instance DB_ID="259036" displayName="vacuolar part" isShell="true" />
+      <instance DB_ID="383433" displayName="intracellular organelle lumen" isShell="true" />
+      <instance DB_ID="457" displayName="vacuole" isShell="true" />
+      <instance DB_ID="383187" displayName="membrane" isShell="true" />
+      <instance DB_ID="258147" displayName="cell part" isShell="true" />
+      <instance DB_ID="1042833" displayName="cell periphery" isShell="true" />
+    </GO_CellularComponent>
     <meta>
       <defaultPerson dbId="8858034" />
     </meta>
   </reactome>
-  <Process nextId="60" reactomeDiagramId="-68" hideCompartmentInName="true">
+  <Process nextId="61" reactomeDiagramId="-68" hideCompartmentInName="true">
     <Nodes>
-      <org.gk.render.ProcessNode id="5" reactomeId="-37" position="256 43" bounds="199 20 114 47" textPosition="213 22" />
+      <org.gk.render.ProcessNode id="5" reactomeId="-37" position="257 43" bounds="200 20 114 47" textPosition="214 22" />
       <org.gk.render.RenderableProtein id="6" reactomeId="-10" position="654 320" bounds="604 309 101 22" textPosition="604 309" />
       <org.gk.render.RenderableEntitySet id="10" reactomeId="-59" position="596 491" bounds="551 476 91 31" textPosition="551 481" />
       <org.gk.render.RenderableProtein id="11" reactomeId="-4" position="254 268" bounds="211 257 86 22" textPosition="237 257" />
@@ -1727,6 +1725,9 @@
         <Outputs>
           <Output id="21" />
         </Outputs>
+        <Activators>
+          <Activator id="5" points="257 70" />
+        </Activators>
       </org.gk.render.RenderableReaction>
       <org.gk.render.RenderableReaction id="17" reactomeId="-60" points="596 381, 596 443, 596 470" position="596 443" lineWidth="1.0" reactionType="Omitted Process">
         <Outputs>
