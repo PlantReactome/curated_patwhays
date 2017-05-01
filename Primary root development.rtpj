@@ -1,0 +1,2184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtpj>
+  <reactome>
+    <LiteratureReference>
+      <instance DB_ID="5608181" displayName="Expression of PIN genes in rice (Oryza sativa L.): tissue specificity and regulation by hormones" isShell="true" />
+      <instance DB_ID="5608144" displayName="From perception to attenuation: auxin signalling and responses" isShell="true" />
+      <instance DB_ID="5608115" displayName="Molecular basis for AUXIN RESPONSE FACTOR protein interaction and the control of auxin response repression" isShell="true" />
+      <instance DB_ID="5608211" displayName="Genome-wide analysis of the auxin response factors (ARF) gene family in rice (Oryza sativa)" isShell="true" />
+      <instance DB_ID="5608202" displayName="OsTIR1 and OsAFB2 downregulation via OsmiR393 overexpression leads to more tillers, early flowering and less tolerance to salt and drought in rice" isShell="true" />
+      <instance DB_ID="5608112" displayName="Structure and expression analysis of early auxin-responsive Aux/IAA gene family in rice (Oryza sativa)" isShell="true" />
+      <instance DB_ID="5679315" displayName="Auxin binding protein 1 (ABP1) is not required for either auxin signaling or Arabidopsis development" isShell="true" />
+      <instance DB_ID="5679338" displayName="Cell surface ABP1-TMK auxin-sensing complex activates ROP GTPase signaling" isShell="true" />
+      <instance DB_ID="5679335" displayName="Novel ABP1-TMK auxin sensing system controls ROP GTPase-mediated interdigitated cell expansion in Arabidopsis" isShell="true" />
+      <instance DB_ID="5679345" displayName="Rho-GTPase-regulated vesicle trafficking in plant cell polarity" isShell="true" />
+      <instance DB_ID="5679346" displayName="The PIN-FORMED (PIN) protein family of auxin transporters" isShell="true" />
+      <instance DB_ID="8858147" displayName="A PIN1 family gene, OsPIN1, involved in auxin-dependent adventitious root emergence and tillering in rice" isShell="true" />
+      <instance DB_ID="8858052" displayName="A strigolactone signal is required for adventitious root formation in rice" isShell="true" />
+      <instance DB_ID="8858143" displayName="Adenosine diphosphate ribosylation factor-GTPase-activating protein stimulates the transport of AUX1 endosome, which relies on actin cytoskeletal organization in rice root development" isShell="true" />
+      <instance DB_ID="8858073" displayName="OsAUX1 controls lateral root initiation in rice (Oryza sativa L.)" isShell="true" />
+      <instance DB_ID="8858045" displayName="Over-expression of OsPIN2 leads to increased tiller numbers, angle and shorter plant height through suppression of OsLAZY1" isShell="true" />
+      <instance DB_ID="8858086" displayName="The putative auxin efflux carrier OsPIN3t is involved in the drought stress response and drought tolerance" isShell="true" />
+      <instance DB_ID="8858039" displayName="The role of auxin transporters in monocots development" isShell="true" />
+      <instance DB_ID="8868939" displayName="ER-localized auxin transporter PIN8 regulates auxin homeostasis and male gametophyte development in Arabidopsis" isShell="true" />
+      <instance DB_ID="8868919" displayName="PIN proteins and the evolution of plant development" isShell="true" />
+      <instance DB_ID="8868982" displayName="PIN6 is required for nectary auxin response and short stamen development" isShell="true" />
+      <instance DB_ID="8868995" displayName="Subcellular homeostasis of phytohormone auxin is mediated by the ER-localized PIN5 transporter" isShell="true" />
+      <instance DB_ID="8868915" displayName="Arabidopsis wat1 (walls are thin1)-mediated resistance to the bacterial vascular pathogen, Ralstonia solanacearum, is accompanied by cross-regulation of salicylic acid and tryptophan metabolism" isShell="true" />
+      <instance DB_ID="8868923" displayName="Arabidopsis WAT1 is a vacuolar auxin transport facilitator required for auxin homoeostasis" isShell="true" />
+      <instance DB_ID="8868996" displayName="Light-regulated compensation of wat1 (walls are thin1) growth and secondary cell wall phenotypes is auxin-independent" isShell="true" />
+      <instance DB_ID="8868974" displayName="Single-cell-based system to monitor carrier driven cellular auxin homeostasis" isShell="true" />
+      <instance DB_ID="8868880" displayName="Walls are thin 1 (WAT1), an Arabidopsis homolog of Medicago truncatula NODULIN21, is a tonoplast-localized protein required for secondary wall formation in fibers" isShell="true" />
+    </LiteratureReference>
+    <Person>
+      <instance DB_ID="8853978" displayName="Gupta, Parul" isShell="true" />
+    </Person>
+    <Pathway>
+      <instance DB_ID="5608118" displayName="Auxin signalling" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="5608150" />
+        <attribute name="summation" class="Summation" referTo="5608223" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5608144" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5608115" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5608181" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5608211" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5608202" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5608112" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5679315" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5679338" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5679335" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5679345" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5679346" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="5608217" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608208" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608193" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="5608175" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608156" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608134" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608214" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608171" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608104" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="5608177" />
+        <attribute name="hasEvent" class="Reaction" referTo="5679295" />
+        <attribute name="modified" class="InstanceEdit" referTo="5679307" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608118" />
+        <attribute name="edited" class="InstanceEdit" referTo="5608086" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8888929" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Auxin signalling" />
+        <attribute name="goBiologicalProcess" class="GO_BiologicalProcess" referTo="4382" />
+        <attribute name="name" value="Auxin signalling" />
+        <attribute name="revised" class="InstanceEdit" referTo="5679321" />
+      </instance>
+      <instance DB_ID="-10" displayName="Primary root development" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="summation" class="Summation" referTo="-122" />
+        <attribute name="hasEvent" class="Reaction" referTo="-80" />
+        <attribute name="hasEvent" class="Reaction" referTo="-51" />
+        <attribute name="hasEvent" class="Reaction" referTo="-84" />
+        <attribute name="hasEvent" class="Reaction" referTo="-79" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608104" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="5608177" />
+        <attribute name="hasEvent" class="Reaction" referTo="5608208" />
+        <attribute name="hasEvent" class="Pathway" referTo="-101" />
+        <attribute name="hasEvent" class="Reaction" referTo="-73" />
+        <attribute name="hasEvent" class="Reaction" referTo="-102" />
+        <attribute name="hasEvent" class="Reaction" referTo="-103" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="-108" />
+        <attribute name="hasEvent" class="Pathway" referTo="-109" />
+        <attribute name="hasEvent" class="Reaction" referTo="-116" />
+        <attribute name="hasEvent" class="Reaction" referTo="-125" />
+        <attribute name="hasEvent" class="Reaction" referTo="-126" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="-127" />
+        <attribute name="hasEvent" class="Reaction" referTo="-129" />
+        <attribute name="hasEvent" class="Reaction" referTo="-135" />
+        <attribute name="hasEvent" class="Reaction" referTo="-134" />
+        <attribute name="DB_ID" value="-10" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Primary root development" />
+        <attribute name="name" value="Primary root development" />
+      </instance>
+      <instance DB_ID="-101" displayName="Root initiation" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-101" />
+        <attribute name="_displayName" value="Root initiation" />
+        <attribute name="name" value="Root initiation" />
+      </instance>
+      <instance DB_ID="-109" displayName="Root emergence" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-109" />
+        <attribute name="_displayName" value="Root emergence" />
+        <attribute name="name" value="Root emergence" />
+      </instance>
+    </Pathway>
+    <EntityCompartment>
+      <instance DB_ID="876" displayName="plasma membrane" isShell="true" />
+      <instance DB_ID="13951" displayName="Golgi-associated vesicle" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="13951" />
+        <attribute name="accession" value="0005798" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="171334" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258171" />
+        <attribute name="_displayName" value="Golgi-associated vesicle" />
+        <attribute name="name" value="Golgi-associated vesicle" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="190442" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="Any vesicle associated with the Golgi complex and involved in mediating transport within the Golgi or between the Golgi and other parts of the cell." />
+      </instance>
+      <instance DB_ID="7660" displayName="nucleoplasm" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="7660" />
+        <attribute name="accession" value="0005654" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258151" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="171405" />
+        <attribute name="_displayName" value="nucleoplasm" />
+        <attribute name="name" value="nucleoplasm" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="352581" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="That part of the nuclear content other than the chromosomes or the nucleolus." />
+      </instance>
+      <instance DB_ID="70101" displayName="cytosol" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="70101" />
+        <attribute name="accession" value="0005829" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="componentOf" class="EntityCompartment" referTo="459" />
+        <attribute name="_displayName" value="cytosol" />
+        <attribute name="name" value="cytosol" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes." />
+      </instance>
+      <instance DB_ID="459" displayName="cytoplasm" isShell="true" />
+      <instance DB_ID="17957" displayName="endoplasmic reticulum lumen" isShell="true" />
+      <instance DB_ID="12045" displayName="endoplasmic reticulum membrane" isShell="true" />
+      <instance DB_ID="13231" displayName="nuclear envelope" isShell="true" />
+      <instance DB_ID="1222574" displayName="cell wall" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="1222574" />
+        <attribute name="created" class="InstanceEdit" referTo="1222482" />
+        <attribute name="accession" value="0005618" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="17120" />
+        <attribute name="_displayName" value="cell wall" />
+        <attribute name="name" value="cell wall" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301720" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="modified" class="InstanceEdit" referTo="5433156" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The rigid or semi-rigid envelope lying outside the cell membrane of plant, fungal, most prokaryotic cells and some protozoan parasites, maintaining their shape and protecting them from osmotic lysis. In plants it is made of cellulose and, often, lignin; in fungi it is composed largely of polysaccharides; in bacteria it is composed of peptidoglycan; in protozoan parasites such as Giardia species, it's made of carbohydrates and proteins." />
+      </instance>
+      <instance DB_ID="17940" displayName="endosome" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="17940" />
+        <attribute name="accession" value="0005768" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="171334" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="9472" />
+        <attribute name="_displayName" value="endosome" />
+        <attribute name="name" value="endosome" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="modified" class="InstanceEdit" referTo="8869823" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="A vacuole to which materials ingested by endocytosis are delivered." />
+      </instance>
+    </EntityCompartment>
+    <GO_BiologicalProcess>
+      <instance DB_ID="447857" displayName="auxin transport" isShell="true" />
+      <instance DB_ID="4382" displayName="auxin-activated signaling pathway" isShell="true" />
+      <instance DB_ID="6080" displayName="auxin polar transport" isShell="true" />
+      <instance DB_ID="171503" displayName="auxin homeostasis" isShell="true" />
+    </GO_BiologicalProcess>
+    <OtherEntity>
+      <instance DB_ID="5608167" displayName="Auxin response gene transcripts [nucleoplasm]" isShell="true" />
+      <instance DB_ID="-107" displayName="Cytokinin response gene transcripts [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-107" />
+        <attribute name="_displayName" value="Cytokinin response gene transcripts [nucleoplasm]" />
+        <attribute name="name" value="Cytokinin response gene transcripts" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+      </instance>
+    </OtherEntity>
+    <Species>
+      <instance DB_ID="-3" displayName="Oryza sativa subsp. japonica" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-3" />
+        <attribute name="_displayName" value="Oryza sativa subsp. japonica" />
+        <attribute name="name" value="Oryza sativa subsp. japonica" />
+      </instance>
+      <instance DB_ID="186860" displayName="Oryza sativa" isShell="true" />
+      <instance DB_ID="1250427" displayName="Oryza sativa subsp. japonica" isShell="true" />
+    </Species>
+    <URL>
+      <instance DB_ID="8868922" displayName="http://www.wikipathways.org/index.php/Pathway:WP3628" isShell="true" />
+    </URL>
+    <InstanceEdit>
+      <instance DB_ID="8879177" displayName="Wu, G, 2016-07-15" isShell="true" />
+      <instance DB_ID="8858123" displayName="Jaiswal, Pankaj, 2016-02-17" isShell="true" />
+      <instance DB_ID="160533" displayName="Schmidt, EE, 2005-03-23 05:24:35" isShell="true" />
+      <instance DB_ID="162607" displayName="Schmidt, EE, 2005-04-01 11:06:09" isShell="true" />
+      <instance DB_ID="171322" displayName="Schmidt, EE, 2006-02-06 10:50:16" isShell="true" />
+      <instance DB_ID="190442" displayName="Matthews, L, 2007-01-09 07:28:11" isShell="true" />
+      <instance DB_ID="258122" displayName="Kanapin, EE, 2008-03-27 12:15:20" isShell="true" />
+      <instance DB_ID="357819" displayName="Kanapin, EE, 2008-06-18 10:45:39" isShell="true" />
+      <instance DB_ID="376438" displayName="Kanapin, EE, 2008-09-08 10:23:04" isShell="true" />
+      <instance DB_ID="383393" displayName="Kanapin, AA, 2008-11-26 13:49:44" isShell="true" />
+      <instance DB_ID="396309" displayName="Kanapin, EE, 2009-03-09 13:26:57" isShell="true" />
+      <instance DB_ID="422569" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="436347" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="447572" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="526073" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="528085" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="615500" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="797782" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="937668" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1042299" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1220942" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301009" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301023" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1552540" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1996004" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2132408" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2133145" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266118" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266147" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2454362" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2455542" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2587907" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3132285" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3445953" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="4341211" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5083267" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5263134" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="8868859" displayName="Jaiswal, Pankaj, 2016-04-25" isShell="true" />
+      <instance DB_ID="8868863" displayName="Jaiswal, Pankaj, 2016-04-25" isShell="true" />
+      <instance DB_ID="8869020" displayName="Jaiswal, Pankaj, 2016-04-25" isShell="true" />
+      <instance DB_ID="8868861" displayName="D'Eustachio, Peter, 2016-04-25" isShell="true" />
+      <instance DB_ID="8868862" displayName="Jaiswal, Pankaj, 2016-04-25" isShell="true" />
+      <instance DB_ID="5608150" displayName="Dharmawardhana, DP, 2014-07-14" isShell="true" />
+      <instance DB_ID="5679307" displayName="Amarasinghe, Vindhya, 2015-03-03" isShell="true" />
+      <instance DB_ID="5608086" displayName="Amarasinghe, Vindhya, 2014-07-14" isShell="true" />
+      <instance DB_ID="5608168" displayName="Amarasinghe, Vindhya, 2014-07-15" isShell="true" />
+      <instance DB_ID="5679321" displayName="Amarasinghe, Vindhya, 2015-02-12" isShell="true" />
+      <instance DB_ID="352581" displayName="Caudy, M, 2008-06-04 08:46:28" isShell="true" />
+      <instance DB_ID="8933720" displayName="Gupta, Parul, 2016-08-08" isShell="false" isDirty="false">
+        <attribute name="dateTime" value="2016-08-08 20:29:20.0" />
+        <attribute name="DB_ID" value="8933720" />
+        <attribute name="author" class="Person" referTo="8853978" />
+        <attribute name="_displayName" value="Gupta, Parul, 2016-08-08" />
+      </instance>
+      <instance DB_ID="8858035" displayName="Jaiswal, Pankaj, 2016-02-17" isShell="true" />
+      <instance DB_ID="8862676" displayName="Jaiswal, Pankaj, 2016-02-29" isShell="true" />
+      <instance DB_ID="8934873" displayName="D'Eustachio, Peter, 2016-08-12" isShell="true" />
+      <instance DB_ID="5679353" displayName="Amarasinghe, Vindhya, 2015-03-03" isShell="true" />
+      <instance DB_ID="8948102" displayName="D'Eustachio, Peter, 2016-11-10" isShell="true" />
+      <instance DB_ID="8864116" displayName="Jaiswal, Pankaj, 2016-03-11" isShell="true" />
+      <instance DB_ID="8868911" displayName="Jaiswal, Pankaj, 2016-04-25" isShell="true" />
+      <instance DB_ID="1597785" displayName="Higgins, JA, 2007-10-16" isShell="true" />
+      <instance DB_ID="1601927" displayName="Preece, J, 2011-09-12" isShell="true" />
+      <instance DB_ID="2395859" displayName="Jassal, B, 2012-07-03" isShell="true" />
+      <instance DB_ID="1222482" displayName="Jassal, B, 2011-02-28" isShell="true" />
+      <instance DB_ID="1301720" displayName="Orlic-Milacic, Marija, 2011-05-26" isShell="true" />
+      <instance DB_ID="5433156" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="8869823" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="437168" displayName="Jupe, S, 2009-09-11" isShell="true" />
+      <instance DB_ID="622345" displayName="Jupe, S, 2010-04-23" isShell="true" />
+      <instance DB_ID="622423" displayName="D'Eustachio, P, 2010-04-23" isShell="true" />
+      <instance DB_ID="188251" displayName="Jassal, B, 2006-10-05 14:45:35" isShell="true" />
+    </InstanceEdit>
+    <ReferenceDatabase>
+      <instance DB_ID="-4" displayName="UniProt" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-4" />
+        <attribute name="_displayName" value="UniProt" />
+        <attribute name="name" value="UniProt" />
+      </instance>
+      <instance DB_ID="2" displayName="UniProt" isShell="true" />
+      <instance DB_ID="1" displayName="GO" isShell="true" />
+    </ReferenceDatabase>
+    <Complex>
+      <instance DB_ID="5608138" displayName="TIR1-IAA-AUX/IAA complex [nucleoplasm]" isShell="true" />
+      <instance DB_ID="5608170" displayName="AUX/IAA-ARF complex [nucleoplasm]" isShell="true" />
+      <instance DB_ID="5608196" displayName="IAA/ABP1 [cytosol]" isShell="true" />
+      <instance DB_ID="5608180" displayName="IAA/ABP1/SKU5_CBP1 [plasma membrane]" isShell="true" />
+      <instance DB_ID="-128" displayName="PIN/IAA complex [cytosol]" isShell="false" isDirty="true">
+        <attribute name="hasComponent" class="SimpleEntity" referTo="1131161" />
+        <attribute name="hasComponent" class="DefinedSet" referTo="-124" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="DB_ID" value="-128" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN/IAA complex [cytosol]" />
+        <attribute name="name" value="PIN/IAA complex" />
+      </instance>
+    </Complex>
+    <Reaction>
+      <instance DB_ID="5608208" displayName="ARF inactivation by AUX/IAA" isShell="false" isDirty="false">
+        <attribute name="output" class="Complex" referTo="5608170" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="modified" class="InstanceEdit" referTo="5679307" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608208" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8931101" />
+        <attribute name="input" class="DefinedSet" referTo="5608087" />
+        <attribute name="input" class="DefinedSet" referTo="5608136" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="ARF inactivation by AUX/IAA" />
+        <attribute name="name" value="ARF inactivation by AUX/IAA" />
+      </instance>
+      <instance DB_ID="5608193" displayName="IAA efflux" isShell="false" isDirty="true">
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="5608190" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="modified" class="InstanceEdit" referTo="5679307" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608193" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8901081" />
+        <attribute name="input" class="Complex" referTo="5608196" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA efflux" />
+        <attribute name="name" value="IAA efflux" />
+      </instance>
+      <instance DB_ID="5608156" displayName="IAA/ABP1" isShell="true" />
+      <instance DB_ID="5608134" displayName="IAA/ABP1/SKU5_CBP1" isShell="true" />
+      <instance DB_ID="5608214" displayName="RIC activation" isShell="true" />
+      <instance DB_ID="5608171" displayName="ROP activation" isShell="true" />
+      <instance DB_ID="5608104" displayName="TIRI-IAA-AUX/IAA interaction (Auxin binds TIR1 and Aux/IAA)" isShell="false" isDirty="false">
+        <attribute name="output" class="Complex" referTo="5608138" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608104" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8893484" />
+        <attribute name="input" class="SimpleEntity" referTo="5608128" />
+        <attribute name="input" class="DefinedSet" referTo="5608136" />
+        <attribute name="input" class="DefinedSet" referTo="5608204" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="TIRI-IAA-AUX/IAA interaction (Auxin binds TIR1 and Aux/IAA)" />
+        <attribute name="name" value="TIRI-IAA-AUX/IAA interaction (Auxin binds TIR1 and Aux/IAA)" />
+      </instance>
+      <instance DB_ID="5679295" displayName="Clathrin-mediated endocytosis of PIN protein" isShell="false" isDirty="true">
+        <attribute name="modified" class="InstanceEdit" referTo="5679353" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="modified" class="InstanceEdit" referTo="8948102" />
+        <attribute name="DB_ID" value="5679295" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5679307" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8884223" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Clathrin-mediated endocytosis of PIN protein" />
+        <attribute name="name" value="Clathrin-mediated endocytosis of PIN protein" />
+      </instance>
+      <instance DB_ID="-51" displayName="Expression of CRL1/ARL1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-9" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-51" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="_displayName" value="Expression of CRL1/ARL1" />
+        <attribute name="name" value="Expression of CRL1/ARL1" />
+      </instance>
+      <instance DB_ID="-73" displayName="Expression of QHB" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-36" />
+        <attribute name="DB_ID" value="-73" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of QHB" />
+        <attribute name="name" value="Expression of QHB" />
+      </instance>
+      <instance DB_ID="-79" displayName="Expression of WOX11" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-21" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-79" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of WOX11" />
+        <attribute name="name" value="Expression of WOX11" />
+      </instance>
+      <instance DB_ID="-80" displayName="Expression of ARR" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="DefinedSet" referTo="-77" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-80" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of ARR" />
+        <attribute name="name" value="Expression of ARR" />
+      </instance>
+      <instance DB_ID="-84" displayName="Expression of CRL5" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-15" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-84" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of CRL5" />
+        <attribute name="name" value="Expression of CRL5" />
+      </instance>
+      <instance DB_ID="8858130" displayName="indole-3-acetate + H+  --&gt; IAA (periplasm)" isShell="true" />
+      <instance DB_ID="8868913" displayName="IAA transport from cytosol to endoplasmic reticulum lumen: PIN5 mediated" isShell="true" />
+      <instance DB_ID="8868924" displayName="IAA transport from endoplasmic reticulum lumen to cytosol: PIN6 mediated" isShell="true" />
+      <instance DB_ID="8868942" displayName="IAA transport from endoplasmic reticulum lumen to cytosol: PIN8 mediated" isShell="true" />
+      <instance DB_ID="8868899" displayName="IAA transport from endoplasmic reticulum lumen to nucleoplasm: PIN6 mediated" isShell="true" />
+      <instance DB_ID="8868940" displayName="PIN LIKES mediated auxin transport from endoplasmic reticulum to cytosol" isShell="true" />
+      <instance DB_ID="8868959" displayName="IAA transport from vacuolar lumen to cytoplasm: WAT1 mediated" isShell="true" />
+      <instance DB_ID="-102" displayName="Expression of DOCS" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-132" />
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="DB_ID" value="-102" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of DOCS" />
+        <attribute name="name" value="Expression of DOCS" />
+      </instance>
+      <instance DB_ID="-103" displayName="Expression of SCR1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-41" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-103" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of SCR1" />
+        <attribute name="name" value="Expression of SCR1" />
+      </instance>
+      <instance DB_ID="-116" displayName="Expression of CAND1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-30" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-116" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of CAND1" />
+        <attribute name="name" value="Expression of CAND1" />
+      </instance>
+      <instance DB_ID="-125" displayName="Polar localization of PIN proteins" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="DefinedSet" referTo="-124" />
+        <attribute name="DB_ID" value="-125" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="DefinedSet" referTo="-115" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Polar localization of PIN proteins" />
+        <attribute name="name" value="Polar localization of PIN proteins" />
+      </instance>
+      <instance DB_ID="-126" displayName="Transportation of IAA into nucleus" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="5608190" />
+        <attribute name="output" class="Complex" referTo="-128" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="DB_ID" value="-126" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="Complex" referTo="5608196" />
+        <attribute name="input" class="DefinedSet" referTo="-124" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Transportation of IAA into nucleus" />
+        <attribute name="name" value="Transportation of IAA into nucleus" />
+      </instance>
+      <instance DB_ID="-129" displayName="Expression of SHR1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-38" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-129" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of SHR1" />
+        <attribute name="name" value="Expression of SHR1" />
+      </instance>
+      <instance DB_ID="-135" displayName="Localization of DOCS1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-34" />
+        <attribute name="DB_ID" value="-135" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-132" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Localization of DOCS1" />
+        <attribute name="name" value="Localization of DOCS1" />
+      </instance>
+      <instance DB_ID="-134" displayName="Localization of FCP1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-43" />
+        <attribute name="DB_ID" value="-134" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-133" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Localization of FCP1" />
+        <attribute name="name" value="Localization of FCP1" />
+      </instance>
+    </Reaction>
+    <ReferenceGeneProduct>
+      <instance DB_ID="-2" displayName="UniProt:Q75H95 Os03g0666100" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q75H95" />
+        <attribute name="DB_ID" value="-2" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q75H95 Os03g0666100" />
+        <attribute name="geneName" value="Os03g0666100" />
+        <attribute name="geneName" value="LOC_Os03g46330" />
+        <attribute name="geneName" value="OSJNBa0056E06.17" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="secondaryIdentifier" value="Q75H95_ORYSJ" />
+      </instance>
+      <instance DB_ID="8858072" displayName="UniProt:Q0DDD2 Os06g0232300" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q0DDD2" />
+        <attribute name="DB_ID" value="8858072" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="UniProt:Q0DDD2 Os06g0232300" />
+        <attribute name="geneName" value="Os06g0232300" />
+        <attribute name="geneName" value="PIN1a" />
+        <attribute name="geneName" value="OSNPB_060232300" />
+        <attribute name="name" value="OsPIN1a" />
+        <attribute name="name" value="Auxin eflux transporter" />
+        <attribute name="name" value="LOC_Os06g12610" />
+        <attribute name="name" value="LOC_Os06g12610.1" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="comment" value="FUNCTION: May act as a component of the auxin efflux carrier. {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Membrane {ECO:0000256|RuleBase:RU362108}; Multi-pass membrane protein {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="secondaryIdentifier" value="Q0DDD2_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="Q67UL3" />
+        <attribute name="keyword" value="Auxin signaling pathway" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="keyword" value="Transport" />
+      </instance>
+      <instance DB_ID="8858092" displayName="UniProt:Q0DAE1 Os06g0660200" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q0DAE1" />
+        <attribute name="DB_ID" value="8858092" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="UniProt:Q0DAE1 Os06g0660200" />
+        <attribute name="geneName" value="Os06g0660200" />
+        <attribute name="geneName" value="PIN2" />
+        <attribute name="geneName" value="Os06g0660200" />
+        <attribute name="geneName" value="OSNPB_060660200" />
+        <attribute name="name" value="OsPIN2" />
+        <attribute name="name" value="Auxin eflux transporter" />
+        <attribute name="name" value="LOC_Os06g44970" />
+        <attribute name="name" value="LOC_Os06g44970.1" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="comment" value="FUNCTION: May act as a component of the auxin efflux carrier. {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Membrane {ECO:0000256|RuleBase:RU362108}; Multi-pass membrane protein {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the auxin efflux carrier (TC 2.A.69.1) family. {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="secondaryIdentifier" value="Q0DAE1_ORYSJ" />
+        <attribute name="otherIdentifier" value="Q651V6" />
+        <attribute name="keyword" value="Auxin signaling pathway" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="keyword" value="Transport" />
+      </instance>
+      <instance DB_ID="8858109" displayName="UniProt:Q0J484 Os08g0529000" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q0J484" />
+        <attribute name="DB_ID" value="8858109" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="UniProt:Q0J484 Os08g0529000" />
+        <attribute name="geneName" value="Os08g0529000" />
+        <attribute name="geneName" value="PIN5b" />
+        <attribute name="geneName" value="OSNPB_080529000" />
+        <attribute name="name" value="OsPIN5b" />
+        <attribute name="name" value="Auxin eflux transporter" />
+        <attribute name="name" value="LOC_Os12g04000" />
+        <attribute name="name" value="LOC_Os12g04000.1" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="comment" value="FUNCTION: May act as a component of the auxin efflux carrier. {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Membrane {ECO:0000256|RuleBase:RU362108}; Multi-pass membrane protein {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the auxin efflux carrier (TC 2.A.69.1) family. {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="secondaryIdentifier" value="Q0J484_ORYSJ" />
+        <attribute name="otherIdentifier" value="Q6ZIB5" />
+        <attribute name="keyword" value="Auxin signaling pathway" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="keyword" value="Transport" />
+      </instance>
+      <instance DB_ID="8858077" displayName="UniProt:Q0JIG6 Os01g0802700" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q0JIG6" />
+        <attribute name="DB_ID" value="8858077" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="UniProt:Q0JIG6 Os01g0802700" />
+        <attribute name="geneName" value="Os01g0802700" />
+        <attribute name="geneName" value="PIN9" />
+        <attribute name="geneName" value="Os01g0802700" />
+        <attribute name="geneName" value="OSNPB_010802700" />
+        <attribute name="name" value="OsPIN9" />
+        <attribute name="name" value="Auxin eflux transporter" />
+        <attribute name="name" value="LOC_Os01g58860" />
+        <attribute name="name" value="LOC_Os01g58860.1" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="comment" value="FUNCTION: May act as a component of the auxin efflux carrier. {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Membrane {ECO:0000256|RuleBase:RU362108}; Multi-pass membrane protein {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the auxin efflux carrier (TC 2.A.69.1) family. {ECO:0000256|RuleBase:RU362108}." />
+        <attribute name="secondaryIdentifier" value="Q0JIG6_ORYSJ" />
+        <attribute name="otherIdentifier" value="Q5VQY3" />
+        <attribute name="keyword" value="Auxin signaling pathway" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+        <attribute name="keyword" value="Transport" />
+      </instance>
+      <instance DB_ID="-7" displayName="UniProt:Q5UG13 Os03g0149100" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q5UG13" />
+        <attribute name="DB_ID" value="-7" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q5UG13 Os03g0149100" />
+        <attribute name="geneName" value="Os03g0149100" />
+        <attribute name="geneName" value="UBC" />
+        <attribute name="geneName" value="ARL1" />
+        <attribute name="geneName" value="CRL1" />
+        <attribute name="geneName" value="LOC_Os03g05510" />
+        <attribute name="geneName" value="OSNPB_030149100" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="secondaryIdentifier" value="Q5UGI3_HUMAN" />
+        <attribute name="secondaryIdentifier" value="Q5UG13_ORYSJ" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Reference proteome" />
+      </instance>
+      <instance DB_ID="-11" displayName="UniProt:Q0D8V3 Os07g0124700" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q0D8V3" />
+        <attribute name="DB_ID" value="-11" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q0D8V3 Os07g0124700" />
+        <attribute name="geneName" value="Os07g0124700" />
+        <attribute name="geneName" value="Os07g0124700" />
+        <attribute name="geneName" value="OSNPB_070124700" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Nucleus {ECO:0000256|PROSITE- ProRule:PRU00366, ECO:0000256|SAAS:SAAS00585200}." />
+        <attribute name="secondaryIdentifier" value="Q0D8V3_ORYSJ" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="DNA-binding" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+      </instance>
+      <instance DB_ID="-20" displayName="UniProt:Q0D3I7 Os07g0684900" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q0D3I7" />
+        <attribute name="DB_ID" value="-20" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q0D3I7 Os07g0684900" />
+        <attribute name="geneName" value="Os07g0684900" />
+        <attribute name="geneName" value="WOX11" />
+        <attribute name="geneName" value="LOC_Os07g48560" />
+        <attribute name="geneName" value="OsJ_25623" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="comment" value="FUNCTION: Transcription factor which may be involved in developmental processes. {ECO:0000250}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Nucleus {ECO:0000255|PROSITE- ProRule:PRU00108}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the WUS homeobox family. {ECO:0000305}." />
+        <attribute name="secondaryIdentifier" value="WOX11_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="B7E8P2" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Developmental protein" />
+        <attribute name="keyword" value="DNA-binding" />
+        <attribute name="keyword" value="Homeobox" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+      </instance>
+      <instance DB_ID="-22" displayName="UniProt:Q6YVX7 Os02g0557800" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q6YVX7" />
+        <attribute name="DB_ID" value="-22" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q6YVX7 Os02g0557800" />
+        <attribute name="geneName" value="Os02g0557800" />
+        <attribute name="geneName" value="RR2" />
+        <attribute name="geneName" value="LOC_Os02g35180" />
+        <attribute name="geneName" value="OSJNBb0038F20.11" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="comment" value="FUNCTION: Functions as response regulator involved in His-to-Asp phosphorelay signal transduction system. Phosphorylation of the Asp residue in the receiver domain activates the ability of the protein to promote the transcription of target genes. Type-A response regulators seem to act as negative regulators of the cytokinin signaling. {ECO:0000250|UniProtKB:Q9ZWS9}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000269|PubMed:22383541}. Nucleus {ECO:0000269|PubMed:22383541}." />
+        <attribute name="comment" value="INDUCTION: By cytokinin in roots and shoots. {ECO:0000269|PubMed:17408920, ECO:0000269|PubMed:22383541}." />
+        <attribute name="comment" value="PTM: Two-component system major event consists of a His-to-Asp phosphorelay between a sensor histidine kinase (HK) and a response regulator (RR). In plants, the His-to-Asp phosphorelay involves an additional intermediate named Histidine-containing phosphotransfer protein (HPt). This multistep phosphorelay consists of a His-Asp- His-Asp sequential transfer of a phosphate group between first an His and an Asp of the HK protein, followed by the transfer to a conserved His of the HPt protein and finally the transfer to an Asp in the receiver domain of the RR protein. {ECO:0000305}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the ARR family. Type-A subfamily. {ECO:0000305}." />
+        <attribute name="comment" value="SIMILARITY: Contains 1 response regulatory domain. {ECO:0000255|PROSITE-ProRule:PRU00169}." />
+        <attribute name="secondaryIdentifier" value="ORR2_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="A0A0P0VKE8" />
+        <attribute name="secondaryIdentifier" value="Q0E0D2" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Cytokinin signaling pathway" />
+        <attribute name="keyword" value="Cytoplasm" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Phosphoprotein" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+        <attribute name="keyword" value="Two-component regulatory system" />
+      </instance>
+      <instance DB_ID="-26" displayName="UniProt:Q2HWG4 Os04g0442300" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q2HWG4" />
+        <attribute name="DB_ID" value="-26" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q2HWG4 Os04g0442300" />
+        <attribute name="geneName" value="Os04g0442300" />
+        <attribute name="geneName" value="RR1" />
+        <attribute name="geneName" value="LOC_Os04g36070" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="comment" value="FUNCTION: Functions as response regulator involved in His-to-Asp phosphorelay signal transduction system. Phosphorylation of the Asp residue in the receiver domain activates the ability of the protein to promote the transcription of target genes. Type-A response regulators seem to act as negative regulators of the cytokinin signaling. {ECO:0000250|UniProtKB:Q9ZWS9}." />
+        <attribute name="comment" value="TISSUE SPECIFICITY: Expressed in roots, leaf blades, leaf sheaths, shoot apex, flowers and panicles. {ECO:0000269|PubMed:16919402}." />
+        <attribute name="comment" value="INDUCTION: By cytokinin in roots and shoots. {ECO:0000269|PubMed:22383541}." />
+        <attribute name="comment" value="PTM: Two-component system major event consists of a His-to-Asp phosphorelay between a sensor histidine kinase (HK) and a response regulator (RR). In plants, the His-to-Asp phosphorelay involves an additional intermediate named Histidine-containing phosphotransfer protein (HPt). This multistep phosphorelay consists of a His-Asp- His-Asp sequential transfer of a phosphate group between first an His and an Asp of the HK protein, followed by the transfer to a conserved His of the HPt protein and finally the transfer to an Asp in the receiver domain of the RR protein. {ECO:0000305}." />
+        <attribute name="comment" value="DISRUPTION PHENOTYPE: Dwarf, albino, lesion mimic and low fertility phenotypes. {ECO:0000269|PubMed:16891544}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the ARR family. Type-A subfamily. {ECO:0000305}." />
+        <attribute name="secondaryIdentifier" value="ORR1_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="A0A0P0WAW6" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Cytokinin signaling pathway" />
+        <attribute name="keyword" value="Phosphoprotein" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+        <attribute name="keyword" value="Two-component regulatory system" />
+      </instance>
+      <instance DB_ID="-29" displayName="UniProt:Q6H4V4 Os02g0167700" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q6H4V4" />
+        <attribute name="DB_ID" value="-29" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q6H4V4 Os02g0167700" />
+        <attribute name="geneName" value="Os02g0167700" />
+        <attribute name="geneName" value="Os02g0167700" />
+        <attribute name="geneName" value="OsJ_05528" />
+        <attribute name="geneName" value="OSJNBa0085K21.46" />
+        <attribute name="geneName" value="OSNPB_020167700" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="secondaryIdentifier" value="Q6H4V4_ORYSJ" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Reference proteome" />
+      </instance>
+      <instance DB_ID="-33" displayName="UniProt:Q6EUS5 Os02g0236100" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q6EUS5" />
+        <attribute name="DB_ID" value="-33" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q6EUS5 Os02g0236100" />
+        <attribute name="geneName" value="Os02g0236100" />
+        <attribute name="geneName" value="C68" />
+        <attribute name="geneName" value="Os02g0236100" />
+        <attribute name="geneName" value="OJ1077_A12.16" />
+        <attribute name="geneName" value="OSNPB_020236100" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="secondaryIdentifier" value="Q6EUS5_ORYSJ" />
+        <attribute name="keyword" value="ATP-binding" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Kinase" />
+        <attribute name="keyword" value="Leucine-rich repeat" />
+        <attribute name="keyword" value="Membrane" />
+        <attribute name="keyword" value="Nucleotide-binding" />
+        <attribute name="keyword" value="Receptor" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Repeat" />
+        <attribute name="keyword" value="Serine/threonine-protein kinase" />
+        <attribute name="keyword" value="Signal" />
+        <attribute name="keyword" value="Transferase" />
+        <attribute name="keyword" value="Transmembrane" />
+        <attribute name="keyword" value="Transmembrane helix" />
+      </instance>
+      <instance DB_ID="-35" displayName="UniProt:Q8W0F1 Os01g0854500" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q8W0F1" />
+        <attribute name="DB_ID" value="-35" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q8W0F1 Os01g0854500" />
+        <attribute name="geneName" value="Os01g0854500" />
+        <attribute name="geneName" value="WOX9" />
+        <attribute name="geneName" value="QHB" />
+        <attribute name="geneName" value="WOX5" />
+        <attribute name="geneName" value="LOC_Os01g63510" />
+        <attribute name="geneName" value="B1096A10.8" />
+        <attribute name="geneName" value="OsJ_004011" />
+        <attribute name="geneName" value="P0529E05.42" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="comment" value="FUNCTION: Transcription factor which may be involved in the specification and maintenance of the stem cells (QC cells) in the root apical meristem (RAM). {ECO:0000269|PubMed:12904206}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Nucleus {ECO:0000255|PROSITE- ProRule:PRU00108}." />
+        <attribute name="comment" value="TISSUE SPECIFICITY: Specifically expressed in the central cells of the quiescent center (QC) of the root. {ECO:0000269|PubMed:12904206}." />
+        <attribute name="comment" value="DEVELOPMENTAL STAGE: During embryogenesis and crown root formation, it is expressed prior to the morphological differentiation of the root. {ECO:0000269|PubMed:12904206}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the WUS homeobox family. {ECO:0000305}." />
+        <attribute name="comment" value="SIMILARITY: Contains 1 homeobox DNA-binding domain. {ECO:0000255|PROSITE-ProRule:PRU00108}." />
+        <attribute name="secondaryIdentifier" value="WOX9_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="A0A0P0VAH0" />
+        <attribute name="secondaryIdentifier" value="A0AAT2" />
+        <attribute name="secondaryIdentifier" value="B7ESU4" />
+        <attribute name="secondaryIdentifier" value="B9EUR4" />
+        <attribute name="secondaryIdentifier" value="Q0JHM7" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Developmental protein" />
+        <attribute name="keyword" value="DNA-binding" />
+        <attribute name="keyword" value="Homeobox" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+      </instance>
+      <instance DB_ID="-37" displayName="UniProt:Q8H2X8 Os07g0586900" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q8H2X8" />
+        <attribute name="DB_ID" value="-37" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q8H2X8 Os07g0586900" />
+        <attribute name="geneName" value="Os07g0586900" />
+        <attribute name="geneName" value="SHR1" />
+        <attribute name="geneName" value="LOC_Os07g39820" />
+        <attribute name="geneName" value="OJ1047_C01.1" />
+        <attribute name="geneName" value="OJ1113_E01.116" />
+        <attribute name="geneName" value="OsJ_24926" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="comment" value="FUNCTION: Transcription factor required for the asymmetric cell division involved in radial pattern formation in roots. Essential for both cell division and cell specification. {ECO:0000269|PubMed:17446396}." />
+        <attribute name="comment" value="SUBUNIT: Interacts with SCR1. {ECO:0000269|PubMed:17446396}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Nucleus {ECO:0000250}." />
+        <attribute name="comment" value="TISSUE SPECIFICITY: Expressed in leaves and roots. Detected in the stele, the endodermis and part of the cortex. {ECO:0000269|PubMed:12974810, ECO:0000269|PubMed:17446396}." />
+        <attribute name="comment" value="DEVELOPMENTAL STAGE: In P3 leaf primordium, expressed ubiquitously in the L1 layer and in the inner cells at lower levels. Not limited to the developing stomata until the last cell divisions. {ECO:0000269|PubMed:12974810}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the GRAS family. {ECO:0000305}." />
+        <attribute name="secondaryIdentifier" value="SHR1_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="A0A0P0X8C3" />
+        <attribute name="secondaryIdentifier" value="A3BLN3" />
+        <attribute name="secondaryIdentifier" value="B7F6J7" />
+        <attribute name="secondaryIdentifier" value="B9FY58" />
+        <attribute name="secondaryIdentifier" value="Q0D526" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Developmental protein" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+      </instance>
+      <instance DB_ID="-40" displayName="UniProt:Q2RB59 Os11g0124300" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q2RB59" />
+        <attribute name="DB_ID" value="-40" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:Q2RB59 Os11g0124300" />
+        <attribute name="geneName" value="Os11g0124300" />
+        <attribute name="geneName" value="SCR1" />
+        <attribute name="geneName" value="LOC_Os11g03110" />
+        <attribute name="geneName" value="OsJ_031458" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="comment" value="FUNCTION: Transcription factor required for quiescent center cells specification and maintenance of surrounding stem cells, and for the asymmetric cell division involved in radial pattern formation in roots. Essential for cell division but not differentiation of the ground tissue. Regulates the radial organization of the shoot axial organs. Restricts SHR movment and sequesters it into the nucleus of the endodermis (By similarity). {ECO:0000250, ECO:0000269|PubMed:17446396}." />
+        <attribute name="comment" value="SUBUNIT: Interacts with SHR1, but not with SHR2. {ECO:0000269|PubMed:17446396}." />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Nucleus {ECO:0000250}." />
+        <attribute name="comment" value="TISSUE SPECIFICITY: Expressed in the initial daughter cell before its asymmetric division and remains expressed in the endodermal cell layer after the division. {ECO:0000269|PubMed:17446396}." />
+        <attribute name="comment" value="SIMILARITY: Belongs to the GRAS family. {ECO:0000305}." />
+        <attribute name="secondaryIdentifier" value="SCR1_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="A0A0P0XY98" />
+        <attribute name="secondaryIdentifier" value="A3C836" />
+        <attribute name="keyword" value="Coiled coil" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Developmental protein" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+      </instance>
+      <instance DB_ID="-42" displayName="UniProt:A8R3N9 Os04g0473800" isShell="false" isDirty="true">
+        <attribute name="identifier" value="A8R3N9" />
+        <attribute name="DB_ID" value="-42" />
+        <attribute name="species" class="Species" referTo="-3" />
+        <attribute name="_displayName" value="UniProt:A8R3N9 Os04g0473800" />
+        <attribute name="geneName" value="Os04g0473800" />
+        <attribute name="geneName" value="OsCLE402" />
+        <attribute name="geneName" value="FCP1" />
+        <attribute name="geneName" value="OsJ_15161" />
+        <attribute name="geneName" value="OSNPB_040473800" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="-4" />
+        <attribute name="secondaryIdentifier" value="A8R3N9_ORYSJ" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Signal" />
+      </instance>
+      <instance DB_ID="5608105" displayName="UniProt:Q2QPH4" isShell="true" />
+    </ReferenceGeneProduct>
+    <PositiveRegulation>
+      <instance DB_ID="-47" displayName="'CRL4 [Golgi-associated vesicle]' positively regulates 'Polar localization of PIN proteins'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-47" />
+        <attribute name="_displayName" value="'CRL4 [Golgi-associated vesicle]' positively regulates 'Polar localization of PIN proteins'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-125" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-5" />
+      </instance>
+      <instance DB_ID="-53" displayName="'AUX/IAA-ARF complex [nucleoplasm]' positively regulates 'Expression of CRL1/ARL1'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-53" />
+        <attribute name="_displayName" value="'AUX/IAA-ARF complex [nucleoplasm]' positively regulates 'Expression of CRL1/ARL1'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-51" />
+        <attribute name="regulator" class="Complex" referTo="5608170" />
+      </instance>
+      <instance DB_ID="-57" displayName="'ARL1 [nucleoplasm]' positively regulates 'Root initiation'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-57" />
+        <attribute name="_displayName" value="'ARL1 [nucleoplasm]' positively regulates 'Root initiation'" />
+        <attribute name="regulatedEntity" class="Pathway" referTo="-101" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-9" />
+      </instance>
+      <instance DB_ID="-69" displayName="'SHR1 [nucleoplasm]' positively regulates 'Root emergence'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-69" />
+        <attribute name="_displayName" value="'SHR1 [nucleoplasm]' positively regulates 'Root emergence'" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-38" />
+      </instance>
+      <instance DB_ID="-70" displayName="'SCR1 [nucleoplasm]' positively regulates 'Root emergence'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-70" />
+        <attribute name="_displayName" value="'SCR1 [nucleoplasm]' positively regulates 'Root emergence'" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-41" />
+      </instance>
+      <instance DB_ID="-71" displayName="'QHB [nucleoplasm]' positively regulates 'Root emergence'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-71" />
+        <attribute name="_displayName" value="'QHB [nucleoplasm]' positively regulates 'Root emergence'" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-36" />
+      </instance>
+      <instance DB_ID="-72" displayName="'DOCS1 [plasma membrane]' positively regulates 'UNKNOWN ENTITY'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-72" />
+        <attribute name="_displayName" value="'DOCS1 [plasma membrane]' positively regulates 'UNKNOWN ENTITY'" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-34" />
+      </instance>
+      <instance DB_ID="-75" displayName="'CAND1 [nucleoplasm]' positively regulates 'Root emergence'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-75" />
+        <attribute name="_displayName" value="'CAND1 [nucleoplasm]' positively regulates 'Root emergence'" />
+        <attribute name="regulatedEntity" class="Pathway" referTo="-109" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-30" />
+      </instance>
+      <instance DB_ID="-82" displayName="'WOX11 [nucleoplasm]' positively regulates 'Expression of ARR'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-82" />
+        <attribute name="_displayName" value="'WOX11 [nucleoplasm]' positively regulates 'Expression of ARR'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-80" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-21" />
+      </instance>
+      <instance DB_ID="-85" displayName="'AUX/IAA-ARF complex [nucleoplasm]' positively regulates 'Expression of CRL5'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-85" />
+        <attribute name="_displayName" value="'AUX/IAA-ARF complex [nucleoplasm]' positively regulates 'Expression of CRL5'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-84" />
+        <attribute name="regulator" class="Complex" referTo="5608170" />
+      </instance>
+      <instance DB_ID="-86" displayName="'CRL5 [nucleoplasm]' positively regulates 'Expression of ARR'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-86" />
+        <attribute name="_displayName" value="'CRL5 [nucleoplasm]' positively regulates 'Expression of ARR'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-80" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-15" />
+      </instance>
+      <instance DB_ID="-100" displayName="'IAA [nucleoplasm]' positively regulates 'Expression of WOX11'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-100" />
+        <attribute name="_displayName" value="'IAA [nucleoplasm]' positively regulates 'Expression of WOX11'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-79" />
+        <attribute name="regulator" class="SimpleEntity" referTo="5608128" />
+      </instance>
+      <instance DB_ID="-120" displayName="'ARL1 [nucleoplasm]' positively regulates 'Expression of QHB'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-120" />
+        <attribute name="_displayName" value="'ARL1 [nucleoplasm]' positively regulates 'Expression of QHB'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-73" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-9" />
+      </instance>
+    </PositiveRegulation>
+    <_Deleted>
+      <instance DB_ID="-111" displayName="Deletion of instance: 5608153" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-111" />
+        <attribute name="_displayName" value="Deletion of instance: 5608153" />
+        <attribute name="deletedInstanceDB_ID" value="5608153" />
+      </instance>
+      <instance DB_ID="-112" displayName="Deletion of instance: 8858124" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-112" />
+        <attribute name="_displayName" value="Deletion of instance: 8858124" />
+        <attribute name="deletedInstanceDB_ID" value="8858124" />
+      </instance>
+      <instance DB_ID="-113" displayName="Deletion of instances: 8858079, 8858107" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-113" />
+        <attribute name="_displayName" value="Deletion of instances: 8858079, 8858107" />
+        <attribute name="deletedInstanceDB_ID" value="8858079" />
+        <attribute name="deletedInstanceDB_ID" value="8858107" />
+      </instance>
+      <instance DB_ID="-114" displayName="Deletion of instances: 8858126, 8858142, 8858150" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-114" />
+        <attribute name="_displayName" value="Deletion of instances: 8858126, 8858142, 8858150" />
+        <attribute name="deletedInstanceDB_ID" value="8858126" />
+        <attribute name="deletedInstanceDB_ID" value="8858142" />
+        <attribute name="deletedInstanceDB_ID" value="8858150" />
+      </instance>
+      <instance DB_ID="-117" displayName="Deletion of instance: 8858053" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-117" />
+        <attribute name="_displayName" value="Deletion of instance: 8858053" />
+        <attribute name="deletedInstanceDB_ID" value="8858053" />
+      </instance>
+      <instance DB_ID="-118" displayName="Deletion of instance: 8868949" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-118" />
+        <attribute name="_displayName" value="Deletion of instance: 8868949" />
+        <attribute name="deletedInstanceDB_ID" value="8868949" />
+      </instance>
+      <instance DB_ID="-119" displayName="Deletion of instance: 8868860" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-119" />
+        <attribute name="_displayName" value="Deletion of instance: 8868860" />
+        <attribute name="deletedInstanceDB_ID" value="8868860" />
+      </instance>
+    </_Deleted>
+    <StableIdentifier>
+      <instance DB_ID="8909971" displayName="R-OSA-8858071.1" isShell="true" />
+      <instance DB_ID="8888613" displayName="R-OSA-8858085.1" isShell="false" isDirty="false">
+        <attribute name="identifier" value="R-OSA-8858085" />
+        <attribute name="DB_ID" value="8888613" />
+        <attribute name="_displayName" value="R-OSA-8858085.1" />
+        <attribute name="created" class="InstanceEdit" referTo="8879177" />
+        <attribute name="identifierVersion" value="1" />
+      </instance>
+      <instance DB_ID="8893697" displayName="R-OSA-8858074.1" isShell="true" />
+      <instance DB_ID="8920598" displayName="R-OSA-8858117.1" isShell="true" />
+      <instance DB_ID="8924298" displayName="R-OSA-8868860.1" isShell="true" />
+      <instance DB_ID="8888929" displayName="R-OSA-5608118.1" isShell="true" />
+      <instance DB_ID="8914894" displayName="R-OSA-5608175.1" isShell="true" />
+      <instance DB_ID="8900837" displayName="R-OSA-8858053.1" isShell="true" />
+      <instance DB_ID="8888684" displayName="R-OSA-8858079.1" isShell="true" />
+      <instance DB_ID="8920994" displayName="R-OSA-8858107.1" isShell="true" />
+      <instance DB_ID="8893484" displayName="R-OSA-5608104.1" isShell="true" />
+      <instance DB_ID="8931101" displayName="R-OSA-5608208.1" isShell="true" />
+      <instance DB_ID="8901081" displayName="R-OSA-5608193.1" isShell="true" />
+      <instance DB_ID="8884223" displayName="R-OSA-5679295.1" isShell="true" />
+      <instance DB_ID="8890777" displayName="R-OSA-8868949.1" isShell="true" />
+      <instance DB_ID="8889758" displayName="R-OSA-5608217.1" isShell="true" />
+      <instance DB_ID="8890419" displayName="R-OSA-5608153.1" isShell="true" />
+      <instance DB_ID="8902592" displayName="R-OSA-5608177.1" isShell="true" />
+      <instance DB_ID="8920660" displayName="R-OSA-5679323.1" isShell="true" />
+      <instance DB_ID="8914276" displayName="R-ALL-1599521.1" isShell="true" />
+      <instance DB_ID="8919369" displayName="R-OSA-5608190.1" isShell="true" />
+      <instance DB_ID="8899537" displayName="R-OSA-5608085.1" isShell="true" />
+    </StableIdentifier>
+    <PathwayDiagram>
+      <instance DB_ID="-90" displayName="Diagram of Crown root development" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-90" />
+        <attribute name="_displayName" value="Diagram of Crown root development" />
+      </instance>
+      <instance DB_ID="-95" displayName="Diagram of Auxin signalling" isShell="false" isDirty="true">
+        <attribute name="representedPathway" class="Pathway" referTo="5608118" />
+        <attribute name="DB_ID" value="-95" />
+        <attribute name="_displayName" value="Diagram of Auxin signalling" />
+      </instance>
+      <instance DB_ID="-96" displayName="Diagram of Intracellular auxin transport" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-96" />
+        <attribute name="_displayName" value="Diagram of Intracellular auxin transport" />
+      </instance>
+      <instance DB_ID="-97" displayName="Diagram of Polar auxin transport" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-97" />
+        <attribute name="_displayName" value="Diagram of Polar auxin transport" />
+      </instance>
+      <instance DB_ID="-99" displayName="Diagram of Primary root development" isShell="false" isDirty="true">
+        <attribute name="representedPathway" class="Pathway" referTo="-10" />
+        <attribute name="DB_ID" value="-99" />
+        <attribute name="_displayName" value="Diagram of Primary root development" />
+      </instance>
+    </PathwayDiagram>
+    <BlackBoxEvent>
+      <instance DB_ID="5608217" displayName="IAA/ABP release" isShell="false" isDirty="true">
+        <attribute name="output" class="Complex" referTo="5608196" />
+        <attribute name="modified" class="InstanceEdit" referTo="5679307" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608217" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8889758" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA/ABP release" />
+        <attribute name="name" value="IAA/ABP release" />
+      </instance>
+      <instance DB_ID="5608175" displayName="IAA efflux into nucleus" isShell="false" isDirty="true">
+        <attribute name="output" class="SimpleEntity" referTo="5608128" />
+        <attribute name="modified" class="InstanceEdit" referTo="5679307" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608175" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8914894" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA efflux into nucleus" />
+        <attribute name="name" value="IAA efflux into nucleus" />
+      </instance>
+      <instance DB_ID="5608177" displayName="Ubiquitination and degradation of AUX/IAA" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="5608150" />
+        <attribute name="modified" class="InstanceEdit" referTo="5679307" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608177" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8902592" />
+        <attribute name="input" class="Complex" referTo="5608138" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Ubiquitination and degradation of AUX/IAA" />
+        <attribute name="name" value="Ubiquitination and degradation of AUX/IAA" />
+      </instance>
+      <instance DB_ID="-108" displayName="Transcription of cytokinin response genes" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="output" class="OtherEntity" referTo="-107" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-108" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="SimpleEntity" referTo="1599521" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Transcription of cytokinin response genes" />
+        <attribute name="name" value="Transcription of cytokinin response genes" />
+      </instance>
+      <instance DB_ID="-127" displayName="IAA efflux into nucleus" isShell="false" isDirty="true">
+        <attribute name="output" class="SimpleEntity" referTo="5608128" />
+        <attribute name="DB_ID" value="-127" />
+        <attribute name="_doRelease" value="true" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="Complex" referTo="-128" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="IAA efflux into nucleus" />
+        <attribute name="name" value="IAA efflux into nucleus" />
+      </instance>
+    </BlackBoxEvent>
+    <DefinedSet>
+      <instance DB_ID="-77" displayName="ARR [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-77" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-27" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-23" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="ARR [nucleoplasm]" />
+        <attribute name="name" value="ARR" />
+      </instance>
+      <instance DB_ID="5608136" displayName="AUX/IAA protein [nucleoplasm]" isShell="true" />
+      <instance DB_ID="5608204" displayName="TIR1/AFB like [nucleoplasm]" isShell="true" />
+      <instance DB_ID="5608087" displayName="ARF [nucleoplasm]" isShell="true" />
+      <instance DB_ID="-115" displayName="PIN [plasma membrane]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="DB_ID" value="-115" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858071" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858085" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858074" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858117" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN [plasma membrane]" />
+        <attribute name="name" value="PIN" />
+      </instance>
+      <instance DB_ID="-124" displayName="PIN [endosome]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="17940" />
+        <attribute name="DB_ID" value="-124" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858071" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858085" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858074" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="8858117" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN [endosome]" />
+        <attribute name="name" value="PIN" />
+      </instance>
+    </DefinedSet>
+    <EntityWithAccessionedSequence>
+      <instance DB_ID="8858071" displayName="PIN1a [plasma membrane]" isShell="false" isDirty="false">
+        <attribute name="goCellularComponent" class="EntityCompartment" referTo="876" />
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="8858071" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="8858072" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8909971" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN1a [plasma membrane]" />
+        <attribute name="name" value="PIN1a" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="8858085" displayName="PIN2 [plasma membrane]" isShell="false" isDirty="true">
+        <attribute name="goCellularComponent" class="EntityCompartment" referTo="876" />
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="8858085" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="8858092" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8888613" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN2 [plasma membrane]" />
+        <attribute name="name" value="PIN2" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="8858074" displayName="PIN5b [plasma membrane]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="8858074" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="8858109" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8893697" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN5b [plasma membrane]" />
+        <attribute name="name" value="PIN5b" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="8858117" displayName="PIN9 [plasma membrane]" isShell="false" isDirty="false">
+        <attribute name="goCellularComponent" class="EntityCompartment" referTo="876" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="5608181" />
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="8858117" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="created" class="InstanceEdit" referTo="8858123" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="8858077" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8920598" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="PIN9 [plasma membrane]" />
+        <attribute name="name" value="PIN9" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-5" displayName="CRL4 [Golgi-associated vesicle]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="13951" />
+        <attribute name="DB_ID" value="-5" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-2" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="CRL4 [Golgi-associated vesicle]" />
+        <attribute name="name" value="CRL4" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-9" displayName="ARL1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-9" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-7" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="ARL1 [nucleoplasm]" />
+        <attribute name="name" value="ARL1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-15" displayName="CRL5 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-15" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-11" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="CRL5 [nucleoplasm]" />
+        <attribute name="name" value="CRL5" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-21" displayName="WOX11 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-21" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-20" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="WOX11 [nucleoplasm]" />
+        <attribute name="name" value="WOX11" />
+        <attribute name="name" value="WUSCHEL-related homeobox 11" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-23" displayName="RR2 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="DB_ID" value="-23" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-22" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="RR2 [nucleoplasm]" />
+        <attribute name="name" value="RR2" />
+        <attribute name="name" value="type-A response regulator 2" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-27" displayName="RR1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="DB_ID" value="-27" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-26" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="RR1 [nucleoplasm]" />
+        <attribute name="name" value="RR1" />
+        <attribute name="name" value="type-A response regulator1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-30" displayName="CAND1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-30" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-29" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="CAND1 [nucleoplasm]" />
+        <attribute name="name" value="CAND1" />
+        <attribute name="name" value="Cullin Associated and  Needylation-Dissociated 1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-34" displayName="DOCS1 [plasma membrane]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="DB_ID" value="-34" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-33" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="DOCS1 [plasma membrane]" />
+        <attribute name="name" value="DOCS1" />
+        <attribute name="name" value="Defective in outer cell layer specification 1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-36" displayName="QHB [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-36" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-35" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="QHB [nucleoplasm]" />
+        <attribute name="name" value="QHB" />
+        <attribute name="name" value="Quiescent center specific homeobox" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-38" displayName="SHR1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-38" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-37" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="SHR1 [nucleoplasm]" />
+        <attribute name="name" value="SHR1" />
+        <attribute name="name" value="Short Root1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-41" displayName="SCR1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-41" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-40" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="SCR1 [nucleoplasm]" />
+        <attribute name="name" value="SCR1" />
+        <attribute name="name" value="SCARECROW1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-43" displayName="FCP1 [plasma membrane]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="DB_ID" value="-43" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-42" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="FCP1 [plasma membrane]" />
+        <attribute name="name" value="FCP1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="5608190" displayName="ABP1 [cytosol]" isShell="false" isDirty="true">
+        <attribute name="summation" class="Summation" referTo="5679310" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="modified" class="InstanceEdit" referTo="5679307" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="5608190" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="created" class="InstanceEdit" referTo="5608168" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="5608105" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8919369" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="ABP1 [cytosol]" />
+        <attribute name="name" value="ABP1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="5679312" displayName="PIN 1 (LOC_OS02G50960) [plasma membrane]" isShell="true" />
+      <instance DB_ID="5679293" displayName="PIN 1b (LOC_OS11G04190) [plasma membrane]" isShell="true" />
+      <instance DB_ID="5679306" displayName="PIN 1c (LOC_OS06G12610) [plasma membrane]" isShell="true" />
+      <instance DB_ID="5679348" displayName="PIN 3a (LOC_OS01G45550) [plasma membrane]" isShell="true" />
+      <instance DB_ID="5679333" displayName="PIN 4/5b (LOC_OS08G41720) [plasma membrane]" isShell="true" />
+      <instance DB_ID="5679302" displayName="PIN 9/5 (LOC_OS01G58860) [plasma membrane]" isShell="true" />
+      <instance DB_ID="5679320" displayName="PIN1d (LOC_OS12G04000) [plasma membrane]" isShell="true" />
+      <instance DB_ID="5679319" displayName="PIN3b (LOC_OS05G50140) [plasma membrane]" isShell="true" />
+      <instance DB_ID="-132" displayName="DOCS1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-132" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-33" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="DOCS1 [nucleoplasm]" />
+        <attribute name="name" value="DOCS1" />
+        <attribute name="name" value="Defective in outer cell layer specification 1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-133" displayName="FCP1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-133" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-42" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="FCP1 [nucleoplasm]" />
+        <attribute name="name" value="FCP1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+    </EntityWithAccessionedSequence>
+    <DeletedControlledVocabulary>
+      <instance DB_ID="188250" displayName="Killed not replaced" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188250" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Killed not replaced" />
+        <attribute name="name" value="Killed not replaced" />
+        <attribute name="definition" value="This instance will not be replaced by other instance(s)" />
+      </instance>
+      <instance DB_ID="437176" displayName="Duplicate" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="437176" />
+        <attribute name="created" class="InstanceEdit" referTo="437168" />
+        <attribute name="_displayName" value="Duplicate" />
+        <attribute name="name" value="Duplicate" />
+      </instance>
+      <instance DB_ID="188252" displayName="Split" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188252" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Split" />
+        <attribute name="name" value="Split" />
+        <attribute name="definition" value="This instance will be split into multiple instances" />
+      </instance>
+      <instance DB_ID="188249" displayName="Obsoleted" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188249" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Obsoleted" />
+        <attribute name="name" value="Obsoleted" />
+        <attribute name="modified" class="InstanceEdit" referTo="622345" />
+        <attribute name="modified" class="InstanceEdit" referTo="622423" />
+        <attribute name="definition" value="This instance is now obsolete" />
+      </instance>
+      <instance DB_ID="188253" displayName="Merged" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="188253" />
+        <attribute name="created" class="InstanceEdit" referTo="188251" />
+        <attribute name="_displayName" value="Merged" />
+        <attribute name="name" value="Merged" />
+        <attribute name="definition" value="This instance will be merged with other instance(s)" />
+      </instance>
+    </DeletedControlledVocabulary>
+    <NegativeRegulation>
+      <instance DB_ID="-74" displayName="'FCP1 [nucleoplasm]' negatively regulates 'Expression of QHB'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-74" />
+        <attribute name="_displayName" value="'FCP1 [nucleoplasm]' negatively regulates 'Expression of QHB'" />
+        <attribute name="regulatedEntity" class="Reaction" referTo="-73" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-133" />
+      </instance>
+      <instance DB_ID="-78" displayName="'ARR [nucleoplasm]' negatively regulates 'Transcription of cytokinin response genes'" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8933720" />
+        <attribute name="DB_ID" value="-78" />
+        <attribute name="_displayName" value="'ARR [nucleoplasm]' negatively regulates 'Transcription of cytokinin response genes'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-108" />
+        <attribute name="regulator" class="DefinedSet" referTo="-77" />
+      </instance>
+    </NegativeRegulation>
+    <GO_CellularComponent>
+      <instance DB_ID="171334" displayName="cytoplasmic vesicle" isShell="true" />
+      <instance DB_ID="258171" displayName="Golgi apparatus part" isShell="true" />
+      <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
+      <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
+      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
+      <instance DB_ID="17120" displayName="external encapsulating structure" isShell="true" />
+      <instance DB_ID="9472" displayName="endomembrane system" isShell="true" />
+    </GO_CellularComponent>
+    <Summation>
+      <instance DB_ID="5608223" displayName="Auxin perception and signaling" isShell="true" />
+      <instance DB_ID="8858054" displayName="Polar auxin transport pathway of rice. Even though we have s..." isShell="true" />
+      <instance DB_ID="8858069" displayName="Any one or more PIN proteins encoded by one or more genes ca..." isShell="true" />
+      <instance DB_ID="8858095" displayName="Any one or more AUX proteins encoded by one or more genes ca..." isShell="true" />
+      <instance DB_ID="8869013" displayName="PIN family proteins that are mainly involved in the intercel..." isShell="true" />
+      <instance DB_ID="5679310" displayName="A recent report asserts that in A. thaliana ABP1 is ) is not..." isShell="true" />
+      <instance DB_ID="-122" displayName="The rice root system consists of seminal, crown and lateral ..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-122" />
+        <attribute name="_displayName" value="The rice root system consists of seminal, crown and lateral ..." />
+        <attribute name="text" value="The rice root system consists of seminal, crown and lateral roots, which correspond to pole-borne, stem-borne and root-borne roots, respectively (Barlow 1994; Rebouillat et al., 2009; Coudert et al., 2010). Generally, the root system of most dicot plants develops from the radicle formed in the embryo, whereas monocot plants have fibrous root system that is characterized by numerous crown roots. Crown roots differentiate in the stem from a radial ground meristem that has common characteristics with the root pericycle (Coudert et al., 2013; Itoh et al., 2005). The phytohormone auxin is essential for root development. Crown root less 4 (crl4) regulates the intracellular traffic of the PINFORMED1 (PIN1) auxin efflux carrier protein. In turn, PIN1 is necessary to concentrate auxin in lateral root funder cells (Kitomi et al., 2008; Liu et al., 2009; Steinmann et al., 1999). The transmission of auxin signaling is controlled by the interaction between AUX/IAA and ARF proteins. WOX11, an auxin-responsive gene, is part of a positive feedback loop of auxin signaling (Zhao et al., 2009). Expression of WOX11 was induced by cytokinin treatment, and downregulation or gain-of-function of WOX11 alter the expression of type-A RR genes. Type-A OsRR1 and RR2 localizes in both the nucleus and the cytosol and inhibits the cytokinin response genes (Tsai et al., 2012). OsCAND1 is involved in auxin signaling in root tips of crown roots. Loss-of-function of OsCAND1 results in cessation of the G2/M transition of the cell cycle in the meristem of crown roots and, consequently, failure of the emergence of crown roots. Collectively, spatio-temporal sequence of events that act in auxin and cytokinin signaling is responsible for the process of crown root initiation to crown root elongation." />
+      </instance>
+    </Summation>
+    <CatalystActivity>
+      <instance DB_ID="8858096" displayName="auxin efflux transmembrane transporter activity of (PIN) Auxin efflux transporter [plasma membrane]" isShell="true" />
+      <instance DB_ID="8858080" displayName="auxin influx transmembrane transporter activity of (AUX) Auxin influx transporter [plasma membrane]" isShell="true" />
+    </CatalystActivity>
+    <SimpleEntity>
+      <instance DB_ID="5608128" displayName="IAA [nucleoplasm]" isShell="true" />
+      <instance DB_ID="8858048" displayName="IAA(-) [periplasmic space]" isShell="true" />
+      <instance DB_ID="8858057" displayName="IAA(-) [cytosol]" isShell="true" />
+      <instance DB_ID="70106" displayName="H+ [cytosol]" isShell="true" />
+      <instance DB_ID="8858135" displayName="H+ [periplasmic space]" isShell="true" />
+      <instance DB_ID="1599521" displayName="cytokinin [nucleoplasm]" isShell="false" isDirty="false">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="modified" class="InstanceEdit" referTo="1601927" />
+        <attribute name="modified" class="InstanceEdit" referTo="2395859" />
+        <attribute name="modified" class="InstanceEdit" referTo="8879177" />
+        <attribute name="DB_ID" value="1599521" />
+        <attribute name="created" class="InstanceEdit" referTo="1597785" />
+        <attribute name="referenceEntity" class="ReferenceMolecule" referTo="2395865" />
+        <attribute name="stableIdentifier" class="StableIdentifier" referTo="8914276" />
+        <attribute name="_displayName" value="cytokinin [nucleoplasm]" />
+        <attribute name="name" value="cytokinin" />
+      </instance>
+      <instance DB_ID="1131161" displayName="IAA [cytosol]" isShell="true" />
+    </SimpleEntity>
+    <ReferenceMolecule>
+      <instance DB_ID="2395865" displayName="cytokinin [ChEBI:23530]" isShell="true" />
+    </ReferenceMolecule>
+    <meta>
+      <deletion>
+        <instance DB_ID="5608085" class="Complex" />
+        <instance DB_ID="8858150" class="Reaction" />
+        <instance DB_ID="8858053" class="Pathway" />
+        <instance DB_ID="5608147" class="DefinedSet" />
+        <instance DB_ID="8858126" class="Reaction" />
+        <instance DB_ID="8858124" class="Reaction" />
+        <instance DB_ID="5608153" class="BlackBoxEvent" />
+        <instance DB_ID="5679323" class="DefinedSet" />
+        <instance DB_ID="8868949" class="Pathway" />
+        <instance DB_ID="8858079" class="Reaction" />
+        <instance DB_ID="8858142" class="Reaction" />
+        <instance DB_ID="8868860" class="Pathway" />
+        <instance DB_ID="8858107" class="Reaction" />
+      </deletion>
+      <defaultPerson dbId="8853978" />
+    </meta>
+  </reactome>
+  <Process nextId="285" reactomeDiagramId="-90" hideCompartmentInName="false">
+    <Nodes>
+      <org.gk.render.RenderableEntitySet id="1" reactomeId="-45" position="521 156" bounds="480 138 82 36" />
+      <org.gk.render.RenderableEntitySet id="3" reactomeId="-77" schemaClass="DefinedSet" position="899 144" bounds="841 133 117 22" />
+      <org.gk.render.RenderableProtein id="4" reactomeId="-21" schemaClass="EntityWithAccessionedSequence" position="459 79" bounds="415 61 89 36" />
+      <org.gk.render.RenderableProtein id="5" reactomeId="-15" schemaClass="EntityWithAccessionedSequence" position="721 181" bounds="660 170 123 22" />
+      <org.gk.render.RenderableProtein id="7" reactomeId="-9" schemaClass="EntityWithAccessionedSequence" position="631 551" bounds="571 540 121 22" />
+      <org.gk.render.RenderableProtein id="10" reactomeId="-5" schemaClass="EntityWithAccessionedSequence" position="147 66" bounds="90 48 114 36" />
+      <org.gk.render.ProcessNode id="12" reactomeId="8868860" position="746 751" bounds="693 736 107 30" />
+      <org.gk.render.ProcessNode id="13" reactomeId="-28" position="800 412" bounds="760 390 80 44" />
+      <org.gk.render.RenderableComplex id="14" reactomeId="5608085" position="129 394" bounds="76 383 107 22" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableChemical id="15" reactomeId="5608128" schemaClass="SimpleEntity" position="90 510" bounds="30 495 121 30" />
+      <org.gk.render.RenderablePathway id="16" reactomeId="5608153" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="17" reactomeId="5608104" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="18" reactomeId="5608134" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="19" reactomeId="5679295" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="20" reactomeId="5608193" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="21" reactomeId="5608156" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="22" reactomeId="5608177" schemaClass="BlackBoxEvent" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="23" reactomeId="5608217" schemaClass="BlackBoxEvent" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="24" reactomeId="5608208" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="25" reactomeId="5608214" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="26" reactomeId="5608171" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="28" reactomeId="8858142" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="29" reactomeId="8858079" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="30" reactomeId="8858124" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="31" reactomeId="8858126" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="32" reactomeId="8858150" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="33" reactomeId="8858107" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderablePathway id="34" reactomeId="8858130" schemaClass="Reaction" position="28 4" bounds="28 4 0 0" />
+      <org.gk.render.RenderableChemical id="38" reactomeId="8858057" schemaClass="SimpleEntity" position="950 398" bounds="895 383 111 30" />
+      <org.gk.render.RenderableChemical id="39" reactomeId="8858048" schemaClass="SimpleEntity" position="948 641" bounds="879 619 138 44" />
+      <org.gk.render.RenderableChemical id="41" reactomeId="8858135" schemaClass="SimpleEntity" position="1149 372" bounds="1095 350 109 44" />
+      <org.gk.render.RenderableChemical id="42" reactomeId="70106" schemaClass="SimpleEntity" position="1052 292" bounds="1010 277 85 30" />
+      <org.gk.render.RenderableEntitySet id="45" reactomeId="5608136" schemaClass="DefinedSet" position="262 555" bounds="205 537 114 36" />
+      <org.gk.render.RenderableEntitySet id="46" reactomeId="5608204" schemaClass="DefinedSet" position="56 649" bounds="9 631 94 36" />
+      <org.gk.render.RenderableComplex id="47" reactomeId="5608138" schemaClass="Complex" position="185 698" bounds="121 673 129 50" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableEntitySet id="53" reactomeId="5608087" schemaClass="DefinedSet" position="555 673" bounds="494 662 122 22" />
+      <org.gk.render.RenderableComplex id="54" reactomeId="5608170" schemaClass="Complex" position="422 803" bounds="373 778 98 50" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableComplex id="57" reactomeId="5608196" schemaClass="Complex" position="357 255" bounds="295 244 125 22" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableEntitySet id="58" reactomeId="5608147" position="355 391" bounds="315 373 80 36" />
+      <org.gk.render.RenderableProtein id="59" reactomeId="5608190" schemaClass="EntityWithAccessionedSequence" position="128 192" bounds="65 167 127 50" />
+      <org.gk.render.RenderableEntitySet id="61" reactomeId="5679323" position="403 535" bounds="361 517 85 36" />
+    </Nodes>
+    <Edges>
+      <org.gk.render.RenderableReaction id="2" reactomeId="-80" schemaClass="Reaction" points="823 37, 749 63, 878 127" position="749 63" lineWidth="1.0">
+        <Outputs>
+          <Output id="3" />
+        </Outputs>
+        <Activators>
+          <Activator id="4" points="507 76" />
+          <Activator id="5" points="723 167" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="6" reactomeId="-51" schemaClass="Reaction" points="599 448, 646 454, 632 537" position="646 454" lineWidth="1.0">
+        <Outputs>
+          <Output id="7" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="8" reactomeId="-84" schemaClass="Reaction" points="583 205, 716 230, 719 195" position="716 230" lineWidth="1.0">
+        <Outputs>
+          <Output id="5" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="9" reactomeId="-46" points="326 184, 303 109, 474 147" position="303 109" lineWidth="1.0">
+        <Outputs>
+          <Output id="1" />
+        </Outputs>
+        <Activators>
+          <Activator id="10" points="207 81" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="11" reactomeId="-79" schemaClass="Reaction" points="165 111, 379 48, 412 61" position="379 48" lineWidth="1.0">
+        <Outputs>
+          <Output id="4" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="27" reactomeId="5608175" schemaClass="BlackBoxEvent" points="150 408, 245 454, 131 492" position="245 454" lineWidth="1.0" reactionType="Omitted Process">
+        <Inputs>
+          <Input id="14" />
+        </Inputs>
+        <Outputs>
+          <Output id="15" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="37" reactomeId="8858079" points="950 416, 951 520, 948 616" position="951 520" lineWidth="1.0">
+        <Inputs>
+          <Input id="38" />
+        </Inputs>
+        <Outputs>
+          <Output id="39" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="40" reactomeId="8858107" points="1101 455, 1073 455, 1045 455" position="1073 455" lineWidth="1.0">
+        <Inputs>
+          <Input id="41" points="1136 397" />
+          <Input id="39" points="966 616" />
+        </Inputs>
+        <Outputs>
+          <Output id="38" points="975 416" />
+          <Output id="42" points="1051 310" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="44" reactomeId="5608104" schemaClass="Reaction" points="94 601, 179 620, 183 670" position="179 620" lineWidth="1.0">
+        <Inputs>
+          <Input id="15" points="90 528" />
+          <Input id="45" points="199 570" />
+          <Input id="46" points="70 625" />
+        </Inputs>
+        <Outputs>
+          <Output id="47" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="52" reactomeId="5608208" schemaClass="Reaction" points="522 751, 522 765, 474 784" position="522 765" lineWidth="1.0">
+        <Inputs>
+          <Input id="45" points="285 579" />
+          <Input id="53" points="550 690" />
+        </Inputs>
+        <Outputs>
+          <Output id="54" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="56" reactomeId="5608193" schemaClass="Reaction" points="332 331, 222 331, 112 331" position="222 331" lineWidth="1.0">
+        <Inputs>
+          <Input id="57" points="353 269" />
+          <Input id="58" points="348 367" />
+        </Inputs>
+        <Outputs>
+          <Output id="14" points="126 380" />
+          <Output id="59" points="125 220" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="60" reactomeId="5679295" schemaClass="Reaction" points="386 511, 362 490, 356 415" position="362 490" lineWidth="1.0">
+        <Inputs>
+          <Input id="61" />
+        </Inputs>
+        <Outputs>
+          <Output id="58" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+    </Edges>
+    <Pathways />
+  </Process>
+  <Process nextId="286" reactomeDiagramId="-99" hideCompartmentInName="true">
+    <Nodes>
+      <org.gk.render.RenderableProtein id="17" reactomeId="-9" schemaClass="EntityWithAccessionedSequence" position="411 610" bounds="384 597 54 27" textPosition="392 600" />
+      <org.gk.render.RenderableChemical id="18" reactomeId="5608128" schemaClass="SimpleEntity" position="824 369" bounds="783 354 82 31" textPosition="810 359" />
+      <org.gk.render.RenderableComplex id="24" reactomeId="5608196" schemaClass="Complex" position="733 144" bounds="698 131 70 26" textPosition="701 136" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableEntitySet id="26" reactomeId="-77" schemaClass="DefinedSet" position="216 458" bounds="187 446 59 24" textPosition="200 447" />
+      <org.gk.render.RenderableEntitySet id="30" reactomeId="5608136" schemaClass="DefinedSet" position="746 425" bounds="693 407 107 36" textPosition="695 414" />
+      <org.gk.render.RenderableProtein id="34" reactomeId="5608190" schemaClass="EntityWithAccessionedSequence" position="741 268" bounds="714 256 54 24" textPosition="722 257" />
+      <org.gk.render.RenderableComplex id="36" reactomeId="5608138" schemaClass="Complex" position="825 556" bounds="769 537 112 38" textPosition="770 540" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableProtein id="39" reactomeId="-21" schemaClass="EntityWithAccessionedSequence" position="334 407" bounds="305 395 59 25" textPosition="309 397" />
+      <org.gk.render.RenderableProtein id="42" reactomeId="-5" schemaClass="EntityWithAccessionedSequence" position="1023 78" bounds="997 63 53 30" textPosition="1004 67" />
+      <org.gk.render.RenderableProtein id="43" reactomeId="-15" schemaClass="EntityWithAccessionedSequence" position="333 506" bounds="302 495 63 23" textPosition="314 496" />
+      <org.gk.render.RenderableEntitySet id="46" reactomeId="5608204" schemaClass="DefinedSet" position="899 422" bounds="854 404 91 36" textPosition="856 411" />
+      <org.gk.render.RenderableEntitySet id="53" reactomeId="5608087" schemaClass="DefinedSet" position="653 475" bounds="620 463 66 25" textPosition="638 465" />
+      <org.gk.render.RenderableComplex id="54" reactomeId="5608170" schemaClass="Complex" position="538 425" bounds="490 405 96 40" textPosition="493 410" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.ProcessNode id="100" reactomeId="-101" schemaClass="Pathway" position="339 897" bounds="294 867 90 60" textPosition="307 875" />
+      <org.gk.render.RenderableProtein id="113" reactomeId="-36" schemaClass="EntityWithAccessionedSequence" position="510 663" bounds="483 651 55 24" textPosition="494 652" />
+      <org.gk.render.RenderableProtein id="114" reactomeId="-43" schemaClass="EntityWithAccessionedSequence" position="1210 609" bounds="1183 595 54 28" textPosition="1191 598" />
+      <org.gk.render.RenderableProtein id="125" reactomeId="-34" schemaClass="EntityWithAccessionedSequence" position="741 839" bounds="711 825 60 28" textPosition="717 828" />
+      <org.gk.render.RenderableProtein id="127" reactomeId="-41" schemaClass="EntityWithAccessionedSequence" position="467 745" bounds="440 734 54 22" textPosition="448 734" />
+      <org.gk.render.RenderableProtein id="129" reactomeId="-38" schemaClass="EntityWithAccessionedSequence" position="580 741" bounds="554 729 53 24" textPosition="561 730" />
+      <org.gk.render.RenderableChemical id="141" reactomeId="1599521" schemaClass="SimpleEntity" position="142 653" bounds="96 633 92 40" textPosition="113 642" />
+      <org.gk.render.RenderableEntity id="149" reactomeId="-107" schemaClass="OtherEntity" position="318 654" bounds="257 629 122 50" textPosition="257 636" />
+      <org.gk.render.RenderableCompartment id="158" reactomeId="70101" schemaClass="EntityCompartment" position="633 430" bounds="38 14 1190 833" textPosition="85 37" bgColor="250 240 240" lineColor="255 153 102" insets="46 21 1172 818">
+        <Components>
+          <Component id="160" />
+          <Component id="24" />
+          <Component id="184" />
+          <Component id="167" />
+          <Component id="230" />
+          <Component id="238" />
+          <Component id="34" />
+          <Component id="251" />
+          <Component id="240" />
+          <Component id="125" />
+          <Component id="114" />
+          <Component id="260" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.RenderableCompartment id="160" reactomeId="7660" schemaClass="EntityCompartment" position="523 552" bounds="73 308 901 489" textPosition="96 319" bgColor="250 240 240" lineColor="255 153 102" insets="82 316 884 470">
+        <Components>
+          <Component id="20" />
+          <Component id="26" />
+          <Component id="39" />
+          <Component id="43" />
+          <Component id="141" />
+          <Component id="148" />
+          <Component id="149" />
+          <Component id="17" />
+          <Component id="18" />
+          <Component id="22" />
+          <Component id="23" />
+          <Component id="29" />
+          <Component id="30" />
+          <Component id="33" />
+          <Component id="36" />
+          <Component id="40" />
+          <Component id="46" />
+          <Component id="52" />
+          <Component id="53" />
+          <Component id="54" />
+          <Component id="104" />
+          <Component id="129" />
+          <Component id="151" />
+          <Component id="105" />
+          <Component id="112" />
+          <Component id="113" />
+          <Component id="123" />
+          <Component id="126" />
+          <Component id="127" />
+          <Component id="131" />
+          <Component id="133" />
+          <Component id="135" />
+          <Component id="205" />
+          <Component id="206" />
+          <Component id="208" />
+          <Component id="239" />
+          <Component id="252" />
+          <Component id="124" />
+          <Component id="258" />
+          <Component id="259" />
+          <Component id="261" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.RenderableCompartment id="167" reactomeId="13951" schemaClass="EntityCompartment" position="1065 92" bounds="968 32 194 120" textPosition="986 108" bgColor="250 240 240" lineColor="255 153 102" insets="977 40 178 104">
+        <Components>
+          <Component id="42" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.ProcessNode id="173" reactomeId="-109" schemaClass="Pathway" position="577 894" bounds="527 869 100 51" textPosition="537 873" />
+      <org.gk.render.RenderableEntitySet id="184" reactomeId="-115" schemaClass="DefinedSet" position="830 21" bounds="803 7 55 29" textPosition="817 11" />
+      <org.gk.render.RenderableProtein id="206" reactomeId="-30" schemaClass="EntityWithAccessionedSequence" position="660 744" bounds="635 732 50 24" textPosition="635 733" />
+      <org.gk.render.RenderableEntitySet id="231" reactomeId="-124" schemaClass="DefinedSet" position="831 149" bounds="817 138 29 22" textPosition="818 138" />
+      <org.gk.render.RenderableComplex id="240" reactomeId="-128" schemaClass="Complex" position="824 274" bounds="785 255 79 38" textPosition="796 258" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableCompartment id="251" reactomeId="17940" schemaClass="EntityCompartment" position="877 181" bounds="813 141 129 81" textPosition="837 180" bgColor="250 240 240" lineColor="255 153 102" insets="820 147 115 69">
+        <Components>
+          <Component id="231" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.RenderableProtein id="259" reactomeId="-132" schemaClass="EntityWithAccessionedSequence" position="742 744" bounds="718 733 48 22" textPosition="718 733" />
+      <org.gk.render.RenderableProtein id="261" reactomeId="-133" schemaClass="EntityWithAccessionedSequence" position="687 610" bounds="660 599 55 23" textPosition="669 600" />
+    </Nodes>
+    <Edges>
+      <org.gk.render.RenderableReaction id="20" reactomeId="-80" schemaClass="Reaction" points="365 458, 334 458, 252 458" position="334 458" lineWidth="1.0">
+        <Outputs>
+          <Output id="26" />
+        </Outputs>
+        <Activators>
+          <Activator id="39" points="334 423" />
+          <Activator id="43" points="333 492" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="22" reactomeId="-51" schemaClass="Reaction" points="410 535, 410 569, 410 594" position="410 569" lineWidth="1.0">
+        <Outputs>
+          <Output id="17" />
+        </Outputs>
+        <Activators>
+          <Activator id="54" points="520 448" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="23" reactomeId="-79" schemaClass="Reaction" points="333 336, 333 367, 333 392" position="333 367" lineWidth="1.0">
+        <Outputs>
+          <Output id="39" />
+        </Outputs>
+        <Activators>
+          <Activator id="18" points="780 368" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="29" reactomeId="5608177" schemaClass="BlackBoxEvent" points="766 556, 738 556, 704 556" position="738 556" lineWidth="1.0" reactionType="Omitted Process">
+        <Inputs>
+          <Input id="36" />
+        </Inputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="33" reactomeId="-84" schemaClass="Reaction" points="333 580, 333 550, 333 521" position="333 550" lineWidth="1.0">
+        <Outputs>
+          <Output id="43" />
+        </Outputs>
+        <Activators>
+          <Activator id="54" points="505 448" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="40" reactomeId="5608104" schemaClass="Reaction" points="824 478, 824 504, 824 534" position="824 504" lineWidth="1.0">
+        <Inputs>
+          <Input id="30" points="772 449" />
+          <Input id="18" points="824 388" />
+          <Input id="46" points="874 446" />
+        </Inputs>
+        <Outputs>
+          <Output id="36" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="52" reactomeId="5608208" schemaClass="Reaction" points="653 424, 626 424, 589 424" position="626 424" lineWidth="1.0">
+        <Inputs>
+          <Input id="53" points="653 457" />
+          <Input id="30" points="687 424" />
+        </Inputs>
+        <Outputs>
+          <Output id="54" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableInteraction id="104" interactionType="Activate" points="407 627, 346 864" position="376 745" lineWidth="2.0">
+        <Inputs>
+          <Input id="17" />
+        </Inputs>
+        <Outputs>
+          <Output id="100" />
+        </Outputs>
+      </org.gk.render.RenderableInteraction>
+      <org.gk.render.FlowLine id="105" points="387 896, 524 894" position="455 895" lineWidth="2.0">
+        <Inputs>
+          <Input id="100" />
+        </Inputs>
+        <Outputs>
+          <Output id="173" />
+        </Outputs>
+      </org.gk.render.FlowLine>
+      <org.gk.render.RenderableReaction id="112" reactomeId="-73" schemaClass="Reaction" points="510 592, 510 610, 510 648" position="510 610" lineWidth="1.0">
+        <Outputs>
+          <Output id="113" />
+        </Outputs>
+        <Inhibitors>
+          <Inhibitor id="261" points="657 610" />
+        </Inhibitors>
+        <Activators>
+          <Activator id="17" points="441 610" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableInteraction id="123" interactionType="Activate" points="513 678, 569 866" position="541 772" lineWidth="2.0">
+        <Inputs>
+          <Input id="113" />
+        </Inputs>
+        <Outputs>
+          <Output id="173" />
+        </Outputs>
+      </org.gk.render.RenderableInteraction>
+      <org.gk.render.RenderableReaction id="124" reactomeId="-102" schemaClass="Reaction" points="741 678, 741 704, 741 730" position="741 704" lineWidth="1.0">
+        <Outputs>
+          <Output id="259" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="126" reactomeId="-103" schemaClass="Reaction" points="467 677, 467 704, 467 731" position="467 704" lineWidth="1.0">
+        <Outputs>
+          <Output id="127" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableInteraction id="131" interactionType="Activate" points="708 849, 630 876" position="669 862" lineWidth="2.0">
+        <Inputs>
+          <Input id="125" />
+        </Inputs>
+        <Outputs>
+          <Output id="173" />
+        </Outputs>
+      </org.gk.render.RenderableInteraction>
+      <org.gk.render.RenderableInteraction id="133" interactionType="Activate" points="475 759, 557 866" position="516 812" lineWidth="2.0">
+        <Inputs>
+          <Input id="127" />
+        </Inputs>
+        <Outputs>
+          <Output id="173" />
+        </Outputs>
+      </org.gk.render.RenderableInteraction>
+      <org.gk.render.RenderableInteraction id="135" interactionType="Activate" points="579 756, 577 866" position="578 811" lineWidth="2.0">
+        <Inputs>
+          <Input id="129" />
+        </Inputs>
+        <Outputs>
+          <Output id="173" />
+        </Outputs>
+      </org.gk.render.RenderableInteraction>
+      <org.gk.render.RenderableReaction id="148" reactomeId="-108" schemaClass="BlackBoxEvent" points="191 652, 217 652, 254 652" position="217 652" lineWidth="1.0" reactionType="Omitted Process">
+        <Inputs>
+          <Input id="141" />
+        </Inputs>
+        <Outputs>
+          <Output id="149" />
+        </Outputs>
+        <Inhibitors>
+          <Inhibitor id="26" points="216 476" />
+        </Inhibitors>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableInteraction id="151" interactionType="Inhibit" points="320 682, 336 864" position="328 773" lineWidth="2.0">
+        <Inputs>
+          <Input id="149" />
+        </Inputs>
+        <Outputs>
+          <Output id="100" />
+        </Outputs>
+      </org.gk.render.RenderableInteraction>
+      <org.gk.render.RenderableReaction id="205" reactomeId="-116" schemaClass="Reaction" points="659 672, 659 705, 659 729" position="659 705" lineWidth="1.0">
+        <Outputs>
+          <Output id="206" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableInteraction id="208" interactionType="Activate" points="653 759, 591 866" position="622 812" lineWidth="2.0">
+        <Inputs>
+          <Input id="206" />
+        </Inputs>
+        <Outputs>
+          <Output id="173" />
+        </Outputs>
+      </org.gk.render.RenderableInteraction>
+      <org.gk.render.RenderableReaction id="230" reactomeId="-125" schemaClass="Reaction" points="830 42, 830 77, 830 132" position="830 77" lineWidth="1.0">
+        <Inputs>
+          <Input id="184" />
+        </Inputs>
+        <Outputs>
+          <Output id="231" />
+        </Outputs>
+        <Activators>
+          <Activator id="42" points="994 77" />
+        </Activators>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="238" reactomeId="-126" schemaClass="Reaction" points="778 185, 777 216, 778 237" position="777 216" lineWidth="1.0">
+        <Inputs>
+          <Input id="231" points="811 158" />
+          <Input id="24" points="747 160" />
+        </Inputs>
+        <Outputs>
+          <Output id="34" points="755 253" />
+          <Output id="240" points="800 252" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="239" reactomeId="-127" schemaClass="BlackBoxEvent" points="824 296, 824 325, 824 351" position="824 325" lineWidth="1.0" reactionType="Omitted Process">
+        <Inputs>
+          <Input id="240" />
+        </Inputs>
+        <Outputs>
+          <Output id="18" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="252" reactomeId="-129" schemaClass="Reaction" points="580 671, 580 702, 580 726" position="580 702" lineWidth="1.0">
+        <Outputs>
+          <Output id="129" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="258" reactomeId="-135" schemaClass="Reaction" points="741 758, 741 791, 741 822" position="741 791" lineWidth="1.0" reactionType="Omitted Process">
+        <Inputs>
+          <Input id="259" />
+        </Inputs>
+        <Outputs>
+          <Output id="125" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="260" reactomeId="-134" schemaClass="Reaction" points="718 610, 1017 610, 1180 609" position="1017 610" lineWidth="1.0" reactionType="Omitted Process">
+        <Inputs>
+          <Input id="261" />
+        </Inputs>
+        <Outputs>
+          <Output id="114" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+    </Edges>
+    <Pathways />
+  </Process>
+  <Process nextId="287" reactomeDiagramId="-97" hideCompartmentInName="false">
+    <Nodes>
+      <org.gk.render.RenderablePathway id="18" reactomeId="8858142" position="100 100" />
+      <org.gk.render.RenderablePathway id="19" reactomeId="8858079" position="100 100" />
+      <org.gk.render.RenderablePathway id="20" reactomeId="8858124" position="100 100" />
+      <org.gk.render.RenderablePathway id="21" reactomeId="8858126" position="100 100" />
+      <org.gk.render.RenderablePathway id="22" reactomeId="8858150" position="100 100" />
+      <org.gk.render.RenderablePathway id="23" reactomeId="8858107" position="100 100" />
+      <org.gk.render.RenderablePathway id="24" reactomeId="8858130" schemaClass="Reaction" position="100 100" />
+    </Nodes>
+    <Edges />
+    <Pathways />
+  </Process>
+  <Process nextId="288" reactomeDiagramId="-95" hideCompartmentInName="false">
+    <Nodes>
+      <org.gk.render.RenderableComplex id="45" reactomeId="5608085" position="225 105" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableChemical id="46" reactomeId="5608128" schemaClass="SimpleEntity" position="225 245" />
+      <org.gk.render.RenderablePathway id="47" reactomeId="5608153" position="100 100" />
+      <org.gk.render.RenderablePathway id="48" reactomeId="5608104" schemaClass="Reaction" position="100 100" />
+      <org.gk.render.RenderablePathway id="49" reactomeId="5608134" schemaClass="Reaction" position="100 100" />
+      <org.gk.render.RenderablePathway id="50" reactomeId="5679295" schemaClass="Reaction" position="100 100" />
+      <org.gk.render.RenderablePathway id="51" reactomeId="5608193" schemaClass="Reaction" position="100 100" />
+      <org.gk.render.RenderablePathway id="52" reactomeId="5608156" schemaClass="Reaction" position="100 100" />
+      <org.gk.render.RenderablePathway id="53" reactomeId="5608177" schemaClass="BlackBoxEvent" position="100 100" />
+      <org.gk.render.RenderablePathway id="54" reactomeId="5608217" schemaClass="BlackBoxEvent" position="100 100" />
+      <org.gk.render.RenderablePathway id="55" reactomeId="5608208" schemaClass="Reaction" position="100 100" />
+      <org.gk.render.RenderablePathway id="57" reactomeId="5608214" schemaClass="Reaction" position="100 100" />
+      <org.gk.render.RenderablePathway id="58" reactomeId="5608171" schemaClass="Reaction" position="100 100" />
+    </Nodes>
+    <Edges>
+      <org.gk.render.RenderableReaction id="56" reactomeId="5608175" schemaClass="BlackBoxEvent" points="225 133, 225 175, 225 217" position="225 175" lineWidth="1.0" reactionType="Omitted Process">
+        <Inputs>
+          <Input id="45" />
+        </Inputs>
+        <Outputs>
+          <Output id="46" />
+        </Outputs>
+      </org.gk.render.RenderableReaction>
+    </Edges>
+    <Pathways />
+  </Process>
+  <Process nextId="289" reactomeDiagramId="-96" hideCompartmentInName="false">
+    <Nodes />
+    <Edges />
+    <Pathways />
+  </Process>
+</rtpj>
+
