@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtpj>
+  <reactome>
+    <Summation>
+      <instance DB_ID="-15" displayName="EMF2B is a C2H2 zinc finger protein, required to regulate ex..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-15" />
+        <attribute name="_displayName" value="EMF2B is a C2H2 zinc finger protein, required to regulate ex..." />
+        <attribute name="text" value="EMF2B is a C2H2 zinc finger protein, required to regulate expression of eight MADS-box genes (OsMADS1, OsMADS4, OsMADS6, OsMADS8, OsMADS16, OsMADS55, DL and OPB). In OsEMF2b mutant, expression of E-function genes OsMADS1 and OsMADS6 is significantly reduced, and the phenotypes observed are similar to loss of function of these two E-function genes. These observations suggest that Polycomb Repressive Complex 2 (PRC2) plays a major role in floral meristem determinacy through modulation of the expression of E-function genes." />
+      </instance>
+      <instance DB_ID="-46" displayName="MADS-box genes are principle members in the ABCDE model of f..." isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-46" />
+        <attribute name="_displayName" value="MADS-box genes are principle members in the ABCDE model of f..." />
+        <attribute name="text" value="MADS-box genes are principle members in the ABCDE model of floral organs development. OsMADS1 specifies the determinacy of spikelet meristem and lemma/palea identity in rice. OsMADS1 and miR172s/AP2s formed a regulatory network involved in floral organ development, particularly the elongation of the lemma and the palea. Dai et al., 2016 suggested that miR172 family members are the possible regulators downstream of OsMADS1. Genetic study revealed that overexpression of each miR172 gene resulted in elongated lemma/palea and indeterminacy of the floret, which resemble the phenotype of osmads1 mutant. On the contrary, overexpression of each target APETALA2 (AP2) genes resulted in shortened palea/lemma. Expression level and specificity of miR172 was greatly influenced by OsMADS1 in rice." />
+      </instance>
+    </Summation>
+    <InstanceEdit>
+      <instance DB_ID="8986734" displayName="Gupta, Parul, 2017-04-28" isShell="true" />
+      <instance DB_ID="1250423" displayName="D'Eustachio, P, 2011-04-19" isShell="true" />
+      <instance DB_ID="8950023" displayName="D'Eustachio, Peter, 2016-12-01" isShell="true" />
+      <instance DB_ID="9014479" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="160533" displayName="Schmidt, EE, 2005-03-23 05:24:35" isShell="true" />
+      <instance DB_ID="162607" displayName="Schmidt, EE, 2005-04-01 11:06:09" isShell="true" />
+      <instance DB_ID="171322" displayName="Schmidt, EE, 2006-02-06 10:50:16" isShell="true" />
+      <instance DB_ID="258122" displayName="Kanapin, EE, 2008-03-27 12:15:20" isShell="true" />
+      <instance DB_ID="352581" displayName="Caudy, M, 2008-06-04 08:46:28" isShell="true" />
+      <instance DB_ID="357819" displayName="Kanapin, EE, 2008-06-18 10:45:39" isShell="true" />
+      <instance DB_ID="376438" displayName="Kanapin, EE, 2008-09-08 10:23:04" isShell="true" />
+      <instance DB_ID="383393" displayName="Kanapin, AA, 2008-11-26 13:49:44" isShell="true" />
+      <instance DB_ID="396309" displayName="Kanapin, EE, 2009-03-09 13:26:57" isShell="true" />
+      <instance DB_ID="422569" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="436347" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="447572" displayName="Kanapin, EE" isShell="true" />
+      <instance DB_ID="526073" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="528085" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="615500" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="797782" displayName="Kanapin, AA" isShell="true" />
+      <instance DB_ID="937668" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1042299" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1220942" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301009" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1301023" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1552540" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="1996004" displayName="Yung, CK" isShell="true" />
+      <instance DB_ID="2132408" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2133145" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266118" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2266147" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2454362" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2455542" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="2587907" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3132285" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="3445953" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="4341211" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5083267" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="5263134" displayName="Weiser, JD" isShell="true" />
+      <instance DB_ID="1606611" displayName="Wu, G, 2011-09-23" isShell="true" />
+      <instance DB_ID="5671650" displayName="Jupe, Steve, 2015-02-02" isShell="true" />
+      <instance DB_ID="5671699" displayName="Jupe, Steve, 2015-02-02" isShell="true" />
+    </InstanceEdit>
+    <Complex>
+      <instance DB_ID="-41" displayName="miR172:AP2 mRNA" isShell="false" isDirty="true">
+        <attribute name="hasComponent" class="DefinedSet" referTo="-27" />
+        <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-38" />
+        <attribute name="DB_ID" value="-41" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="miR172:AP2 mRNA" />
+        <attribute name="name" value="miR172:AP2 mRNA" />
+      </instance>
+    </Complex>
+    <ReferenceRNASequence>
+      <instance DB_ID="-2" displayName="Ensembl-Gramene:Os03T0215400 MADS1" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Os03T0215400" />
+        <attribute name="DB_ID" value="-2" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="Ensembl-Gramene:Os03T0215400 MADS1" />
+        <attribute name="geneName" value="MADS1" />
+        <attribute name="geneName" value="LHS1" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="8986727" />
+      </instance>
+      <instance DB_ID="-19" displayName="miRBase:MI0001139 miR172a" isShell="false" isDirty="true">
+        <attribute name="identifier" value="MI0001139" />
+        <attribute name="DB_ID" value="-19" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="miRBase:MI0001139 miR172a" />
+        <attribute name="geneName" value="miR172a" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1606610" />
+      </instance>
+      <instance DB_ID="-20" displayName="miRBase:MI0001140 miR172b" isShell="false" isDirty="true">
+        <attribute name="identifier" value="MI0001140" />
+        <attribute name="DB_ID" value="-20" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="miRBase:MI0001140 miR172b" />
+        <attribute name="geneName" value="miR172b" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1606610" />
+      </instance>
+      <instance DB_ID="-21" displayName="miRBase:MI0001141 miR172c" isShell="false" isDirty="true">
+        <attribute name="identifier" value="MI0001141" />
+        <attribute name="DB_ID" value="-21" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="miRBase:MI0001141 miR172c" />
+        <attribute name="geneName" value="miR172c" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1606610" />
+      </instance>
+      <instance DB_ID="-22" displayName="miRBase:MI0001154 miR172d" isShell="false" isDirty="true">
+        <attribute name="identifier" value="MI0001154" />
+        <attribute name="DB_ID" value="-22" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="miRBase:MI0001154 miR172d" />
+        <attribute name="geneName" value="miR172d" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1606610" />
+      </instance>
+      <instance DB_ID="-37" displayName="Ensembl-Gramene:Os05T0121600 AP2-1" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Os05T0121600" />
+        <attribute name="DB_ID" value="-37" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="Ensembl-Gramene:Os05T0121600 AP2-1" />
+        <attribute name="geneName" value="AP2-1" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="8986727" />
+      </instance>
+    </ReferenceRNASequence>
+    <ReferenceDatabase>
+      <instance DB_ID="8986727" displayName="Ensembl-Gramene" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="8986727" />
+        <attribute name="created" class="InstanceEdit" referTo="8986734" />
+        <attribute name="_displayName" value="Ensembl-Gramene" />
+        <attribute name="name" value="Ensembl-Gramene" />
+        <attribute name="url" value="http://ensembl.gramene.org/Oryza_sativa/Info/Index" />
+      </instance>
+      <instance DB_ID="1" displayName="GO" isShell="true" />
+      <instance DB_ID="2" displayName="UniProt" isShell="true" />
+      <instance DB_ID="1606610" displayName="miRBase" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="1606610" />
+        <attribute name="accessUrl" value="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=###ID###" />
+        <attribute name="created" class="InstanceEdit" referTo="1606611" />
+        <attribute name="_displayName" value="miRBase" />
+        <attribute name="name" value="miRBase" />
+        <attribute name="url" value="http://www.mirbase.org" />
+      </instance>
+    </ReferenceDatabase>
+    <ReferenceDNASequence>
+      <instance DB_ID="-1" displayName="Ensembl-Gramene:Os03g0215400 MADS1" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Os03g0215400" />
+        <attribute name="DB_ID" value="-1" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="Ensembl-Gramene:Os03g0215400 MADS1" />
+        <attribute name="geneName" value="MADS1" />
+        <attribute name="geneName" value="LHS1" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="8986727" />
+      </instance>
+    </ReferenceDNASequence>
+    <Species>
+      <instance DB_ID="1250427" displayName="Oryza sativa subsp. japonica" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="1250427" />
+        <attribute name="created" class="InstanceEdit" referTo="1250423" />
+        <attribute name="_displayName" value="Oryza sativa subsp. japonica" />
+        <attribute name="crossReference" class="DatabaseIdentifier" referTo="1250430" />
+        <attribute name="name" value="Oryza sativa subsp. japonica" />
+        <attribute name="modified" class="InstanceEdit" referTo="8950023" />
+        <attribute name="modified" class="InstanceEdit" referTo="9014479" />
+        <attribute name="superTaxon" class="Species" referTo="186860" />
+        <attribute name="abbreviation" value="OSA" />
+      </instance>
+      <instance DB_ID="186860" displayName="Oryza sativa" isShell="true" />
+    </Species>
+    <ReferenceGeneProduct>
+      <instance DB_ID="-5" displayName="UniProt:Q0J2S6 Os09g0306800" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q0J2S6" />
+        <attribute name="DB_ID" value="-5" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="UniProt:Q0J2S6 Os09g0306800" />
+        <attribute name="geneName" value="Os09g0306800" />
+        <attribute name="geneName" value="OSNPB_090306800" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="Q0J2S6_ORYSJ" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Reference proteome" />
+      </instance>
+      <instance DB_ID="-16" displayName="UniProt:Q10PZ9 Os03g0215400" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q10PZ9" />
+        <attribute name="DB_ID" value="-16" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="UniProt:Q10PZ9 Os03g0215400" />
+        <attribute name="geneName" value="Os03g0215400" />
+        <attribute name="geneName" value="LOC_Os03g11614" />
+        <attribute name="geneName" value="MADS1" />
+        <attribute name="geneName" value="LHS1" />
+        <attribute name="geneName" value="OsJ_09913" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="comment" value="FUNCTION: Probable transcription factor involved in the development of floral organs. Required for the formation of inner floral organs (lodicules, stamens and carpels, or whorls 2, 3 and 4) and the lemma and palea (whorl 1), which are grass floral organs analogous to sepals. May be involved in the control of flowering time. Seems to act as transcriptional activator. May act upstream of the auxin-responsive protein GH3.8. {ECO:0000269|PubMed:10852934, ECO:0000269|PubMed:11466523, ECO:0000269|PubMed:16217607, ECO:0000269|PubMed:7948920, ECO:0000269|Ref.11}." />
+        <attribute name="comment" value="SUBUNIT: May interact with the K-box of MADS6, MADS14 and MADS15." />
+        <attribute name="comment" value="INTERACTION: Q10CQ1:MADS14; NbExp=4; IntAct=EBI-627957, EBI-627890; Q6Q9I2:MADS15; NbExp=4; IntAct=EBI-627957, EBI-627918; Q6EU39:MADS6; NbExp=4; IntAct=EBI-627957, EBI-627980;" />
+        <attribute name="comment" value="SUBCELLULAR LOCATION: Nucleus {ECO:0000305}." />
+        <attribute name="comment" value="TISSUE SPECIFICITY: Expressed in lemmas, paleas and pistils. Weakly expressed in carpels. {ECO:0000269|PubMed:7948920}." />
+        <attribute name="comment" value="DEVELOPMENTAL STAGE: Expressed at early stage of flower development in floral meristem, and at later stage in lemma, palea and carpel primordia. {ECO:0000269|PubMed:11466523}." />
+        <attribute name="secondaryIdentifier" value="MADS1_ORYSJ" />
+        <attribute name="secondaryIdentifier" value="B7EGS6" />
+        <attribute name="secondaryIdentifier" value="Q3ZES6" />
+        <attribute name="secondaryIdentifier" value="Q40700" />
+        <attribute name="keyword" value="Activator" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="Developmental protein" />
+        <attribute name="keyword" value="Differentiation" />
+        <attribute name="keyword" value="DNA-binding" />
+        <attribute name="keyword" value="Flowering" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+      </instance>
+      <instance DB_ID="-39" displayName="UniProt:Q2TQ34 Os05g0121600" isShell="false" isDirty="true">
+        <attribute name="identifier" value="Q2TQ34" />
+        <attribute name="DB_ID" value="-39" />
+        <attribute name="species" class="Species" referTo="1250427" />
+        <attribute name="_displayName" value="UniProt:Q2TQ34 Os05g0121600" />
+        <attribute name="geneName" value="Os05g0121600" />
+        <attribute name="geneName" value="AP2D23" />
+        <attribute name="geneName" value="OSNPB_050121600" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="2" />
+        <attribute name="secondaryIdentifier" value="Q2TQ34_ORYSJ" />
+        <attribute name="keyword" value="Complete proteome" />
+        <attribute name="keyword" value="DNA-binding" />
+        <attribute name="keyword" value="Nucleus" />
+        <attribute name="keyword" value="Reference proteome" />
+        <attribute name="keyword" value="Transcription" />
+        <attribute name="keyword" value="Transcription regulation" />
+      </instance>
+    </ReferenceGeneProduct>
+    <DefinedSet>
+      <instance DB_ID="-27" displayName="miR172 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-27" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-23" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-24" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-25" />
+        <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-26" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="miR172 [nucleoplasm]" />
+        <attribute name="name" value="miR172" />
+      </instance>
+    </DefinedSet>
+    <NegativeGeneExpressionRegulation>
+      <instance DB_ID="-35" displayName="'EMF2B [nucleoplasm]' negatively regulates 'Transcription of MADS1'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-35" />
+        <attribute name="_displayName" value="'EMF2B [nucleoplasm]' negatively regulates 'Transcription of MADS1'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-18" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-6" />
+      </instance>
+      <instance DB_ID="-36" displayName="'MADS1 [nucleoplasm]' negatively regulates 'Expression of miR172'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-36" />
+        <attribute name="_displayName" value="'MADS1 [nucleoplasm]' negatively regulates 'Expression of miR172'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-28" />
+        <attribute name="regulator" class="EntityWithAccessionedSequence" referTo="-17" />
+      </instance>
+      <instance DB_ID="-43" displayName="'miR172:AP2 mRNA' negatively regulates 'Translation of AP2-1'" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-43" />
+        <attribute name="_displayName" value="'miR172:AP2 mRNA' negatively regulates 'Translation of AP2-1'" />
+        <attribute name="regulatedEntity" class="BlackBoxEvent" referTo="-42" />
+        <attribute name="regulator" class="Complex" referTo="-41" />
+      </instance>
+    </NegativeGeneExpressionRegulation>
+    <BlackBoxEvent>
+      <instance DB_ID="-18" displayName="Transcription of MADS1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8986734" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-4" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-18" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-3" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Transcription of MADS1" />
+        <attribute name="name" value="Transcription of MADS1" />
+      </instance>
+      <instance DB_ID="-28" displayName="Expression of miR172" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8986734" />
+        <attribute name="output" class="DefinedSet" referTo="-27" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-29" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-28" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Expression of miR172" />
+        <attribute name="name" value="Expression of miR172" />
+      </instance>
+      <instance DB_ID="-42" displayName="Translation of AP2-1" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8986734" />
+        <attribute name="output" class="EntityWithAccessionedSequence" referTo="-40" />
+        <attribute name="DB_ID" value="-42" />
+        <attribute name="isChimeric" value="false" />
+        <attribute name="input" class="EntityWithAccessionedSequence" referTo="-38" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Translation of AP2-1" />
+        <attribute name="name" value="Translation of AP2-1" />
+      </instance>
+    </BlackBoxEvent>
+    <Pathway>
+      <instance DB_ID="-44" displayName="Lemma/Palea development" isShell="false" isDirty="true">
+        <attribute name="authored" class="InstanceEdit" referTo="8986734" />
+        <attribute name="summation" class="Summation" referTo="-46" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-29" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-7" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-47" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="-28" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="-18" />
+        <attribute name="hasEvent" class="BlackBoxEvent" referTo="-42" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-44" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="Lemma/Palea development" />
+        <attribute name="name" value="Lemma/Palea development" />
+      </instance>
+    </Pathway>
+    <EntityCompartment>
+      <instance DB_ID="7660" displayName="nucleoplasm" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="7660" />
+        <attribute name="accession" value="0005654" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258151" />
+        <attribute name="componentOf" class="GO_CellularComponent" referTo="171405" />
+        <attribute name="_displayName" value="nucleoplasm" />
+        <attribute name="name" value="nucleoplasm" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="352581" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="That part of the nuclear content other than the chromosomes or the nucleolus." />
+      </instance>
+      <instance DB_ID="70101" displayName="cytosol" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="70101" />
+        <attribute name="accession" value="0005829" />
+        <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
+        <attribute name="componentOf" class="EntityCompartment" referTo="459" />
+        <attribute name="_displayName" value="cytosol" />
+        <attribute name="name" value="cytosol" />
+        <attribute name="modified" class="InstanceEdit" referTo="160533" />
+        <attribute name="modified" class="InstanceEdit" referTo="162607" />
+        <attribute name="modified" class="InstanceEdit" referTo="171322" />
+        <attribute name="modified" class="InstanceEdit" referTo="258122" />
+        <attribute name="modified" class="InstanceEdit" referTo="357819" />
+        <attribute name="modified" class="InstanceEdit" referTo="376438" />
+        <attribute name="modified" class="InstanceEdit" referTo="383393" />
+        <attribute name="modified" class="InstanceEdit" referTo="396309" />
+        <attribute name="modified" class="InstanceEdit" referTo="422569" />
+        <attribute name="modified" class="InstanceEdit" referTo="436347" />
+        <attribute name="modified" class="InstanceEdit" referTo="447572" />
+        <attribute name="modified" class="InstanceEdit" referTo="526073" />
+        <attribute name="modified" class="InstanceEdit" referTo="528085" />
+        <attribute name="modified" class="InstanceEdit" referTo="615500" />
+        <attribute name="modified" class="InstanceEdit" referTo="797782" />
+        <attribute name="modified" class="InstanceEdit" referTo="937668" />
+        <attribute name="modified" class="InstanceEdit" referTo="1042299" />
+        <attribute name="modified" class="InstanceEdit" referTo="1220942" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301009" />
+        <attribute name="modified" class="InstanceEdit" referTo="1301023" />
+        <attribute name="modified" class="InstanceEdit" referTo="1552540" />
+        <attribute name="modified" class="InstanceEdit" referTo="1996004" />
+        <attribute name="modified" class="InstanceEdit" referTo="2132408" />
+        <attribute name="modified" class="InstanceEdit" referTo="2133145" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266118" />
+        <attribute name="modified" class="InstanceEdit" referTo="2266147" />
+        <attribute name="modified" class="InstanceEdit" referTo="2454362" />
+        <attribute name="modified" class="InstanceEdit" referTo="2455542" />
+        <attribute name="modified" class="InstanceEdit" referTo="2587907" />
+        <attribute name="modified" class="InstanceEdit" referTo="3132285" />
+        <attribute name="modified" class="InstanceEdit" referTo="3445953" />
+        <attribute name="modified" class="InstanceEdit" referTo="4341211" />
+        <attribute name="modified" class="InstanceEdit" referTo="5083267" />
+        <attribute name="modified" class="InstanceEdit" referTo="5263134" />
+        <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
+        <attribute name="definition" value="The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes." />
+      </instance>
+      <instance DB_ID="459" displayName="cytoplasm" isShell="true" />
+    </EntityCompartment>
+    <GO_CellularComponent>
+      <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
+      <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
+      <instance DB_ID="258163" displayName="cytoplasmic part" isShell="true" />
+    </GO_CellularComponent>
+    <DatabaseIdentifier>
+      <instance DB_ID="1250430" displayName="NCBI_taxonomy:39947" isShell="true" />
+    </DatabaseIdentifier>
+    <LiteratureReference>
+      <instance DB_ID="-7" displayName="The polycomb group gene EMF2B is essential for maintenance of floral meristem determinacy in rice" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-7" />
+        <attribute name="year" value="2014" />
+        <attribute name="author" class="Person" referTo="-8" />
+        <attribute name="author" class="Person" referTo="-9" />
+        <attribute name="author" class="Person" referTo="-10" />
+        <attribute name="author" class="Person" referTo="-11" />
+        <attribute name="author" class="Person" referTo="-12" />
+        <attribute name="author" class="Person" referTo="-13" />
+        <attribute name="author" class="Person" referTo="-14" />
+        <attribute name="title" value="The polycomb group gene EMF2B is essential for maintenance of floral meristem determinacy in rice" />
+        <attribute name="volume" value="80" />
+        <attribute name="pages" value="883-94" />
+        <attribute name="journal" value="Plant J." />
+        <attribute name="_displayName" value="The polycomb group gene EMF2B is essential for maintenance of floral meristem determinacy in rice" />
+        <attribute name="pubMedIdentifier" value="25279942" />
+      </instance>
+      <instance DB_ID="-29" displayName="Represses microRNA172 in Elongation of Palea/Lemma Development in Rice" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-29" />
+        <attribute name="year" value="2016" />
+        <attribute name="author" class="Person" referTo="-30" />
+        <attribute name="author" class="Person" referTo="-31" />
+        <attribute name="author" class="Person" referTo="-32" />
+        <attribute name="author" class="Person" referTo="-33" />
+        <attribute name="author" class="Person" referTo="-34" />
+        <attribute name="title" value="Represses microRNA172 in Elongation of Palea/Lemma Development in Rice" />
+        <attribute name="volume" value="7" />
+        <attribute name="pages" value="1891" />
+        <attribute name="journal" value="Front Plant Sci" />
+        <attribute name="_displayName" value="Represses microRNA172 in Elongation of Palea/Lemma Development in Rice" />
+        <attribute name="pubMedIdentifier" value="28066457" />
+      </instance>
+      <instance DB_ID="-47" displayName="OsAP2-1, an AP2-like gene from Oryza sativa, is required for flower development and male fertility" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-47" />
+        <attribute name="year" value="2006" />
+        <attribute name="author" class="Person" referTo="5671694" />
+        <attribute name="author" class="Person" referTo="-49" />
+        <attribute name="author" class="Person" referTo="-50" />
+        <attribute name="author" class="Person" referTo="-51" />
+        <attribute name="title" value="OsAP2-1, an AP2-like gene from Oryza sativa, is required for flower development and male fertility" />
+        <attribute name="volume" value="19" />
+        <attribute name="pages" value="197-206" />
+        <attribute name="journal" value="Sexual Plant Reproduction" />
+        <attribute name="_displayName" value="OsAP2-1, an AP2-like gene from Oryza sativa, is required for flower development and male fertility" />
+      </instance>
+    </LiteratureReference>
+    <PathwayDiagram>
+      <instance DB_ID="-45" displayName="Diagram of Lemma/Palea development" isShell="false" isDirty="true">
+        <attribute name="representedPathway" class="Pathway" referTo="-44" />
+        <attribute name="DB_ID" value="-45" />
+        <attribute name="_displayName" value="Diagram of Lemma/Palea development" />
+      </instance>
+    </PathwayDiagram>
+    <EntityWithAccessionedSequence>
+      <instance DB_ID="-3" displayName="MADS1 gene [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-3" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-1" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="MADS1 gene [nucleoplasm]" />
+        <attribute name="name" value="MADS1 gene" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-4" displayName="MADS1 mRNA [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-4" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-2" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="MADS1 mRNA [nucleoplasm]" />
+        <attribute name="name" value="MADS1 mRNA" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-6" displayName="EMF2B [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="summation" class="Summation" referTo="-15" />
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-7" />
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-6" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-5" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="EMF2B [nucleoplasm]" />
+        <attribute name="name" value="EMF2B" />
+        <attribute name="name" value="Embryonic Flower 2B" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-17" displayName="MADS1 [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-17" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-16" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="MADS1 [nucleoplasm]" />
+        <attribute name="name" value="MADS1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-23" displayName="miR172a [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-23" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-19" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="miR172a [nucleoplasm]" />
+        <attribute name="name" value="miR172a" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-24" displayName="miR172b [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-24" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-20" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="miR172b [nucleoplasm]" />
+        <attribute name="name" value="miR172b" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-25" displayName="miR172c [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-25" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-21" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="miR172c [nucleoplasm]" />
+        <attribute name="name" value="miR172c" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-26" displayName="miR172d [nucleoplasm]" isShell="false" isDirty="true">
+        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="DB_ID" value="-26" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-22" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="miR172d [nucleoplasm]" />
+        <attribute name="name" value="miR172d" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-38" displayName="AP2-1 mRNA [cytosol]" isShell="false" isDirty="true">
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-29" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="DB_ID" value="-38" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-37" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="AP2-1 mRNA [cytosol]" />
+        <attribute name="name" value="AP2-1 mRNA" />
+        <attribute name="name" value="AP2/EREBP family transcription factor" />
+        <attribute name="name" value="TOE1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+      <instance DB_ID="-40" displayName="AP2-1 [cytosol]" isShell="false" isDirty="true">
+        <attribute name="literatureReference" class="LiteratureReference" referTo="-29" />
+        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="DB_ID" value="-40" />
+        <attribute name="startCoordinate" value="1" />
+        <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-39" />
+        <attribute name="species" class="Species" referTo="186860" />
+        <attribute name="_displayName" value="AP2-1 [cytosol]" />
+        <attribute name="name" value="AP2-1" />
+        <attribute name="name" value="AP2/EREBP family transcription factor" />
+        <attribute name="name" value="TOE1" />
+        <attribute name="endCoordinate" value="-1" />
+      </instance>
+    </EntityWithAccessionedSequence>
+    <Person>
+      <instance DB_ID="-8" displayName="Conrad, Liza J" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-8" />
+        <attribute name="firstname" value="Liza J" />
+        <attribute name="initial" value="LJ" />
+        <attribute name="surname" value="Conrad" />
+        <attribute name="_displayName" value="Conrad, Liza J" />
+      </instance>
+      <instance DB_ID="-9" displayName="Khanday, Imtiyaz" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-9" />
+        <attribute name="firstname" value="Imtiyaz" />
+        <attribute name="initial" value="I" />
+        <attribute name="surname" value="Khanday" />
+        <attribute name="_displayName" value="Khanday, Imtiyaz" />
+      </instance>
+      <instance DB_ID="-10" displayName="Johnson, Cameron" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-10" />
+        <attribute name="firstname" value="Cameron" />
+        <attribute name="initial" value="C" />
+        <attribute name="surname" value="Johnson" />
+        <attribute name="_displayName" value="Johnson, Cameron" />
+      </instance>
+      <instance DB_ID="-11" displayName="Guiderdoni, Emmanuel" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-11" />
+        <attribute name="firstname" value="Emmanuel" />
+        <attribute name="initial" value="E" />
+        <attribute name="surname" value="Guiderdoni" />
+        <attribute name="_displayName" value="Guiderdoni, Emmanuel" />
+      </instance>
+      <instance DB_ID="-12" displayName="An, Gynheung" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-12" />
+        <attribute name="firstname" value="Gynheung" />
+        <attribute name="initial" value="G" />
+        <attribute name="surname" value="An" />
+        <attribute name="_displayName" value="An, Gynheung" />
+      </instance>
+      <instance DB_ID="-13" displayName="Vijayraghavan, Usha" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-13" />
+        <attribute name="firstname" value="Usha" />
+        <attribute name="initial" value="U" />
+        <attribute name="surname" value="Vijayraghavan" />
+        <attribute name="_displayName" value="Vijayraghavan, Usha" />
+      </instance>
+      <instance DB_ID="-14" displayName="Sundaresan, Venkatesan" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-14" />
+        <attribute name="firstname" value="Venkatesan" />
+        <attribute name="initial" value="V" />
+        <attribute name="surname" value="Sundaresan" />
+        <attribute name="_displayName" value="Sundaresan, Venkatesan" />
+      </instance>
+      <instance DB_ID="-30" displayName="Dai, Zhengyan" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-30" />
+        <attribute name="firstname" value="Zhengyan" />
+        <attribute name="initial" value="Z" />
+        <attribute name="surname" value="Dai" />
+        <attribute name="_displayName" value="Dai, Zhengyan" />
+      </instance>
+      <instance DB_ID="-31" displayName="Wang, Jiang" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-31" />
+        <attribute name="firstname" value="Jiang" />
+        <attribute name="initial" value="J" />
+        <attribute name="surname" value="Wang" />
+        <attribute name="_displayName" value="Wang, Jiang" />
+      </instance>
+      <instance DB_ID="-32" displayName="Zhu, Mulan" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-32" />
+        <attribute name="firstname" value="Mulan" />
+        <attribute name="initial" value="M" />
+        <attribute name="surname" value="Zhu" />
+        <attribute name="_displayName" value="Zhu, Mulan" />
+      </instance>
+      <instance DB_ID="-33" displayName="Miao, Xuexia" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-33" />
+        <attribute name="firstname" value="Xuexia" />
+        <attribute name="initial" value="X" />
+        <attribute name="surname" value="Miao" />
+        <attribute name="_displayName" value="Miao, Xuexia" />
+      </instance>
+      <instance DB_ID="-34" displayName="Shi, Zhenying" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-34" />
+        <attribute name="firstname" value="Zhenying" />
+        <attribute name="initial" value="Z" />
+        <attribute name="surname" value="Shi" />
+        <attribute name="_displayName" value="Shi, Zhenying" />
+      </instance>
+      <instance DB_ID="-48" displayName="Zhao, Lifeng" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-48" />
+        <attribute name="firstname" value="Lifeng" />
+        <attribute name="surname" value="Zhao" />
+        <attribute name="_displayName" value="Zhao, Lifeng" />
+      </instance>
+      <instance DB_ID="5671694" displayName="Zhao, L" isShell="false" isDirty="false">
+        <attribute name="DB_ID" value="5671694" />
+        <attribute name="firstname" value="L" />
+        <attribute name="initial" value="L" />
+        <attribute name="created" class="InstanceEdit" referTo="5671650" />
+        <attribute name="surname" value="Zhao" />
+        <attribute name="_displayName" value="Zhao, L" />
+        <attribute name="modified" class="InstanceEdit" referTo="5671699" />
+      </instance>
+      <instance DB_ID="-49" displayName="Xu, Shengbao" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-49" />
+        <attribute name="firstname" value="Shengbao" />
+        <attribute name="surname" value="Xu" />
+        <attribute name="_displayName" value="Xu, Shengbao" />
+      </instance>
+      <instance DB_ID="-50" displayName="Chai, Tuanyao" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-50" />
+        <attribute name="firstname" value="Tuanyao" />
+        <attribute name="surname" value="Chai" />
+        <attribute name="_displayName" value="Chai, Tuanyao" />
+      </instance>
+      <instance DB_ID="-51" displayName="Wang, Tai" isShell="false" isDirty="true">
+        <attribute name="DB_ID" value="-51" />
+        <attribute name="firstname" value="Tai" />
+        <attribute name="surname" value="Wang" />
+        <attribute name="_displayName" value="Wang, Tai" />
+      </instance>
+    </Person>
+    <meta>
+      <defaultPerson dbId="8853978" />
+    </meta>
+  </reactome>
+  <Process nextId="16" reactomeDiagramId="-45" hideCompartmentInName="true">
+    <Nodes>
+      <org.gk.render.RenderableEntitySet id="2" reactomeId="-27" schemaClass="DefinedSet" position="392 251" bounds="365 240 55 22" textPosition="365 240" />
+      <org.gk.render.RenderableProtein id="3" reactomeId="-17" schemaClass="EntityWithAccessionedSequence" position="323 194" bounds="298 183 50 22" textPosition="298 183" />
+      <org.gk.render.RenderableGene id="5" reactomeId="-3" schemaClass="EntityWithAccessionedSequence" position="193 140" bounds="152 115 82 51" textPosition="152 142" />
+      <org.gk.render.RenderableRNA id="6" reactomeId="-4" schemaClass="EntityWithAccessionedSequence" position="387 118" bounds="326 99 122 38" textPosition="342 107" />
+      <org.gk.render.RenderableProtein id="7" reactomeId="-6" schemaClass="EntityWithAccessionedSequence" position="282 72" bounds="259 61 47 22" textPosition="259 61" />
+      <org.gk.render.RenderableRNA id="9" reactomeId="-38" schemaClass="EntityWithAccessionedSequence" position="161 375" bounds="102 356 119 38" textPosition="118 364" />
+      <org.gk.render.RenderableProtein id="10" reactomeId="-40" schemaClass="EntityWithAccessionedSequence" position="346 374" bounds="323 363 47 22" textPosition="323 363" />
+      <org.gk.render.RenderableComplex id="11" reactomeId="-41" schemaClass="Complex" position="268 439" bounds="207 428 122 22" textPosition="207 429" bgColor="204 255 255" hideComponents="true" />
+      <org.gk.render.RenderableCompartment id="12" reactomeId="70101" schemaClass="EntityCompartment" position="284 268" bounds="4 4 561 528" textPosition="20 16" bgColor="250 240 240" lineColor="255 153 102" insets="12 12 544 513">
+        <Components>
+          <Component id="10" />
+          <Component id="11" />
+          <Component id="8" />
+          <Component id="9" />
+          <Component id="13" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+      <org.gk.render.RenderableCompartment id="13" reactomeId="7660" schemaClass="EntityCompartment" position="294 174" bounds="80 33 429 282" textPosition="95 45" bgColor="250 240 240" lineColor="255 153 102" insets="92 42 406 262">
+        <Components>
+          <Component id="5" />
+          <Component id="7" />
+          <Component id="1" />
+          <Component id="2" />
+          <Component id="3" />
+          <Component id="4" />
+          <Component id="6" />
+        </Components>
+      </org.gk.render.RenderableCompartment>
+    </Nodes>
+    <Edges>
+      <org.gk.render.RenderableReaction id="1" reactomeId="-28" schemaClass="BlackBoxEvent" points="293 251, 322 252, 359 251" position="322 252" lineWidth="1.0" reactionType="Uncertain Process">
+        <Outputs>
+          <Output id="2" />
+        </Outputs>
+        <Inhibitors>
+          <Inhibitor id="3" points="322 208" />
+        </Inhibitors>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="4" reactomeId="-18" schemaClass="BlackBoxEvent" points="243 117, 282 117, 323 117" position="282 117" lineWidth="1.0" reactionType="Uncertain Process">
+        <Inputs>
+          <Input id="5" />
+        </Inputs>
+        <Outputs>
+          <Output id="6" />
+        </Outputs>
+        <Inhibitors>
+          <Inhibitor id="7" points="282 86" />
+        </Inhibitors>
+      </org.gk.render.RenderableReaction>
+      <org.gk.render.RenderableReaction id="8" reactomeId="-42" schemaClass="BlackBoxEvent" points="224 374, 267 374, 320 374" position="267 374" lineWidth="1.0" reactionType="Uncertain Process">
+        <Inputs>
+          <Input id="9" />
+        </Inputs>
+        <Outputs>
+          <Output id="10" />
+        </Outputs>
+        <Inhibitors>
+          <Inhibitor id="11" points="267 425" />
+        </Inhibitors>
+      </org.gk.render.RenderableReaction>
+    </Edges>
+    <Pathways />
+  </Process>
+</rtpj>
+
