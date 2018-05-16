@@ -228,7 +228,7 @@
     </ReferenceGeneProduct>
     <DefinedSet>
       <instance DB_ID="-27" displayName="miR172 [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-27" />
         <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-23" />
         <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-24" />
@@ -263,7 +263,7 @@
       <instance DB_ID="-18" displayName="Transcription of MADS1" isShell="false" isDirty="true">
         <attribute name="authored" class="InstanceEdit" referTo="8986734" />
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-4" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-18" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-3" />
@@ -275,7 +275,7 @@
         <attribute name="authored" class="InstanceEdit" referTo="8986734" />
         <attribute name="output" class="DefinedSet" referTo="-27" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-29" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-28" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -303,15 +303,15 @@
         <attribute name="hasEvent" class="BlackBoxEvent" referTo="-28" />
         <attribute name="hasEvent" class="BlackBoxEvent" referTo="-18" />
         <attribute name="hasEvent" class="BlackBoxEvent" referTo="-42" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-44" />
         <attribute name="species" class="Species" referTo="186860" />
         <attribute name="_displayName" value="Lemma/Palea development" />
         <attribute name="name" value="Lemma/Palea development" />
       </instance>
     </Pathway>
-    <EntityCompartment>
+    <Compartment>
       <instance DB_ID="7660" displayName="nucleoplasm" isShell="false" isDirty="false">
         <attribute name="DB_ID" value="7660" />
         <attribute name="accession" value="0005654" />
@@ -361,7 +361,7 @@
         <attribute name="DB_ID" value="70101" />
         <attribute name="accession" value="0005829" />
         <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
-        <attribute name="componentOf" class="EntityCompartment" referTo="459" />
+        <attribute name="componentOf" class="Compartment" referTo="459" />
         <attribute name="_displayName" value="cytosol" />
         <attribute name="name" value="cytosol" />
         <attribute name="modified" class="InstanceEdit" referTo="160533" />
@@ -402,7 +402,7 @@
         <attribute name="definition" value="The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes." />
       </instance>
       <instance DB_ID="459" displayName="cytoplasm" isShell="true" />
-    </EntityCompartment>
+    </Compartment>
     <GO_CellularComponent>
       <instance DB_ID="258151" displayName="nuclear part" isShell="true" />
       <instance DB_ID="171405" displayName="nuclear lumen" isShell="true" />
@@ -467,7 +467,7 @@
     </PathwayDiagram>
     <EntityWithAccessionedSequence>
       <instance DB_ID="-3" displayName="MADS1 gene [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-3" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-1" />
@@ -477,7 +477,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-4" displayName="MADS1 mRNA [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-4" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-2" />
@@ -489,7 +489,7 @@
       <instance DB_ID="-6" displayName="EMF2B [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-15" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-7" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-6" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-5" />
@@ -500,7 +500,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-17" displayName="MADS1 [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-17" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-16" />
@@ -510,7 +510,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-23" displayName="miR172a [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-23" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-19" />
@@ -520,7 +520,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-24" displayName="miR172b [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-24" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-20" />
@@ -530,7 +530,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-25" displayName="miR172c [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-25" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-21" />
@@ -540,7 +540,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-26" displayName="miR172d [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-26" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-22" />
@@ -551,7 +551,7 @@
       </instance>
       <instance DB_ID="-38" displayName="AP2-1 mRNA [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-29" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-38" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-37" />
@@ -564,7 +564,7 @@
       </instance>
       <instance DB_ID="-40" displayName="AP2-1 [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-29" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-40" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-39" />
@@ -709,7 +709,7 @@
       <org.gk.render.RenderableRNA id="9" reactomeId="-38" schemaClass="EntityWithAccessionedSequence" position="161 375" bounds="102 356 119 38" textPosition="118 364" />
       <org.gk.render.RenderableProtein id="10" reactomeId="-40" schemaClass="EntityWithAccessionedSequence" position="346 374" bounds="323 363 47 22" textPosition="323 363" />
       <org.gk.render.RenderableComplex id="11" reactomeId="-41" schemaClass="Complex" position="268 439" bounds="207 428 122 22" textPosition="207 429" bgColor="204 255 255" hideComponents="true" />
-      <org.gk.render.RenderableCompartment id="12" reactomeId="70101" schemaClass="EntityCompartment" position="284 268" bounds="4 4 561 528" textPosition="20 16" bgColor="250 240 240" lineColor="255 153 102" insets="12 12 544 513">
+      <org.gk.render.RenderableCompartment id="12" reactomeId="70101" schemaClass="Compartment" position="284 268" bounds="4 4 561 528" textPosition="20 16" bgColor="250 240 240" lineColor="255 153 102" insets="12 12 544 513">
         <Components>
           <Component id="10" />
           <Component id="11" />
@@ -718,7 +718,7 @@
           <Component id="13" />
         </Components>
       </org.gk.render.RenderableCompartment>
-      <org.gk.render.RenderableCompartment id="13" reactomeId="7660" schemaClass="EntityCompartment" position="294 174" bounds="80 33 429 282" textPosition="95 45" bgColor="250 240 240" lineColor="255 153 102" insets="92 42 406 262">
+      <org.gk.render.RenderableCompartment id="13" reactomeId="7660" schemaClass="Compartment" position="294 174" bounds="80 33 429 282" textPosition="95 45" bgColor="250 240 240" lineColor="255 153 102" insets="92 42 406 262">
         <Components>
           <Component id="5" />
           <Component id="7" />

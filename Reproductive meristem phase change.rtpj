@@ -14,7 +14,7 @@
       <instance DB_ID="-179" displayName="miR172 [cytosol]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-155" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-157" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-179" />
         <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-154" />
         <attribute name="hasMember" class="EntityWithAccessionedSequence" referTo="-156" />
@@ -336,7 +336,7 @@
     <BlackBoxEvent>
       <instance DB_ID="-9" displayName="GRF10:GIF1 complex formation" isShell="false" isDirty="true">
         <attribute name="output" class="Complex" referTo="-7" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-9" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-4" />
@@ -347,7 +347,7 @@
       </instance>
       <instance DB_ID="-10" displayName="GRF6:GIF1 complex formation" isShell="false" isDirty="true">
         <attribute name="output" class="Complex" referTo="-8" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-10" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-4" />
@@ -360,7 +360,7 @@
         <attribute name="summation" class="Summation" referTo="-43" />
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-28" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="9029298" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-29" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-22" />
@@ -372,7 +372,7 @@
         <attribute name="summation" class="Summation" referTo="-43" />
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-27" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="9029298" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-44" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-21" />
@@ -382,7 +382,7 @@
       </instance>
       <instance DB_ID="-45" displayName="Localization of GAMYB" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="8986843" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="-45" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-28" />
@@ -392,7 +392,7 @@
       </instance>
       <instance DB_ID="-46" displayName="Localization of GAMYBL1" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-17" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="-46" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-27" />
@@ -403,7 +403,7 @@
       <instance DB_ID="-79" displayName="Translation of GRF6" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-77" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-79" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-75" />
@@ -414,7 +414,7 @@
       <instance DB_ID="-80" displayName="Translation of GRF10" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-78" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-80" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-76" />
@@ -424,7 +424,7 @@
       </instance>
       <instance DB_ID="-81" displayName="Localization of GRF6" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-2" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="-81" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-77" />
@@ -434,7 +434,7 @@
       </instance>
       <instance DB_ID="-82" displayName="Localization of GRF10" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-6" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="-82" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-78" />
@@ -446,7 +446,7 @@
         <attribute name="summation" class="Summation" referTo="-97" />
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-98" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-115" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-93" />
@@ -458,7 +458,7 @@
         <attribute name="summation" class="Summation" referTo="-112" />
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-113" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-116" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-100" />
@@ -469,7 +469,7 @@
       <instance DB_ID="-141" displayName="Translation of SPL17" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-142" />
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-137" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-141" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-125" />
@@ -479,7 +479,7 @@
       </instance>
       <instance DB_ID="-144" displayName="Localization of SPL17" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-138" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="-144" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-137" />
@@ -491,7 +491,7 @@
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-167" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-157" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-182" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-164" />
@@ -504,7 +504,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="-157" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-183" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-171" />
@@ -514,7 +514,7 @@
       </instance>
       <instance DB_ID="-186" displayName="Localization of IDS1" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-168" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="-186" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-167" />
@@ -524,7 +524,7 @@
       </instance>
       <instance DB_ID="-187" displayName="Localization of SNB" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-178" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="-187" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-177" />
@@ -535,7 +535,7 @@
       <instance DB_ID="-192" displayName="Transcription of Ehd1" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-191" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-157" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-192" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-190" />
@@ -545,7 +545,7 @@
       </instance>
       <instance DB_ID="-210" displayName="SNB:ASP1 complex formation" isShell="false" isDirty="true">
         <attribute name="output" class="Complex" referTo="-208" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-210" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-201" />
@@ -556,7 +556,7 @@
       </instance>
       <instance DB_ID="-211" displayName="IDS1:ASP1 complex formation" isShell="false" isDirty="true">
         <attribute name="output" class="Complex" referTo="-209" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-211" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-201" />
@@ -568,7 +568,7 @@
       <instance DB_ID="-218" displayName="Transcription of PAP2" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-216" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-218" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-217" />
@@ -578,7 +578,7 @@
       </instance>
       <instance DB_ID="-232" displayName="Transcription of RCN1" isShell="false" isDirty="true">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-231" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-232" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-230" />
@@ -591,7 +591,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-239" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-246" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-250" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-237" />
@@ -603,7 +603,7 @@
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="-272" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-267" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-274" />
         <attribute name="isChimeric" value="false" />
         <attribute name="input" class="EntityWithAccessionedSequence" referTo="-265" />
@@ -613,7 +613,7 @@
       </instance>
       <instance DB_ID="9035819" displayName="Translation of SPL14" isShell="false" isDirty="false">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="9035631" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="9035819" />
         <attribute name="_doRelease" value="true" />
         <attribute name="created" class="InstanceEdit" referTo="9035635" />
@@ -626,7 +626,7 @@
       </instance>
       <instance DB_ID="9035591" displayName="Localization of SPL14" isShell="false" isDirty="false">
         <attribute name="output" class="EntityWithAccessionedSequence" referTo="9030976" />
-        <attribute name="compartment" class="EntityCompartment" referTo="13231" />
+        <attribute name="compartment" class="Compartment" referTo="13231" />
         <attribute name="DB_ID" value="9035591" />
         <attribute name="_doRelease" value="true" />
         <attribute name="created" class="InstanceEdit" referTo="9035635" />
@@ -1403,7 +1403,7 @@
       <instance DB_ID="-7" displayName="GRF10:GIF1 complex [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-4" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-6" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-7" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1413,7 +1413,7 @@
       <instance DB_ID="-8" displayName="GRF6:GIF1 complex [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-4" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-2" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-8" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1423,7 +1423,7 @@
       <instance DB_ID="-23" displayName="GAMYB mRNA:miR159a [cytosol]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-20" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-22" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-23" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1433,7 +1433,7 @@
       <instance DB_ID="-26" displayName="GAMYBL1 mRNA:miR159a [cytosol]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-21" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-20" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-26" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1443,7 +1443,7 @@
       <instance DB_ID="-83" displayName="GRF10 mRNA:miR396d [cytosol]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="9035796" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-76" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-83" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1453,7 +1453,7 @@
       <instance DB_ID="-84" displayName="GRF6 mRNA:miR396d [cytosol]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-75" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="9035796" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-84" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1463,7 +1463,7 @@
       <instance DB_ID="-140" displayName="SPL17 mRNA:miR529a [cytosol]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-125" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-139" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-140" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1473,7 +1473,7 @@
       <instance DB_ID="-180" displayName="SNB mRNA:miR172 [cytosol]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="DefinedSet" referTo="-179" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-171" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-180" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1483,7 +1483,7 @@
       <instance DB_ID="-181" displayName="IDS1 mRNA:miR172 [cytosol]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="DefinedSet" referTo="-179" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-164" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-181" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1493,7 +1493,7 @@
       <instance DB_ID="-208" displayName="SNB:ASP1 complex [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-178" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-201" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-208" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1503,7 +1503,7 @@
       <instance DB_ID="-209" displayName="IDS1:ASP1 complex [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-201" />
         <attribute name="hasComponent" class="EntityWithAccessionedSequence" referTo="-168" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-209" />
         <attribute name="isChimeric" value="false" />
         <attribute name="species" class="Species" referTo="186860" />
@@ -1646,7 +1646,7 @@
         <attribute name="hasEvent" class="Pathway" referTo="-278" />
         <attribute name="hasEvent" class="BlackBoxEvent" referTo="9035591" />
         <attribute name="hasEvent" class="BlackBoxEvent" referTo="9035819" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-11" />
         <attribute name="species" class="Species" referTo="186860" />
         <attribute name="_displayName" value="Reproductive meristem phase change" />
@@ -1741,13 +1741,13 @@
         <attribute name="regulator" class="Complex" referTo="9035835" />
       </instance>
     </NegativeRegulation>
-    <EntityCompartment>
+    <Compartment>
       <instance DB_ID="7660" displayName="nucleoplasm" isShell="true" />
       <instance DB_ID="70101" displayName="cytosol" isShell="false" isDirty="false">
         <attribute name="DB_ID" value="70101" />
         <attribute name="accession" value="0005829" />
         <attribute name="instanceOf" class="GO_CellularComponent" referTo="258163" />
-        <attribute name="componentOf" class="EntityCompartment" referTo="459" />
+        <attribute name="componentOf" class="Compartment" referTo="459" />
         <attribute name="_displayName" value="cytosol" />
         <attribute name="name" value="cytosol" />
         <attribute name="modified" class="InstanceEdit" referTo="160533" />
@@ -1881,13 +1881,13 @@
         <attribute name="referenceDatabase" class="ReferenceDatabase" referTo="1" />
         <attribute name="definition" value="The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins." />
       </instance>
-    </EntityCompartment>
+    </Compartment>
     <EntityWithAccessionedSequence>
       <instance DB_ID="8986843" displayName="GAMYB [nucleoplasm]" isShell="false" isDirty="false">
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986736" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986858" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986784" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="8986843" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="created" class="InstanceEdit" referTo="8986734" />
@@ -1900,7 +1900,7 @@
       </instance>
       <instance DB_ID="-2" displayName="GRF6 [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-2" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="9035592" />
@@ -1911,7 +1911,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-4" displayName="GIF1 [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-4" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="9035811" />
@@ -1923,7 +1923,7 @@
       </instance>
       <instance DB_ID="-6" displayName="GRF10 [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-6" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-5" />
@@ -1934,7 +1934,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-17" displayName="GAMYBL1 [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-17" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-16" />
@@ -1945,7 +1945,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-20" displayName="miR159a [cytosol]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-20" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-19" />
@@ -1955,7 +1955,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-21" displayName="GAMYBL1 mRNA [cytosol]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-21" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-25" />
@@ -1969,7 +1969,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986736" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986858" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986784" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-22" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-24" />
@@ -1979,7 +1979,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-27" displayName="GAMYBL1 [cytosol]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-27" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-16" />
@@ -1993,7 +1993,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986736" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986858" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8986784" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-28" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="8986721" />
@@ -2005,7 +2005,7 @@
       <instance DB_ID="-50" displayName="miR393a [cytosol]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-60" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="5608202" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-50" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-49" />
@@ -2016,7 +2016,7 @@
       </instance>
       <instance DB_ID="-75" displayName="GRF6 mRNA [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-75" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="9035567" />
@@ -2028,7 +2028,7 @@
       </instance>
       <instance DB_ID="-76" displayName="GRF10 mRNA [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-76" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-74" />
@@ -2040,7 +2040,7 @@
       </instance>
       <instance DB_ID="-77" displayName="GRF6 [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-77" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="9035592" />
@@ -2052,7 +2052,7 @@
       </instance>
       <instance DB_ID="-78" displayName="GRF10 [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-78" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-5" />
@@ -2066,7 +2066,7 @@
         <attribute name="summation" class="Summation" referTo="-97" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-94" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-93" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-88" />
@@ -2081,7 +2081,7 @@
         <attribute name="summation" class="Summation" referTo="-97" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-94" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-98" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-89" />
@@ -2096,7 +2096,7 @@
         <attribute name="summation" class="Summation" referTo="-97" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-94" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-99" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-92" />
@@ -2111,7 +2111,7 @@
         <attribute name="summation" class="Summation" referTo="-112" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-101" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-100" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-87" />
@@ -2126,7 +2126,7 @@
         <attribute name="summation" class="Summation" referTo="-112" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-101" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-113" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-90" />
@@ -2141,7 +2141,7 @@
         <attribute name="summation" class="Summation" referTo="-112" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-101" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-63" />
-        <attribute name="compartment" class="EntityCompartment" referTo="876" />
+        <attribute name="compartment" class="Compartment" referTo="876" />
         <attribute name="DB_ID" value="-114" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-91" />
@@ -2154,7 +2154,7 @@
       </instance>
       <instance DB_ID="-125" displayName="SPL17 mRNA [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-125" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-122" />
@@ -2166,7 +2166,7 @@
       </instance>
       <instance DB_ID="-137" displayName="SPL17 [cytosol]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-137" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-124" />
@@ -2178,7 +2178,7 @@
       </instance>
       <instance DB_ID="-138" displayName="SPL17 [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-138" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-124" />
@@ -2192,7 +2192,7 @@
         <attribute name="summation" class="Summation" referTo="-145" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-146" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-139" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-121" />
@@ -2205,7 +2205,7 @@
         <attribute name="summation" class="Summation" referTo="-155" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-157" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-195" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-154" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-152" />
@@ -2218,7 +2218,7 @@
         <attribute name="summation" class="Summation" referTo="-155" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-157" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-195" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-156" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-153" />
@@ -2230,7 +2230,7 @@
       <instance DB_ID="-164" displayName="IDS1 mRNA [cytosol]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-166" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-164" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-163" />
@@ -2243,7 +2243,7 @@
       <instance DB_ID="-167" displayName="IDS1 [cytosol]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-166" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-167" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-162" />
@@ -2256,7 +2256,7 @@
       <instance DB_ID="-168" displayName="IDS1 [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-166" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-168" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-162" />
@@ -2270,7 +2270,7 @@
         <attribute name="summation" class="Summation" referTo="-176" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-171" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-169" />
@@ -2284,7 +2284,7 @@
         <attribute name="summation" class="Summation" referTo="-176" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-177" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-170" />
@@ -2298,7 +2298,7 @@
         <attribute name="summation" class="Summation" referTo="-176" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-165" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-172" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-178" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-170" />
@@ -2313,7 +2313,7 @@
         <attribute name="summation" class="Summation" referTo="8933987" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8934086" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8933993" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="8934186" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="created" class="InstanceEdit" referTo="8934132" />
@@ -2330,7 +2330,7 @@
         <attribute name="summation" class="Summation" referTo="8933987" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8934086" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8933993" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-190" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-188" />
@@ -2345,7 +2345,7 @@
         <attribute name="summation" class="Summation" referTo="8933987" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8934086" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="8933993" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-191" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-189" />
@@ -2359,7 +2359,7 @@
         <attribute name="summation" class="Summation" referTo="-207" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-202" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-201" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="5632032" />
@@ -2375,7 +2375,7 @@
       <instance DB_ID="9030976" displayName="IPA1 (SPL14) [nucleoplasm]" isShell="false" isDirty="false">
         <attribute name="authored" class="InstanceEdit" referTo="8981720" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="9030877" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="modified" class="InstanceEdit" referTo="9031073" />
         <attribute name="DB_ID" value="9030976" />
         <attribute name="created" class="InstanceEdit" referTo="9030887" />
@@ -2386,7 +2386,7 @@
         <attribute name="name" value="IPA1 (SPL14)" />
       </instance>
       <instance DB_ID="-215" displayName="MADS34 [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-215" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="9035677" />
@@ -2397,7 +2397,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-216" displayName="MADS34 mRNA [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-216" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="9035799" />
@@ -2408,7 +2408,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="-217" displayName="MADS34 gene [nucleoplasm]" isShell="false" isDirty="true">
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-217" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="9035560" />
@@ -2422,7 +2422,7 @@
         <attribute name="summation" class="Summation" referTo="-226" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-222" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-221" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-220" />
@@ -2438,7 +2438,7 @@
         <attribute name="summation" class="Summation" referTo="-226" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-222" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-230" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-229" />
@@ -2454,7 +2454,7 @@
         <attribute name="summation" class="Summation" referTo="-226" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-222" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-231" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-227" />
@@ -2471,7 +2471,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-239" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-246" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-237" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-234" />
@@ -2486,7 +2486,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-239" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-246" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-248" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-235" />
@@ -2501,7 +2501,7 @@
         <attribute name="literatureReference" class="LiteratureReference" referTo="-126" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-239" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-246" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-249" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-236" />
@@ -2514,7 +2514,7 @@
       <instance DB_ID="-253" displayName="LOG [cytosol]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-261" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="1154554" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="-253" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="-252" />
@@ -2528,7 +2528,7 @@
       <instance DB_ID="-265" displayName="RFL gene [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-266" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-267" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-265" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceDNASequence" referTo="-262" />
@@ -2541,7 +2541,7 @@
       <instance DB_ID="-272" displayName="RFL mRNA [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-266" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-267" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-272" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="-263" />
@@ -2554,7 +2554,7 @@
       <instance DB_ID="-273" displayName="RFL [nucleoplasm]" isShell="false" isDirty="true">
         <attribute name="summation" class="Summation" referTo="-266" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="-267" />
-        <attribute name="compartment" class="EntityCompartment" referTo="7660" />
+        <attribute name="compartment" class="Compartment" referTo="7660" />
         <attribute name="DB_ID" value="-273" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="8934007" />
@@ -2565,7 +2565,7 @@
         <attribute name="endCoordinate" value="-1" />
       </instance>
       <instance DB_ID="9035796" displayName="miR396d [cytosol]" isShell="false" isDirty="false">
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="9035796" />
         <attribute name="startCoordinate" value="1" />
         <attribute name="created" class="InstanceEdit" referTo="9035635" />
@@ -2580,7 +2580,7 @@
         <attribute name="summation" class="Summation" referTo="9035532" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="9030877" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="9035537" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="9035631" />
         <attribute name="created" class="InstanceEdit" referTo="9035635" />
         <attribute name="referenceEntity" class="ReferenceGeneProduct" referTo="9030797" />
@@ -2593,7 +2593,7 @@
         <attribute name="summation" class="Summation" referTo="9035532" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="9030877" />
         <attribute name="literatureReference" class="LiteratureReference" referTo="9035537" />
-        <attribute name="compartment" class="EntityCompartment" referTo="70101" />
+        <attribute name="compartment" class="Compartment" referTo="70101" />
         <attribute name="DB_ID" value="9035621" />
         <attribute name="created" class="InstanceEdit" referTo="9035635" />
         <attribute name="referenceEntity" class="ReferenceRNASequence" referTo="9030844" />
@@ -3419,7 +3419,7 @@
       <org.gk.render.RenderableProtein id="112" reactomeId="-201" schemaClass="EntityWithAccessionedSequence" position="530 812" bounds="502 800 57 24" textPosition="512 801" />
       <org.gk.render.RenderableComplex id="113" reactomeId="-208" schemaClass="Complex" position="679 920" bounds="621 909 117 22" textPosition="621 910" bgColor="204 255 255" hideComponents="true" />
       <org.gk.render.RenderableComplex id="115" reactomeId="-209" schemaClass="Complex" position="404 716" bounds="344 705 121 22" textPosition="344 706" bgColor="204 255 255" hideComponents="true" />
-      <org.gk.render.RenderableCompartment id="121" reactomeId="70101" schemaClass="EntityCompartment" position="622 615" bounds="4 4 1237 1223" textPosition="17 17" bgColor="250 240 240" lineColor="255 153 102" insets="14 14 1216 1203">
+      <org.gk.render.RenderableCompartment id="121" reactomeId="70101" schemaClass="Compartment" position="622 615" bounds="4 4 1237 1223" textPosition="17 17" bgColor="250 240 240" lineColor="255 153 102" insets="14 14 1216 1203">
         <Components>
           <Component id="21" />
           <Component id="23" />
@@ -3463,7 +3463,7 @@
           <Component id="192" />
         </Components>
       </org.gk.render.RenderableCompartment>
-      <org.gk.render.RenderableCompartment id="122" reactomeId="7660" schemaClass="EntityCompartment" position="664 592" bounds="202 181 925 822" textPosition="213 197" bgColor="250 240 240" lineColor="255 153 102" insets="210 188 909 807">
+      <org.gk.render.RenderableCompartment id="122" reactomeId="7660" schemaClass="Compartment" position="664 592" bounds="202 181 925 822" textPosition="213 197" bgColor="250 240 240" lineColor="255 153 102" insets="210 188 909 807">
         <Components>
           <Component id="14" />
           <Component id="15" />
